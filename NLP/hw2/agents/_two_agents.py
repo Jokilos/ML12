@@ -18,24 +18,11 @@ def print_prompt(prompt, who):
 def cut_to_last_dot(text):
     return text[:text.rfind('.') + 1]
 
-def search_for_actions(text):
-    actions = [f"press position {i}" for i in range(1, 5)]
-    actions += [f"press {color}" for color in ["red", "blue", "green", "yellow"]]
-    actions += [f"cut wire {i+1}" for i in range(6)]
-    actions += ["release on 1", "release on 4", "release on 5"]
-    actions += ["press", "hold", "state", "help"]
-
-    for action in actions:
-        if action in text:
-            return (True, action)
-        
-    return (False, None)
-
 async def run_two_agents(
         defuser_model: HFModel,
         expert_model: HFModel,
         server_url: str = "http://0.0.0.0:8080",
-        max_new_tokens: int = 50
+        max_new_tokens: int = 50, 
 ) -> None:
     """
     Main coroutine that orchestrates two LLM agents (Defuser and Expert)
@@ -48,43 +35,48 @@ async def run_two_agents(
     """
     defuser_client = Defuser()
     expert_client = Expert()
-    max_new_tokens_expert = max_new_tokens + 300
 
     try:
         # 1) Connect both clients to the same server
         await defuser_client.connect_to_server(server_url)
         await expert_client.connect_to_server(server_url)
 
+        conversation = ''
+
         while True:
             # 2) Defuser checks the bomb's current state
             bomb_state = await defuser_client.run("state")
-            print("[DEFUSER sees BOMB STATE]")
+            # print("[DEFUSER sees BOMB STATE]:")
+            # print(bomb_state)
 
             if "Bomb disarmed!" in bomb_state or "Bomb exploded!" in bomb_state:
                 break
 
             # 3) Expert retrieves the relevant manual text
             manual_text = await expert_client.run()
-            manual_text = '\n'.join(manual_text.strip().splitlines()[1:])
-            print("[EXPERT sees MANUAL]")
+            # print("[EXPERT sees MANUAL]:")
+            # print(manual_text)
 
             # 4) Expert LLM uses the manual text + defuser’s question (bomb_state)
             #    to generate instructions
-            exp_messages = expert_prompt(manual_text, bomb_state)
+            exp_messages = expert_prompt(manual_text, bomb_state, conversation)
             print_prompt(exp_messages, 'EXPERT')
             expert_advice = expert_model.generate_response(
                 exp_messages,
-                max_new_tokens=max_new_tokens_expert,
+                max_new_tokens=max_new_tokens,
                 temperature=0.7,
                 top_p=0.9,
                 top_k=50,
-                do_sample=True,
-                keep_prompt=False,
+                do_sample=True
             )
-            expert_advice = expert_advice.replace("</think>", "").replace("\n", "")
+            expert_advice = cut_to_last_dot(expert_advice)
+            conversation += "\n=== Expert's advice ===: '" + expert_advice + "'\n"
+
+            # print("\n[EXPERT ADVICE to DEFUSER]:")
+            # print(expert_advice)
 
             # 5) Defuser LLM uses the bomb state + expert advice to pick a single action
-            def_messages = defuser_prompt(bomb_state, expert_advice)
+            def_messages = defuser_prompt(bomb_state, conversation)
             print_prompt(def_messages, 'DEFUSER')
             def_action_raw = defuser_model.generate_response(
                 def_messages,
@@ -92,19 +84,24 @@ async def run_two_agents(
                 temperature=0.7,
                 top_p=0.9,
                 top_k=50,
-                do_sample=True,
-                keep_prompt=False,
+                do_sample=True
             )
-            print("\n[DEFUSER ACTION RAW]:", def_action_raw)
+            def_action_raw = cut_to_last_dot(def_action_raw)
+
+            conversation += "\n=== Defuser's comment ===: '" + def_action_raw + "'\n"
+
+            # conversation += "\n=== Defuser's query ===: 'Please provide the correct command'\n"
+
+            # print("\n[DEFUSER RAW ACTION]:", def_action_raw)
 
             # 6) Attempt to extract a known command from def_action_raw
             #    If no recognized command is found, default to "help"
             action = "help"
             for line in def_action_raw.splitlines():
                 line = line.strip().lower()
-                (is_action, found_action) = search_for_actions(line)
-                if is_action:
-                    action = found_action 
+                if line.startswith(("cut", "press", "hold", "release", "help", "state")):
+                    action = line.strip()
+                    conversation = ''
                     break
 
             print("\n[DEFUSER ACTION DECIDED]:", action)
@@ -114,13 +111,22 @@ async def run_two_agents(
             if action != 'help':
                 print("[SERVER RESPONSE]:")
                 print(result)
+            else:
+                # conversation += "\n === No action detected in Defuser's action ==="
+                print("\n[NO ACTION DETECTED]")
             print("-" * 60)
+
+            if (len(conversation.splitlines()) > 30):
+                conversation = ''
+
+            print_prompt(conversation, 'CONVO')
 
             if "BOMB SUCCESSFULLY DISARMED" in result or "BOMB HAS EXPLODED" in result:
                 break
     finally:
         await expert_client.cleanup()
         await defuser_client.cleanup()
+
 
 if __name__ == "__main__":
     import argparse

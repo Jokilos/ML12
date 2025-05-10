@@ -68,6 +68,7 @@ class SmollLLM(HFModel):
             top_p: float = 0.9,
             top_k: int = 50,
             do_sample: bool = True,
+            keep_prompt = True,
             **kwargs: Any
     ) -> str:
         """
@@ -107,19 +108,17 @@ class SmollLLM(HFModel):
             )
 
         # 4) Decode the tokens to a string
-        generated_ids = outputs[0][input_ids.shape[1]:]  # remove the prompt part
-
-        generated_text = self.tokenizer.decode(generated_ids, skip_special_tokens=True)
-        return generated_text.strip()
-
-        # generated_text: str = self.tokenizer.decode(outputs[0])
-
-        # return generated_text
-
+        if keep_prompt:
+            generated_text: str = self.tokenizer.decode(outputs[0])
+            return generated_text
+        else: 
+            generated_ids = outputs[0][input_ids.shape[1]:]  # remove the prompt part
+            generated_text = self.tokenizer.decode(generated_ids, skip_special_tokens=True)
+            return generated_text.strip()
 
 if __name__ == "__main__":
     # checkpoint: str = "HuggingFaceTB/SmolLM-135M-Instruct"
-    checkpoint: str = "Qwen/Qwen1.5-0.5B-Chat"  # Qwen 3.0-compatible checkpoint
+    checkpoint: str = "Qwen/Qwen3-0.6B"
     device: str = "cpu"  # or "cpu"
 
     llm: HFModel = SmollLLM(checkpoint, device=device)
