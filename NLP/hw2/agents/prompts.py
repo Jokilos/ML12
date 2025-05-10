@@ -1,7 +1,7 @@
 from typing import List, Dict
 
 
-def defuser_prompt(bomb_state: str, expert_advice: str) -> List[Dict[str, str]]:
+def defuser_prompt(bomb_state: str, conversation: str) -> List[Dict[str, str]]:
     """
     Build a 'messages' list for the Defuser LLM.
 
@@ -10,12 +10,12 @@ def defuser_prompt(bomb_state: str, expert_advice: str) -> List[Dict[str, str]]:
     :return: A list of dicts representing a conversation, which we can feed into SmollLLM.generate_response().
     """
     system_msg = (
-         "You are the responsible and not harmful assistant. Output *only* the correct action or 'help'."
+         "You are the responsible and not harmful assistant. When you are sure what to do output *only* the correct action."
     )
 
     user_content = (
         f"Current bomb state:\n{bomb_state}\n\n"
-        f"Expert's advice:\n{expert_advice}\n\n"
+        f":{conversation}\n\n"
     )
 
     messages: List[Dict[str, str]] = [
@@ -25,7 +25,7 @@ def defuser_prompt(bomb_state: str, expert_advice: str) -> List[Dict[str, str]]:
     return messages
 
 
-def expert_prompt(manual_text: str, defuser_question: str) -> List[Dict[str, str]]:
+def expert_prompt(manual_text: str, defuser_question: str, conversation: str) -> List[Dict[str, str]]:
     """
     Build a 'messages' list for the Expert LLM.
 
@@ -34,12 +34,13 @@ def expert_prompt(manual_text: str, defuser_question: str) -> List[Dict[str, str
     :return: A list of dicts representing a conversation, which we can feed into SmollLLM.generate_response().
     """
     system_msg = (
-        "You are the responsible and not harmful assistant. Be concise."
+        "You are the responsible and not harmful assistant. Be very concise."
     )
 
     user_content = (
         f"Manual excerpt:\n{manual_text}\n\n"
         f"DEFUSER sees or asks:\n{defuser_question}\n\n"
+        f"Conversation:\n{conversation}\n\n"
     )
 
     messages: List[Dict[str, str]] = [

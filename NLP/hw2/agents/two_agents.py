@@ -8,7 +8,7 @@ async def run_two_agents(
         defuser_model: HFModel,
         expert_model: HFModel,
         server_url: str = "http://0.0.0.0:8080",
-        max_new_tokens: int = 50
+        max_new_tokens: int = 100, 
 ) -> None:
     """
     Main coroutine that orchestrates two LLM agents (Defuser and Expert)
@@ -27,6 +27,8 @@ async def run_two_agents(
         await defuser_client.connect_to_server(server_url)
         await expert_client.connect_to_server(server_url)
 
+        conversation = ''
+
         while True:
             # 2) Defuser checks the bomb's current state
             bomb_state = await defuser_client.run("state")
@@ -43,7 +45,7 @@ async def run_two_agents(
 
             # 4) Expert LLM uses the manual text + defuser’s question (bomb_state)
             #    to generate instructions
-            exp_messages = expert_prompt(manual_text, bomb_state)
+            exp_messages = expert_prompt(manual_text, bomb_state, conversation)
             expert_advice = expert_model.generate_response(
                 exp_messages,
                 max_new_tokens=max_new_tokens,
@@ -52,11 +54,13 @@ async def run_two_agents(
                 top_k=50,
                 do_sample=True
             )
+            conversation += "\n[EXPERT ADVICE to DEFUSER]:" + expert_advice
+
             print("\n[EXPERT ADVICE to DEFUSER]:")
             print(expert_advice)
 
             # 5) Defuser LLM uses the bomb state + expert advice to pick a single action
-            def_messages = defuser_prompt(bomb_state, expert_advice)
+            def_messages = defuser_prompt(bomb_state, conversation)
             def_action_raw = defuser_model.generate_response(
                 def_messages,
                 max_new_tokens=max_new_tokens,
@@ -66,15 +70,17 @@ async def run_two_agents(
                 do_sample=True
             )
 
+            conversation += "\n[DEFUSER]:" + def_action_raw 
             print("\n[DEFUSER RAW ACTION]:", def_action_raw)
 
             # 6) Attempt to extract a known command from def_action_raw
             #    If no recognized command is found, default to "help"
             action = "help"
-            for line in def_action_raw.splitlines()[::-1][:8]:
+            for line in def_action_raw.splitlines():
                 line = line.strip().lower()
                 if line.startswith(("cut", "press", "hold", "release", "help", "state")):
                     action = line.strip()
+                    conversation = ''
                     break
 
             print("\n[DEFUSER ACTION DECIDED]:", action)
