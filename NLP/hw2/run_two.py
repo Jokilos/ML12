@@ -2,7 +2,7 @@ import subprocess
 import time
 
 # This command's output is suppressed
-p1 = subprocess.Popen(["python", "-m", "game_mcp.game_server", "--port", "8091"])#, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+p1 = subprocess.Popen(["python", "-m", "game_mcp.game_server", "--port", "8091"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 time.sleep(0.1)
 

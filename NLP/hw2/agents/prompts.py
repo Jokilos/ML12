@@ -10,7 +10,8 @@ def defuser_prompt(bomb_state: str, conversation: str) -> List[Dict[str, str]]:
     :return: A list of dicts representing a conversation, which we can feed into SmollLLM.generate_response().
     """
     system_msg = (
-        "You are the defuser. Output the correct command based on expert's advice."
+        "You are the defuser. Be very concise."
+        "Output the correct command based on expert's advice"
     )
 
     user_content = (
@@ -20,7 +21,7 @@ def defuser_prompt(bomb_state: str, conversation: str) -> List[Dict[str, str]]:
 
     messages: List[Dict[str, str]] = [
         {"role": "system", "content": system_msg},
-        {"role": "user", "content": user_content}
+        {"role": "user", "content": user_content},
     ]
     return messages
 
@@ -34,7 +35,8 @@ def expert_prompt(manual_text: str, defuser_question: str, conversation: str) ->
     :return: A list of dicts representing a conversation, which we can feed into SmollLLM.generate_response().
     """
     system_msg = (
-        "You are the expert. Choose the correct command."
+        "You are the expert."
+        "Output the correct command, based on the manual and the bomb state."
     )
 
     user_content = (

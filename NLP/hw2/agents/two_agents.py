@@ -88,7 +88,9 @@ async def run_two_agents(
             )
             def_action_raw = cut_to_last_dot(def_action_raw)
 
-            conversation += "\n=== Defuser's action ===: '" + def_action_raw + "'\n"
+            conversation += "\n=== Defuser's comment ===: '" + def_action_raw + "'\n"
+
+            # conversation += "\n=== Defuser's query ===: 'Please provide the correct command'\n"
 
             # print("\n[DEFUSER RAW ACTION]:", def_action_raw)
 
@@ -134,7 +136,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     defuser_checkpoint: str = "Qwen/Qwen3-0.6B"
-    expert_checkpoint: str = "Qwen/Qwen3-0.6B"
+    # defuser_checkpoint: str = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+    # defuser_checkpoint: str = "Qwen/Qwen1.5-4B-Chat"
+    # defuser_checkpoint: str = "Qwen/Qwen2.5-1.5B-Instruct"
+    expert_checkpoint: str = defuser_checkpoint
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     defuser_model = SmollLLM(defuser_checkpoint, device=device)
