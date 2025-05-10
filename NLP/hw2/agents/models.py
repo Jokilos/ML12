@@ -33,7 +33,7 @@ class HFModel(ABC):
     def generate_response(
             self,
             messages: List[Dict[str, str]],
-            max_new_tokens: int = 100,
+            max_new_tokens: int = 50,
             temperature: float = 0.2,
             top_p: float = 0.9,
             top_k: int = 50,
@@ -63,7 +63,7 @@ class SmollLLM(HFModel):
     def generate_response(
             self,
             messages: List[Dict[str, str]],
-            max_new_tokens: int = 100,
+            max_new_tokens: int = 50,
             temperature: float = 0.7,
             top_p: float = 0.9,
             top_k: int = 50,

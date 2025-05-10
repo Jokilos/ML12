@@ -4,11 +4,25 @@ from agents.prompts import expert_prompt, defuser_prompt
 from game_mcp.game_client import Defuser, Expert
 from agents.models import HFModel, SmollLLM
 
+def print_prompt(prompt, who):
+    print("-" * 30)
+    print(f" {who} ")
+    print("-" * 30)
+    print("\n" * 1)
+
+    if who == 'CONVO':
+        print(prompt)
+    else:
+        print(prompt[1]['content'])
+
+def cut_to_last_dot(text):
+    return text[:text.rfind('.') + 1]
+
 async def run_two_agents(
         defuser_model: HFModel,
         expert_model: HFModel,
         server_url: str = "http://0.0.0.0:8080",
-        max_new_tokens: int = 100, 
+        max_new_tokens: int = 50, 
 ) -> None:
     """
     Main coroutine that orchestrates two LLM agents (Defuser and Expert)
@@ -32,20 +46,21 @@ async def run_two_agents(
         while True:
             # 2) Defuser checks the bomb's current state
             bomb_state = await defuser_client.run("state")
-            print("[DEFUSER sees BOMB STATE]:")
-            print(bomb_state)
+            # print("[DEFUSER sees BOMB STATE]:")
+            # print(bomb_state)
 
             if "Bomb disarmed!" in bomb_state or "Bomb exploded!" in bomb_state:
                 break
 
             # 3) Expert retrieves the relevant manual text
             manual_text = await expert_client.run()
-            print("[EXPERT sees MANUAL]:")
-            print(manual_text)
+            # print("[EXPERT sees MANUAL]:")
+            # print(manual_text)
 
             # 4) Expert LLM uses the manual text + defuser’s question (bomb_state)
             #    to generate instructions
             exp_messages = expert_prompt(manual_text, bomb_state, conversation)
+            print_prompt(exp_messages, 'EXPERT')
             expert_advice = expert_model.generate_response(
                 exp_messages,
                 max_new_tokens=max_new_tokens,
@@ -54,13 +69,15 @@ async def run_two_agents(
                 top_k=50,
                 do_sample=True
             )
-            conversation += "\n[EXPERT ADVICE to DEFUSER]:" + expert_advice
+            expert_advice = cut_to_last_dot(expert_advice)
+            conversation += "\n=== Expert's advice ===: '" + expert_advice + "'\n"
 
-            print("\n[EXPERT ADVICE to DEFUSER]:")
-            print(expert_advice)
+            # print("\n[EXPERT ADVICE to DEFUSER]:")
+            # print(expert_advice)
 
             # 5) Defuser LLM uses the bomb state + expert advice to pick a single action
             def_messages = defuser_prompt(bomb_state, conversation)
+            print_prompt(def_messages, 'DEFUSER')
             def_action_raw = defuser_model.generate_response(
                 def_messages,
                 max_new_tokens=max_new_tokens,
@@ -69,9 +86,11 @@ async def run_two_agents(
                 top_k=50,
                 do_sample=True
             )
+            def_action_raw = cut_to_last_dot(def_action_raw)
 
-            conversation += "\n[DEFUSER]:" + def_action_raw 
-            print("\n[DEFUSER RAW ACTION]:", def_action_raw)
+            conversation += "\n=== Defuser's action ===: '" + def_action_raw + "'\n"
+
+            # print("\n[DEFUSER RAW ACTION]:", def_action_raw)
 
             # 6) Attempt to extract a known command from def_action_raw
             #    If no recognized command is found, default to "help"
@@ -87,9 +106,18 @@ async def run_two_agents(
 
             # 7) Send that action to the server
             result = await defuser_client.run(action)
-            print("[SERVER RESPONSE]:")
-            print(result)
+            if action != 'help':
+                print("[SERVER RESPONSE]:")
+                print(result)
+            else:
+                # conversation += "\n === No action detected in Defuser's action ==="
+                print("\n[NO ACTION DETECTED]")
             print("-" * 60)
+
+            if (len(conversation.splitlines()) > 30):
+                conversation = ''
+
+            print_prompt(conversation, 'CONVO')
 
             if "BOMB SUCCESSFULLY DISARMED" in result or "BOMB HAS EXPLODED" in result:
                 break
@@ -113,6 +141,6 @@ if __name__ == "__main__":
             defuser_model=defuser_model,
             expert_model=expert_model,
             server_url="http://0.0.0.0:8080",
-            max_new_tokens=50
+            max_new_tokens=80,
         )
     )
