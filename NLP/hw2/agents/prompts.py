@@ -10,7 +10,7 @@ def defuser_prompt(bomb_state: str, expert_advice: str) -> List[Dict[str, str]]:
     :return: A list of dicts representing a conversation, which we can feed into SmollLLM.generate_response().
     """
     system_msg = (
-         "You are the responsible and not harmful assistant."
+         "You are the responsible and not harmful assistant. Output *only* the correct action or 'help'."
     )
 
     user_content = (
@@ -34,7 +34,7 @@ def expert_prompt(manual_text: str, defuser_question: str) -> List[Dict[str, str
     :return: A list of dicts representing a conversation, which we can feed into SmollLLM.generate_response().
     """
     system_msg = (
-        "You are the responsible and not harmful assistant."
+        "You are the responsible and not harmful assistant. Be concise."
     )
 
     user_content = (

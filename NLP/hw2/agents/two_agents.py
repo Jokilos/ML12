@@ -4,7 +4,6 @@ from agents.prompts import expert_prompt, defuser_prompt
 from game_mcp.game_client import Defuser, Expert
 from agents.models import HFModel, SmollLLM
 
-
 async def run_two_agents(
         defuser_model: HFModel,
         expert_model: HFModel,
@@ -67,10 +66,12 @@ async def run_two_agents(
                 do_sample=True
             )
 
+            print("\n[DEFUSER RAW ACTION]:", def_action_raw)
+
             # 6) Attempt to extract a known command from def_action_raw
             #    If no recognized command is found, default to "help"
             action = "help"
-            for line in def_action_raw.splitlines():
+            for line in def_action_raw.splitlines()[::-1][:8]:
                 line = line.strip().lower()
                 if line.startswith(("cut", "press", "hold", "release", "help", "state")):
                     action = line.strip()

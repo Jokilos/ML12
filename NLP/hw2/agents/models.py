@@ -63,7 +63,7 @@ class SmollLLM(HFModel):
     def generate_response(
             self,
             messages: List[Dict[str, str]],
-            max_new_tokens: int = 50,
+            max_new_tokens: int = 100,
             temperature: float = 0.7,
             top_p: float = 0.9,
             top_k: int = 50,
@@ -87,12 +87,17 @@ class SmollLLM(HFModel):
         input_text: str = self.tokenizer.apply_chat_template(messages, tokenize=False)
 
         # 2) Tokenize the prompt
-        inputs = self.tokenizer.encode(input_text, return_tensors="pt").to(self.device)
+        # inputs = self.tokenizer.encode(input_text, return_tensors="pt").to(self.device)
+        inputs = self.tokenizer(input_text, return_tensors="pt", padding=True).to(self.device)
+        input_ids = inputs["input_ids"]
+        attention_mask = inputs["attention_mask"]
 
         # 3) Generate output with the provided generation parameters
         with torch.no_grad():
             outputs = self.model.generate(
-                inputs,
+                # inputs,
+                input_ids=input_ids,
+                attention_mask=attention_mask,
                 max_new_tokens=max_new_tokens,
                 temperature=temperature,
                 top_p=top_p,
@@ -102,9 +107,14 @@ class SmollLLM(HFModel):
             )
 
         # 4) Decode the tokens to a string
-        generated_text: str = self.tokenizer.decode(outputs[0])
+        generated_ids = outputs[0][input_ids.shape[1]:]  # remove the prompt part
 
-        return generated_text
+        generated_text = self.tokenizer.decode(generated_ids, skip_special_tokens=True)
+        return generated_text.strip()
+
+        # generated_text: str = self.tokenizer.decode(outputs[0])
+
+        # return generated_text
 
 
 if __name__ == "__main__":

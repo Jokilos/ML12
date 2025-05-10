@@ -88,9 +88,10 @@ class Expert(BombClient):
         # await self.cleanup()
 
         if 'exploded' in response:
-            return "BOOM! BOMB HAS EXPLODED!"
+            return response + "BOOM! BOMB HAS EXPLODED!"
         if 'disarmed' in response:
-            return "BOMB SUCCESSFULLY DISARMED!"
+            return response + "BOMB SUCCESSFULLY DISARMED!"
+
         return response
 
         # YOUR CODE ENDS HERE
