@@ -103,7 +103,7 @@ async def main():
 
     parser = argparse.ArgumentParser(description='Run MCP SSE-based ')
     parser.add_argument('--url', default = "http://localhost:8080/", help = 'URL to connect to')
-    parser.add_argument('--port', default = 'Expert', help = 'Client role (Expert/Defuser)')
+    parser.add_argument('--role', default = 'Expert', help = 'Client role (Expert/Defuser)')
     args = parser.parse_args()
 
     if args.role not in ['Expert', 'Defuser']:

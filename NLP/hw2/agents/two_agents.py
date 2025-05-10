@@ -127,9 +127,11 @@ async def run_two_agents(
 
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description='Run MCP SSE-based ')
+    parser.add_argument('--url', default = "http://localhost:8091/", help = 'URL to connect to')
+    args = parser.parse_args()
 
-    # defuser_checkpoint = "HuggingFaceTB/SmolLM-135M-Instruct"
-    # expert_checkpoint = "HuggingFaceTB/SmolLM-135M-Instruct"
     defuser_checkpoint: str = "Qwen/Qwen3-0.6B"
     expert_checkpoint: str = "Qwen/Qwen3-0.6B"
 
@@ -140,7 +142,7 @@ if __name__ == "__main__":
         run_two_agents(
             defuser_model=defuser_model,
             expert_model=expert_model,
-            server_url="http://0.0.0.0:8080",
+            server_url=args.url,
             max_new_tokens=80,
         )
     )
