@@ -128,6 +128,7 @@ async def run_two_agents(
 
 if __name__ == "__main__":
     import argparse
+    import torch
     parser = argparse.ArgumentParser(description='Run MCP SSE-based ')
     parser.add_argument('--url', default = "http://localhost:8091/", help = 'URL to connect to')
     args = parser.parse_args()
@@ -135,8 +136,9 @@ if __name__ == "__main__":
     defuser_checkpoint: str = "Qwen/Qwen3-0.6B"
     expert_checkpoint: str = "Qwen/Qwen3-0.6B"
 
-    defuser_model = SmollLLM(defuser_checkpoint, device="cpu")
-    expert_model = SmollLLM(expert_checkpoint, device="cpu")
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    defuser_model = SmollLLM(defuser_checkpoint, device=device)
+    expert_model = SmollLLM(expert_checkpoint, device=device)
 
     asyncio.run(
         run_two_agents(
