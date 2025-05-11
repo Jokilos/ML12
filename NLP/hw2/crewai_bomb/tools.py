@@ -35,10 +35,16 @@ class BombStateTool(BaseTool):
         self.server_url = server_url
         self.client = client
         self.verbose = True
+    
+    def _fix_state(self, state: str) -> str:
+        lines = state.splitlines()
+        lines = [l for l in lines if 'Round' not in l]
+        state = '\n'.join(lines)
+        return state
 
     def _run(self) -> str:
         bomb_state = asyncio.run(call_client(self.client, self.server_url, "state"))
-        return bomb_state
+        return self._fix_state(bomb_state)
         
 class DefuserTool(BaseTool):
     name: str = "defuser_tool"
@@ -54,7 +60,7 @@ class DefuserTool(BaseTool):
 
     def _run(self, command: str) -> str:
         action = "help"
-        for line in command.splitlines()[::-1]:
+        for line in command.splitlines():
             line = line.strip().lower()
             (is_action, found_action) = search_for_actions(line)
             if is_action:
@@ -83,9 +89,18 @@ class ExpertTool(BaseTool):
         self.server_url = server_url
         self.client = Expert()
 
+    def _fix_manual(self, manual: str):
+        # for i in range(5):
+            # manual = manual.replace(f'Round {i+1}', f'{i+1}.Input')
+
+        manual +=(
+            "Round number is {i + 1}, when i colors were already input."
+        )
+        return manual
+
     def _run(self) -> str:
         manual_text = asyncio.run(call_client(self.client, self.server_url))
-        return manual_text 
+        return self._fix_manual(manual_text)
 
 if __name__ == '__main__':
     openai.api_key = os.getenv("OPENAI_API_KEY")

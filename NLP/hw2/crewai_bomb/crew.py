@@ -1,4 +1,4 @@
-from crewai import Agent, Crew, Task, LLM
+from crewai import Agent, Crew, Task, LLM, Process
 from crewai_bomb.tools import ExpertTool, DefuserTool, BombStateTool
 from game_mcp.game_client import Defuser
 import asyncio
@@ -35,11 +35,36 @@ expert_agent = Agent(
         "Analyze the information from defuser. Get the bomb manual from the expert tool."
         "Send the correct commant to the defuser."
     ),
-    backstory="An advanced analysis AI.",
+    backstory="You are trained to be confident under pressure. Accuracy and clarity are your priorities.",
     tools=[expert_tool],
     cache=False,
     verbose=True
 )
+
+# gather_info_task = Task(
+#     description=(
+#         "Collect information about the bomb and pass it to the expert."
+#         " Never run any commands without consulting expert first."
+#     ),
+#     expected_output="Information about the bomb state",
+#     agent=defuser_agent,
+# )
+
+# generate_advice = Task(
+#     description=(
+#         "Get the bomb manual from the expert tool and choose a single correct command"
+#         " from 'available commands' based on bomb state. "
+#         "Provide a clear, confident answer. Avoid ambiguity."
+#     ),
+#     expected_output="Correct defusal command",
+#     agent=expert_agent
+# )
+
+# defuse_task = Task(
+#     description="Pass the expert's command to the defusal tool.",
+#     expected_output="'Model defused.' text",
+#     agent=defuser_agent
+# )
 
 # Define task logic
 def run_bomb_loop():
@@ -50,7 +75,10 @@ def run_bomb_loop():
     while not exploded and step <= max_cycles:
 
         gather_info_task = Task(
-            description="Collect information about the bomb and pass it to the expert",
+            description=(
+                "Collect information about the bomb and pass it to the expert."
+                " Never run any commands without consulting expert first."
+            ),
             expected_output="Information about the bomb state",
             agent=defuser_agent,
         )
@@ -59,8 +87,9 @@ def run_bomb_loop():
 
         generate_advice = Task(
             description=(
-                "Get the bomb manual from the expert tool and produce the correct command"
-                f" based on {module_description}"
+                "Get the bomb manual from the expert tool and choose a single correct command"
+                f" from 'available commands' based on {module_description}. "
+                "Provide a clear, confident answer. Avoid ambiguity."
             ),
             expected_output="Correct defusal command",
             agent=expert_agent
@@ -69,7 +98,7 @@ def run_bomb_loop():
 
         defuse_task = Task(
             description=f"Pass the expert's command '{instructions}' to the defusal tool.",
-            expected_output="'The module state has changed.' text",
+            expected_output="'Model defused.' text",
             agent=defuser_agent
         )
         outcome = defuse_task.execute_sync()
@@ -86,4 +115,3 @@ def run_bomb_loop():
 
 if __name__ == "__main__":
     run_bomb_loop()
-
