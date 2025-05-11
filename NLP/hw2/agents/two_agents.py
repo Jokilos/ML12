@@ -134,6 +134,9 @@ async def run_two_agents(
                 score += 100
                 break
 
+            if iters > 15:
+                break
+
     finally:
         await expert_client.cleanup()
         await defuser_client.cleanup()
