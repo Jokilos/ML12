@@ -60,7 +60,7 @@ for test in tests:
             text=True,
         )
         p_client.wait(timeout=900)
-        client_output = p_client.stdout
+        client_output = p_client.stdout.read()
         
     except subprocess.TimeoutExpired:
         p_client.kill()
@@ -70,7 +70,7 @@ for test in tests:
     # Kill server
     p_server.terminate()
     try:
-        p_server.wait(timeout=5)
+        p_server.wait(timeout=2)
     except subprocess.TimeoutExpired:
         p_server.kill()
 
@@ -79,7 +79,7 @@ for test in tests:
     else:
         score, iters = map(int, client_output.split())
 
-    test_type, test_value = test
+    test_type, test_value = next(iter(test.items()))
     results.append({
         "test_type" : test_type,
         "value" : test_value,
@@ -88,7 +88,7 @@ for test in tests:
         "iters" : iters,
     })
 
-    print(results)
+    print(results[-1])
 
 # Save to DataFrame
 df = pd.DataFrame(results)
