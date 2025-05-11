@@ -60,8 +60,13 @@ async def run_two_agents(
         # 1) Connect both clients to the same server
         await defuser_client.connect_to_server(server_url)
         await expert_client.connect_to_server(server_url)
+        
+        score = 0
+        iters = 0
 
         while True:
+            iters += 1
+
             # 2) Defuser checks the bomb's current state
             bomb_state = await defuser_client.run("state")
 
@@ -121,12 +126,20 @@ async def run_two_agents(
                     print("[SERVER RESPONSE]:")
                     print(result)
                 print("-" * 60)
-
-            if "BOMB SUCCESSFULLY DISARMED" in result or "BOMB HAS EXPLODED" in result:
+            
+            if "BOMB HAS EXPLODED" in result:
                 break
+            elif action not in ['help', 'state']:
+                score += 1
+            elif "BOMB SUCCESSFULLY DISARMED" in result:
+                score += 100
+                break
+
     finally:
         await expert_client.cleanup()
         await defuser_client.cleanup()
+
+    print(score, iters)
 
 if __name__ == "__main__":
     import argparse
