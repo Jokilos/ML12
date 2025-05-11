@@ -1,5 +1,5 @@
 from typing import List, Dict
-
+import json
 
 def defuser_prompt(bomb_state: str, expert_advice: str, mode : str = 'standard') -> List[Dict[str, str]]:
     """
@@ -35,6 +35,8 @@ def defuser_prompt(bomb_state: str, expert_advice: str, mode : str = 'standard')
             },
             "task": "Output *only* the command from expert's advice or 'help' command."
         }
+
+        user_content = json.dumps(user_content)
 
     messages: List[Dict[str, str]] = [
         {"role": "system", "content": system_msg},
@@ -77,6 +79,8 @@ def expert_prompt(manual_text: str, defuser_question: str, mode : str = 'standar
             },
             "task": "Output *only* the correct command."
         }
+
+        user_content = json.dumps(user_content)
 
     messages: List[Dict[str, str]] = [
         {"role": "system", "content": system_msg},
