@@ -1,37 +1,92 @@
+import asyncio
+import os
+import time
+import sys
+import openai
 from crewai.tools import BaseTool
-
+from pydantic import Field, ConfigDict, BaseModel
+from game_mcp.game_client import Defuser, Expert
+from agents.prompts import expert_prompt, defuser_prompt
+from agents.two_agents import print_prompt, search_for_actions
 
 # Feel free to import any libraries you need - if needed change requirements.txt
 # In this file it also applies to classes and functions :)
 
+async def call_client(client, server_url, input = None):
+        await client.connect_to_server(server_url)
+        if input is None: 
+            result = await client.run()
+        else:
+            result = await client.run(input)
 
-class DefuserTool(BaseTool):
-    # YOUR CODE STARTS HERE
-    pass
+        await client.cleanup()
 
-    def __init__(self, server_url: str):
+        return result 
+
+class BombStateTool(BaseTool):
+    name: str = "bomb_state_tool"
+    description: str = "Recovers bomb state"
+    model_config = ConfigDict(extra='allow')
+    server_url: str = Field(default="http://localhost:8091")
+
+    def __init__(self, client: Defuser, server_url: str = "http://localhost:8091"):
         super().__init__()
-        self.client = Defuser()
-        self.loop = asyncio.new_event_loop()
-        self.loop.run_until_complete(self.client.connect_to_server(server_url))
+        openai.api_key = os.getenv("OPENAI_API_KEY")
+        self.server_url = server_url
+        self.client = client
+        self.verbose = True
 
     def _run(self) -> str:
-        return self.loop.run_until_complete(self.client.run())
+        bomb_state = asyncio.run(call_client(self.client, self.server_url, "state"))
+        return bomb_state
+        
+class DefuserTool(BaseTool):
+    name: str = "defuser_tool"
+    description: str = "Handles defusal logic and returns the result"
+    model_config = ConfigDict(extra='allow')
+    server_url: str = Field(default="http://localhost:8091")
 
+    def __init__(self, client: Defuser, server_url: str = "http://localhost:8091"):
+        super().__init__()
+        openai.api_key = os.getenv("OPENAI_API_KEY")
+        self.client = client
+        self.server_url = server_url
 
-    # YOUR CODE ENDS HERE
+    def _run(self, command: str) -> str:
+        action = "help"
+        for line in command.splitlines()[::-1]:
+            line = line.strip().lower()
+            (is_action, found_action) = search_for_actions(line)
+            if is_action:
+                action = found_action 
+                break
+        
+        result = asyncio.run(call_client(self.client, self.server_url, action))
 
+        if 'BOOM!' in result:
+            print(result)
+            sys.exit(0)
+        elif 'The module state has changed' in result:
+            return 'Module defused successfully!'
+
+        return result 
 
 class ExpertTool(BaseTool):
-    # YOUR CODE STARTS HERE
+    name: str = "expert_tool"
+    description: str = "Receivers the manual info and returns the result"
+    model_config = ConfigDict(extra='allow')
+    server_url: str = Field(default="http://localhost:8091")
 
-    def __init__(self, server_url: str):
+    def __init__(self, server_url: str = "http://localhost:8091"):
         super().__init__()
+        openai.api_key = os.getenv("OPENAI_API_KEY")
+        self.server_url = server_url
         self.client = Expert()
-        self.loop = asyncio.new_event_loop()
-        self.loop.run_until_complete(self.client.connect_to_server(server_url))
 
     def _run(self) -> str:
-        return self.loop.run_until_complete(self.client.run())
+        manual_text = asyncio.run(call_client(self.client, self.server_url))
+        return manual_text 
 
-    # YOUR CODE ENDS HERE
+if __name__ == '__main__':
+    openai.api_key = os.getenv("OPENAI_API_KEY")
+

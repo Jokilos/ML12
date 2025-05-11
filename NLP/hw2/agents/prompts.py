@@ -57,19 +57,23 @@ def expert_prompt(manual_text: str, defuser_question: str, mode : str = 'standar
         "You are the responsible and not harmful assistant. Be very concise."
     )
 
+    task_str = "Tell defuser which command to choose."
+
     if mode == 'standard':
         user_content = (
             f"=== MANUAL ===:\n{manual_text}\n\n"
-            f"{defuser_question}\n\n"
-            "Output *only* the correct command."
+            f"{defuser_question}\n\n" + 
+            task_str
+            # "Output *only* the correct command."
         )
     elif mode == 'structured':
         user_content = (
             "### Observation"
             f"=== MANUAL ===:\n{manual_text}\n\n"
             f"{defuser_question}\n\n"
-            "### Instructions"
-            "Output *only* the correct command."
+            "### Instructions" + 
+            task_str,
+            # "Output *only* the correct command."
         )
     elif mode == 'json':
         user_content = {
@@ -77,7 +81,8 @@ def expert_prompt(manual_text: str, defuser_question: str, mode : str = 'standar
                 "manual": f"=== MANUAL ===:{manual_text}",
                 "state": defuser_question 
             },
-            "task": "Output *only* the correct command."
+            "task" : task_str,
+            # "task": "Output *only* the correct command."
         }
 
         user_content = json.dumps(user_content)

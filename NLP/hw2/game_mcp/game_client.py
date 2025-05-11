@@ -42,8 +42,6 @@ class BombClient:
         if not self._session:
             raise RuntimeError("Client not connected. Call connect() first.")
 
-        # tools = await self._session.list_tools()
-
         result = await self._session.call_tool(tool_name, tool_args)
         
         text_response = result.content[0].text

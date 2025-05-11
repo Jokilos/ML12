@@ -11,12 +11,9 @@ default_args = {
 }
 
 # Define your test values
-# topk_values = [10, 200, 400]
-# topp_values = [0.8, 0.9, 0.95]
-# temp_values = [0.3, 0.6, 1.0]
-topk_values = []
-topp_values = []
-temp_values = []
+topk_values = [10, 200, 400]
+topp_values = [0.8, 0.9]
+temp_values = [0.3, 0.6, 1.0]
 prompt_values = ['standard', 'structured', 'json']
 
 tests = []
@@ -29,68 +26,69 @@ print(tests)
 
 results = []
 
-for test in tests:
-    args = default_args.copy()
-    args.update(test)
+for _ in range(2):
+    for test in tests:
+        args = default_args.copy()
+        args.update(test)
 
-    # Start server
-    p_server = subprocess.Popen(
-        ["python", "-m", "game_mcp.game_server", "--port", "8091"],
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL
-    )
-
-    time.sleep(0.2) 
-
-    client_args = [
-        "--topk", str(args["topk"]),
-        "--topp", str(args["topp"]),
-        "--temp", str(args["temp"]),
-        "--prompt", args["prompt"],
-        "--verbose", "0"
-    ]
-
-    status = 'done'
-    try:
-        print('\nTEST: ', client_args)
-        p_client = subprocess.Popen(
-            ["python", "-m", "agents.two_agents"] + client_args,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT,
-            text=True,
+        # Start server
+        p_server = subprocess.Popen(
+            ["python", "-m", "game_mcp.game_server", "--port", "8091"],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL
         )
-        p_client.wait(timeout=900)
-        client_output = p_client.stdout.read()
-        
-    except subprocess.TimeoutExpired:
-        p_client.kill()
-        status = 'timeout'
 
-    print(client_output)
-    # Kill server
-    p_server.terminate()
-    try:
-        p_server.wait(timeout=2)
-    except subprocess.TimeoutExpired:
-        p_server.kill()
+        time.sleep(0.2) 
 
-    if status == 'timeout':
-        score, iters = 0, 0
-    else:
-        score, iters = map(int, client_output.split())
+        client_args = [
+            "--topk", str(args["topk"]),
+            "--topp", str(args["topp"]),
+            "--temp", str(args["temp"]),
+            "--prompt", args["prompt"],
+            "--verbose", "0"
+        ]
 
-    test_type, test_value = next(iter(test.items()))
-    results.append({
-        "test_type" : test_type,
-        "value" : test_value,
-        "status": status,
-        "score" : score,
-        "iters" : iters,
-    })
+        status = 'done'
+        try:
+            print('\nTEST: ', client_args)
+            p_client = subprocess.Popen(
+                ["python", "-m", "agents.two_agents"] + client_args,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                text=True,
+            )
+            p_client.wait(timeout=1200)
+            client_output = p_client.stdout.read()
+            
+        except subprocess.TimeoutExpired:
+            p_client.kill()
+            status = 'timeout'
 
-    print(results[-1])
+        print(client_output)
+        # Kill server
+        p_server.terminate()
+        try:
+            p_server.wait(timeout=2)
+        except subprocess.TimeoutExpired:
+            p_server.kill()
 
-# Save to DataFrame
-df = pd.DataFrame(results)
-df.to_csv("test_results.csv", index=False)
-print("Results saved to 'test_results.csv'") 
+        if status == 'timeout':
+            score, iters = 0, 0
+        else:
+            score, iters = map(int, client_output.split())
+
+        test_type, test_value = next(iter(test.items()))
+        results.append({
+            "test_type" : test_type,
+            "value" : test_value,
+            "status": status,
+            "score" : score,
+            "iters" : iters,
+        })
+
+        print(results[-1])
+
+    # Save to DataFrame
+    df = pd.DataFrame(results)
+    df.to_csv("test_results.csv", index=False)
+    print("Results saved to 'test_results.csv'") 

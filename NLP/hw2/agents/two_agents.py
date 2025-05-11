@@ -54,7 +54,7 @@ async def run_two_agents(
     """
     defuser_client = Defuser()
     expert_client = Expert()
-    max_new_tokens_expert = max_new_tokens + 420
+    max_new_tokens_expert = max_new_tokens + 320
     try:
         # 1) Connect both clients to the same server
         await defuser_client.connect_to_server(server_url)
