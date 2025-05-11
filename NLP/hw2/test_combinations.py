@@ -56,7 +56,8 @@ for test in tests:
         p_client = subprocess.Popen(
             ["python", "-m", "agents.two_agents"] + client_args,
             stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT
+            stderr=subprocess.STDOUT,
+            text=True,
         )
         p_client.wait(timeout=900)
         client_output = p_client.stdout
@@ -65,6 +66,7 @@ for test in tests:
         p_client.kill()
         status = 'timeout'
 
+    print(client_output)
     # Kill server
     p_server.terminate()
     try:
