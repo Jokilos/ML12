@@ -30,7 +30,7 @@ Tracked Stats:
 <img src="topk_plot.png" alt="Top-k plot" width="1200"/>
 
 - **Top-p Sampling**:
-  - *p=0.8* very slightly outperformed *p=0.9* in score.
+  - *p=0.8* outperformed *p=0.9* in score.
   - Both configs were similar, *p=0.9* had slightly better efficiency. 
 
 <img src="topp_plot.png" alt="Top-p plot" width="1200"/>
@@ -60,3 +60,5 @@ Based on the results:
 - **Top-p with p=0.8** 
 - Prefer **Standard prompting**.
 - Avoid **temperature** above 0.3. 
+
+## Python verion used: 3.12.8

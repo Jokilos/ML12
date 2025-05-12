@@ -82,15 +82,9 @@ class ExpertTool(BaseTool):
         self.server_url = server_url
         self.client = Expert()
 
-    def _fix_manual(self, manual: str):
-        for i in range(5):
-            manual = manual.replace(f'Round {i+1}', f'{i+1}.Input')
-
-        return manual
-
     def _run(self) -> str:
         manual_text = asyncio.run(call_client(self.client, self.server_url))
-        return self._fix_manual(manual_text)
+        return manual_text
 
 if __name__ == '__main__':
     openai.api_key = os.getenv("OPENAI_API_KEY")
