@@ -9,3 +9,5 @@ accelerate
 torch
 pandas
 openai
+matplotlib
+seaborn

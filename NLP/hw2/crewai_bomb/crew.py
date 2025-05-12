@@ -41,31 +41,6 @@ expert_agent = Agent(
     verbose=True
 )
 
-# gather_info_task = Task(
-#     description=(
-#         "Collect information about the bomb and pass it to the expert."
-#         " Never run any commands without consulting expert first."
-#     ),
-#     expected_output="Information about the bomb state",
-#     agent=defuser_agent,
-# )
-
-# generate_advice = Task(
-#     description=(
-#         "Get the bomb manual from the expert tool and choose a single correct command"
-#         " from 'available commands' based on bomb state. "
-#         "Provide a clear, confident answer. Avoid ambiguity."
-#     ),
-#     expected_output="Correct defusal command",
-#     agent=expert_agent
-# )
-
-# defuse_task = Task(
-#     description="Pass the expert's command to the defusal tool.",
-#     expected_output="'Model defused.' text",
-#     agent=defuser_agent
-# )
-
 # Define task logic
 def run_bomb_loop():
     exploded = False

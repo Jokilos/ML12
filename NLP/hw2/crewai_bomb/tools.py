@@ -4,10 +4,9 @@ import time
 import sys
 import openai
 from crewai.tools import BaseTool
-from pydantic import Field, ConfigDict, BaseModel
+from pydantic import Field, ConfigDict
 from game_mcp.game_client import Defuser, Expert
-from agents.prompts import expert_prompt, defuser_prompt
-from agents.two_agents import print_prompt, search_for_actions
+from agents.two_agents import search_for_actions
 
 # Feel free to import any libraries you need - if needed change requirements.txt
 # In this file it also applies to classes and functions :)
@@ -36,15 +35,9 @@ class BombStateTool(BaseTool):
         self.client = client
         self.verbose = True
     
-    def _fix_state(self, state: str) -> str:
-        lines = state.splitlines()
-        lines = [l for l in lines if 'Round' not in l]
-        state = '\n'.join(lines)
-        return state
-
     def _run(self) -> str:
         bomb_state = asyncio.run(call_client(self.client, self.server_url, "state"))
-        return self._fix_state(bomb_state)
+        return bomb_state
         
 class DefuserTool(BaseTool):
     name: str = "defuser_tool"
@@ -90,12 +83,9 @@ class ExpertTool(BaseTool):
         self.client = Expert()
 
     def _fix_manual(self, manual: str):
-        # for i in range(5):
-            # manual = manual.replace(f'Round {i+1}', f'{i+1}.Input')
+        for i in range(5):
+            manual = manual.replace(f'Round {i+1}', f'{i+1}.Input')
 
-        manual +=(
-            "Round number is {i + 1}, when i colors were already input."
-        )
         return manual
 
     def _run(self) -> str:
