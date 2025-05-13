@@ -40,3 +40,4 @@ einops
 boto3
 dspy
 pydot
+pwn
