@@ -1,0 +1,1 @@
+qemu-img rebase -u -b ../data/BACKING_IMG/zso2025.qcow2 ../data/IMG/zso2025_debug.qcow2 -F qcow2

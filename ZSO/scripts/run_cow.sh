@@ -13,10 +13,11 @@ qemu-system-x86_64                                              \
     -chardev stdio,id=cons,signal=off                           \
     -device virtio-serial-pci                                   \
     -device virtconsole,chardev=cons                            \
-    -display none                                               \
-    -kernel ../data/IMG/vmlinuz-6.12.6zsobpf                    \
-    -initrd ../data/IMG/initrd.img-6.12.6zsobpf                 \
-    -append "root=/dev/sda3"
+    # -kernel ../data/IMG/vmlinuz-6.12.6zsobpf                    \
+    # -initrd ../data/IMG/initrd.img-6.12.6zsobpf                 \
+    # -append "root=/dev/sda3"                                    \
+    # -display none                                               \
+
 
     # stty rows 236 cols 64 
 
