@@ -41,3 +41,4 @@ boto3
 dspy
 pydot
 pwn
+torchrl
