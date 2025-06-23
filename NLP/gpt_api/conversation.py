@@ -9,7 +9,6 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 previous_response_id = None
 instructions = "You are a helpful, concise AI assistant. Answer only in Markdown format."
 
-
 while True:
     clear = False
     try:
