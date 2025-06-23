@@ -1,0 +1,69 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Metric Learning}
+\author{Your Name \\ \small University Name \\ \small\texttt{email@domain.com}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+Describe which parts of the task you did, mention any problems you have had, 
+
+\section{Hyperparameters}
+Specify the hyperparameters used for the trainings.
+\subsection{Temporal Distance Prediction}
+\paragraph{Normal Dataset}
+\paragraph{Stitching Dataset}
+
+
+\subsection{Contrastive Learning}
+\paragraph{Normal Dataset}
+\paragraph{Stitching Dataset}
+
+\section{Metrics Implementation}
+\subsection{Correlation}
+Describe how you compute correlation between distances and actual steps to goal. Show example plots.
+
+\subsection{Heatmaps}
+Show an example heatmap of distances in state space.
+
+\subsection{Solved Rate}
+Describe the evaluation protocol and results (solved rate and number of expanded nodes) for the version with and without search. You can use a random heuristic function if you have not implemented the network trainings.
+
+
+\section{Results}
+
+\subsection{Supervised Training}
+Present results for temporal distance prediction. Include training loss curves and other metrics of your choice.
+
+\subsection{Contrastive Training}
+Present results for the contrastive training. Include training loss curves and other metrics of your choice.
+
+
+\section{Analysis}
+
+\subsection{Overall Performance}
+Discuss how well each method performs based on the implemented metrics.
+
+\subsection{Supervised vs. Contrastive Comparison}
+Compare the performance of two methods.
+
+\subsection{Stitching Capabilities}
+Test and compare both methods for the stitching property. Specify the setup in which you test that property, that is what trajectories did you train on and what trajectories are you testing on. Show the metrics of your choice.
+
+
+\section{Conclusion}
+Summarize your findings, highlighting the strengths and limitations of both approaches.
+
+\end{document}
