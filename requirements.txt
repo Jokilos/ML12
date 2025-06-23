@@ -42,3 +42,5 @@ dspy
 pydot
 pwn
 torchrl
+python-dotenv
+openai
