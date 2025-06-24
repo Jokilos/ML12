@@ -1,79 +1,1395 @@
-Here is the text from the images:
+Here is the text from the images you provided:
 
-**Skala AVPU – litera V oznacza**
-a. Pacjent przytomny, skupia uwagę.
-b. Pacjent nieprzytomny, bez reakcji.
-c. Pacjent reaguje na ból.
-d. Pacjent reaguje na polecenia głosowe. ✔️
-e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
+---
+**Image 1:**
+
+Na miejscu wypadku pacjent odniósł złamanie nasady dalszej kości promieniowej lewej i złamanie trzonu kości ramiennej prawej – w systemie TRIAGE dostanie opaskę z kolorem:  
+a. Czarny  
+b. Czerwony  
+c. Żółty   ✔️  
+d. Zielony  
+e. Pomarańczowy
 
 ---
 
-**Na miejscu wypadku znajdujesz pacjenta w ciężkim stanie astmatycznym z oparzeniem dróg oddechowych – w systemie TRIAGE dostanie opaskę z kolorem:**
-a. Czarny
-b. Czerwony ✔️
+Kolorem czerwonym w postępowaniu na miejscu katastrofy masowej oznaczamy poszkodowanych:  
+a. którzy wymagają natychmiastowej pomocy.  
+b. pomoc dla tych osób może być odroczona do 6 godzin.  
+c. nie wymagają pomocy i ewakuacji z miejsca zdarzenia w pierwszej kolejności.  
+d. wymagają natychmiastowej pomocy i są ewakuowani z miejsca zdarzenia w pierwszej kolejności.   ✔️  
+e. kolor czarny w postępowaniu przedszpitalnym ma priorytet zatem osoby oznaczone kolorem czerwonym ewakuowane są w drugiej kolejności.
+
+---
+
+Skala Glasgow ocenia poziom przytomności na podstawie:  
+a. otwierania oczu  
+b. kontakt słowny  
+c. reakcji ruchowej  
+d. odpowiedź 2b jest nieprawidłowa prawidłowe  
+e. odpowiedzi A, B i C są prawidłowe   ✔️
+
+---
+
+**Image 2:**
+
+Nadzór nad postępowaniem leczniczym u chorego z urazem wielonarządowym powinien sprawować:  
+a. Chirurg ogólny  
+b. Chirurg ortopeda  
+c. Anestezjolog   ✔️  
+d. Neurochirurg  
+e. A i C są prawidłowe
+
+---
+
+**Image 3:**
+
+Wstępne zaopatrzenie złamań i zwichnięć na miejscu wypadku polega na unieruchomieniu kończyny w ustawieniu takim, jakie zastano na miejscu wypadku za pomocą szyn Kramera (1). W przypadku braku szyn należy przybandażować kończynę górną do klatki piersiowej, a dolną do drugiej kończyny (2).
+
+a. Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy.   ✔️  
+b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.  
+c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa.  
+d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa.  
+e. Obie części zdania są fałszywa.
+
+---
+
+Let me know if you need this translated or further processed!Here is the extracted text from the images:
+
+---
+
+### Image 1:
+
+**Na miejscu wypadku, w razie potrzeby:**
+- a. można zdjąć każdą ortezę ✅
+- b. można zdjąć ortezę w porozumieniu z lekarzem
+- c. można zdjąć ortezę tylko w porozumieniu z lekarzem leczącym
+- d. można zdjąć ortezę, ale należy założyć inne unieruchomienie
+- e. nie należy zdejmować ortez, bo może to spowodować pogorszenie stanu pacjenta
+
+---
+
+**U chorego w stabilnym stanie uszkodzenia urazowe zaopatruje się w następującej kolejności:**
+- a. Uszkodzenia mózgu, uszkodzenia twarzoczaszki i oczu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, złamania i zwichnięcia. ✅
+- b. Uszkodzenia mózgu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, złamania i zwichnięcia, uszkodzenia twarzoczaszki i oczu.
+- c. Uszkodzenia twarzoczaszki i oczu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, złamania i zwichnięcia, uszkodzenia mózgu.
+- d. Uszkodzenia mózgu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, uszkodzenia twarzoczaszki i oczu, złamania i zwichnięcia.
+- e. Złamania i zwichnięcia, uszkodzenia mózgu, uszkodzenia twarzoczaszki i oczu, uszkodzenia narządów wewnętrznych, postępujący niedowład po urazie rdzenia kręgowego.
+
+---
+
+**Śmiertelność w urazach wielonarządowych kształtuje się w granicach:**
+- a. 0%-10%
+- b. 10%-20%
+- c. 20%-30% ✅
+- d. 30%-40%
+- e. 40%-50%
+
+---
+
+### Image 2:
+
+**Na miejscu wypadku pacjent ze złamaniem paliczka dystalnego IV ręki prawej, chodzący, bez innych obrażeń ciała – w systemie TRIAGE dostanie opaskę z kolorem:**
+- a. Czarny
+- b. Czerwony
+- c. Żółty
+- d. Zielony ✅
+- e. Pomarańczowy
+
+---
+
+**Wskaż zdanie prawidłowe odnośnie skal ciężkości obrażeń:**
+- a. służą do celów statystycznych
+- b. wskazują prawidłowe postępowanie w procesie diagnostycznym i terapeutycznym
+- c. 8 lub mniej pkt. w skali Glasgow jest wskazaniem do intubacji
+- d. wszystkie powyższe odpowiedzi są prawidłowe ✅
+- e. brak prawidłowej odpowiedzi
+
+---
+
+**Nagłym stanem zagrożenia życia jest:**
+- a. skręcenia stawu skokowego
+- b. wieloodłamowe złamanie kości strzałkowej
+- c. złamanie obojczyka
+- d. wieloodłamowe złamanie miednicy ✅
+- e. wszystkie odpowiedzi są prawidłowe
+
+---
+
+### Image 3:
+
+**Na miejscu wypadku pacjent zgłasza silny ból zamostkowy, promieniujący do lewej ręki i szyi, oceniasz powrót włośniczkowy na dłuższy niż 2 sekundy, tętno słabo wyczuwalne, skóra blada, kontakt z pacjentem ciężki – w systemie TRIAGE dostanie opaskę z kolorem:**
+- a. Czarny
+- b. Czerwony ✅
+- c. Żółty
+- d. Zielony
+- e. Pomarańczowy
+
+---
+
+**W przypadku urazu wielonarządowego pierwszeństwo w zaopatrzeniu ostatecznym ma:**
+- a. Rozdarcie pęcherza moczowego
+- b. Otwarte złamanie kości udowej
+- c. Krwiak opłucnej
+- d. Narastająca ciasnota śródczaszkowa ✅
+- e. Wszystkie odpowiedzi są prawidłowe
+
+---
+
+**W postępowaniu na miejscu zdarzenia najważniejsze jest:**
+- a. bezpieczeństwo własne ✅
+- b. bezpieczeństwo na miejscu zdarzeniu
+- c. określenie liczby poszkodowanych
+- d. ocena mechanizmu urazu
+- e. wszystkie odpowiedzi prawidłowe
+
+---Sure, here is the text from the images:
+
+---
+
+**Wskaż zdanie prawidłowe odnośnie skal ciężkości obrażeń:**
+a. służą do celów statystycznych  
+b. wskazują prawidłowe postępowanie w procesie diagnostycznym i terapeutycznym  
+c. 8 lub mniej pkt. w skali Glasgow jest wskazaniem do intubacji  
+d. wszystkie powyższe odpowiedzi są prawidłowe ✔️  
+e. brak prawidłowej odpowiedzi  
+
+**Podczas transportu dziecka w ambulansie należy:**
+a. stworzyć przyjazną atmosferę ze względu na lęk po urazie i nowe miejsce  
+b. stale monitorować dziecko wzrokiem  
+c. umożliwić rodzicom lub opiekunom przebywanie w ambulansie podczas transportu  
+d. zabezpieczyć wkłucia i urządzenia monitorujące  
+e. wszystkie odpowiedzi prawidłowe ✔️  
+
+**Pacjenta bez urazu można uznać:**
+a. u którego wywiad, relacje świadków i badania wykluczają przebycie urazu ✔️  
+b. bez otarć skóry  
+c. pacjent, który neguje uraz  
+d. pacjent samodzielnie chodzący  
+e. wszystkie odpowiedzi są prawidłowe  
+
+**Transport pacjenta do szpitala powinien być:**
+a. przede wszystkim bezpieczny. ✔️  
+b. bardzo szybki.  
+c. do najbliższego szpitala.  
+d. każdym środkiem lokomocji.  
+e. wszystkie odpowiedzi są prawidłowe.  
+
+---
+
+**Zaznacz zdanie fałszywe:**  
+a. Uraz wielomiejscowy to uszkodzenie co najmniej dwóch topograficznie różnych części ciała np. złamanie kości ramiennej i piszczelowej.  
+b. Uraz wielonarządowy to uraz wielomiejscowy, gdzie każde uszkodzenie może zagrażać życiu i wymaga leczenia specjalistycznego.  
+c. TRIAGE - to system segregacji rannych na miejscu wypadku.  
+d. Czerwony kolor w systemie TRIAGE oznacza osobę uznaną za niemożliwą do uratowania. ✔️  
+e. Pacjentowi powinniśmy udzielić pomocy w ciągu 20 minut, jeśli ma kolor żółty w systemie TRIAGE.  
+
+---
+
+**Złota godzina to:**  
+a. czas oczekiwania na transport pacjenta po urazie.  
+b. maksymalny czas potrzebny na diagnostykę dla pacjenta po ciężkim urazie w ramach SOR.  
+c. maksymalny czas jaki może upłynąć dla pacjenta po ciężkim urazie od momentu powstania urazu do znalezienia się w szpitalu i rozpoczęcia zabiegów ratujących zdrowie i życie pacjenta. ✔️  
+d. minimalny czas potrzebny na diagnostykę dla pacjenta po ciężkim urazie w ramach SOR.  
+e. czas oczekiwania pacjenta w poczekalni SOR.  
+
+---
+
+Let me know if you need this in plain text or another format!Here is the text from the images:
+
+---
+
+**Image 1:**
+
+Na miejscu wypadku pacjent zgłasza silny ból zamostkowy, promieniujący do lewej ręki i szyi, oceniasz powrót włośniczkowy na dłuższy niż 2 sekundy, tętno słabo wyczuwalne, skóra blada, kontakt z pacjentem ciężki – w systemie TRIAGE dostanie opaskę z kolorem: 
+
+a. Czarny  
+b. Czerwony ✅  
+c. Żółty  
+d. Zielony  
+e. Pomarańczowy  
+
+---
+
+**Image 2:**
+
+Kolor czarnym w systemie TRIAGE oznaczysz:
+
+a. Osobę z widocznymi ciężkimi obrażeniami czaszki i mózgu. ✅  
+b. Kobieta w ciąży.  
+c. Osobę ze złamaniem nasady dalszej kości promieniowej.   
+d. Osobę ze złamaniem szyjki kości udowej.  
+e. Osobę z urazem kręgosłupa.  
+
+Kolorem zielonym w postępowania na miejscu katastrofy masowej oznaczamy poszkodowanych:
+
+a. którzy wymagają natychmiastowej pomocy.  
+b. pomoc dla tych osób może być odroczona do 6 godzin.  
+c. nie wymagają pomocy i ewakuacji z miejsca zdarzenia w pierwszej kolejności. ✅  
+d. wymagają natychmiastowej pomocy i są ewakuowani z miejsca zdarzenia w pierwszej kolejności.  
+e. kolor czerwony w postępowaniu przedszpitalnym ma priorytet zatem osoby oznaczone kolorem zielonym ewakuowane są w drugiej kolejności.
+
+---
+
+**Image 3:**
+
+Śmiertelność w urazach wielonarządowych kształtuje się w granicach:
+
+a. 0%-10%  
+b. 10%-20%  
+c. 20%-30% ✅  
+d. 30%-40%  
+e. 40%-50%  
+
+---Oczywiście! Oto tekst z przesłanych obrazów (zaznaczyłem odpowiedzi, które zostały wybrane):
+
+---
+
+**Skala AVPU – litera U oznacza**
+- a. Pacjent przytomny, skupia uwagę.
+- **b. Pacjent nieprzytomny, bez reakcji. ✅**
+- c. Pacjent reaguje na ból.
+- d. Pacjent reaguje na polecenia głosowe.
+- e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
+
+---
+
+**W postępowaniu na miejscu zdarzenia najważniejsze jest:**
+- **a. bezpieczeństwo własne ✅**
+- b. bezpieczeństwo na miejscu zdarzeniu
+- c. określenie liczby poszkodowanych
+- d. ocena mechanizmu urazu
+- e. wszystkie odpowiedzi prawidłowe
+
+---
+
+**Nagłym stanem zagrożenia życia jest:**
+- a. skręcenia stawu skokowego
+- b. wieloodłamowe złamanie kości strzałkowej
+- c. złamanie obojczyka
+- **d. wieloodłamowe złamanie miednicy ✅**
+- e. wszystkie odpowiedzi są prawidłowe
+
+---
+
+**W przypadku urazu wielonarządowego pierwszeństwo w zaopatrzeniu ostatecznym ma:**
+- a. Rozdarcie pęcherza moczowego
+- b. Otwarte złamanie kości udowej
+- c. Krwiak opłucnej
+- **d. Narastająca ciasnota śródczaszkowa ✅**
+- e. Wszystkie odpowiedzi są prawidłowe
+
+---
+
+**W systemie START:**
+- a. Oceniamy świadomość w skali AVPU.
+- b. Oceniamy oddech po udrożnieniu dróg oddechowych.
+- c. Oceniamy krążenie – tętno na tętnicy promieniowej.
+- d. To prosta segregacja i szybkie leczenie.
+- **e. Wszystkie odpowiedzi są prawidłowe. ✅**
+
+---
+
+**Na miejscu wypadku pacjent ze złamaniem paliczka dystalnego IV ręki prawej, chodzący, bez innych obrażeń ciała – w systemie TRIAGE dostanie opaskę z kolorem:**
+- a. Czarny
+- b. Czerwony
+- c. Żółty
+- **d. Zielony ✅**
+- e. Pomarańczowy
+
+---
+
+**Bóle grzbietu mogą być objawem:**
+1. zapalenia przydatków;
+2. zapalenia uchyłków esicy;
+3. niedoborów witaminy A;
+4. pękania tętniaka aorty brzusznej.
+
+**Prawidłowa kombinacja odpowiedzi to:**
+- a. 4
+- b. 1, 3
+- **c. 1, 2, 4 ✅**
+- d. 2, 3, 4
+- e. 1, 2, 3, 4
+
+---
+
+W razie potrzeby mogę podzielić tekst na konkretne pytania lub przesłać w innej formie!Here is the text from the images you provided:
+
+---
+
+**Image 1:**
+
+1. Na miejscu wypadku znajdujesz pacjenta nieprzytomnego bez oddechu po udrożnieniu dróg oddechowych, bez tętna – w systemie TRIAGE dostanie opaskę z kolorem:  
+   - a. Czarny  ✔️
+   - b. Czerwony
+   - c. Żółty
+   - d. Zielony
+   - e. Pomarańczowy
+
+2. Skala AVPU – litera A oznacza  
+   - a. Pacjent przytomny, skupia uwagę. ✔️
+   - b. Pacjent nieprzytomny, bez reakcji.
+   - c. Pacjent reaguje na ból.
+   - d. Pacjent reaguje na polecenia głosowe.
+   - e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
+
+3. Na miejscu wypadku znajdujesz pacjenta w ciężkim stanie astmatycznym z oparzeniem dróg oddechowych – w systemie TRIAGE dostanie opaskę z kolorem:  
+   - a. Czarny
+   - b. Czerwony ✔️
+   - c. Żółty
+   - d. Zielony
+   - e. Pomarańczowy
+
+4. Na miejscu wypadku pacjent odniósł złamanie nasady dalszej kości promieniowej prawej – w systemie TRIAGE dostanie opaskę z kolorem:  
+   - a. Czarny
+   - b. Czerwony
+   - c. Żółty
+   - d. Zielony ✔️
+   - e. Pomarańczowy
+
+---
+
+**Image 2:**
+
+1. Na miejscu wypadku pacjent doznał urazu kręgosłupa bez porażenia kończyn dolnych i górnych – w systemie TRIAGE dostanie opaskę z kolorem:  
+   - a. Czarny
+   - b. Czerwony
+   - c. Żółty ✔️
+   - d. Zielony
+   - e. Pomarańczowy
+
+2. Na miejscu wypadku, w razie potrzeby:  
+   - a. można zdjąć każdą ortezę ✔️
+   - b. można zdjąć ortezę w porozumieniu z lekarzem
+   - c. można zdjąć ortezę tylko w porozumieniu z lekarzem leczącym
+   - d. można zdjąć ortezę, ale należy założyć inne unieruchomienie
+   - e. nie należy zdejmować ortez, bo może to spowodować pogorszenie stanu pacjenta
+
+---
+
+**Image 3:**
+
+1. U pacjenta nieprzytomnego z niejasnym wywiadem urazowym bez możliwości zebrania wywiadu i ustalenia przyczyn urazu najtrafniejszym wyborem badania diagnostycznego będzie:  
+   - a. RTG klatki piersiowej celem wykluczenia odmy opłucnowej oraz obecności płynu w opłucnej
+   - b. MRI głowy celem wykluczenia zmian urazowych w mózgowiu i rdzeniu przedłużonym
+   - c. RTG klatki piersiowej oraz miednicy celem oceny ewentualnych uszkodzeń części kostnych
+   - d. tomografia komputerowa głowy, kręgosłupa szyjnego, klatki piersiowej i jamy brzusznej z miednicą ✔️
+   - e. tomografia komputerowa szkieletu osiowego
+
+2. Skala Glasgow ocenia poziom przytomności na podstawie:  
+   - a. otwierania oczu
+   - b. kontakt słowny
+   - c. reakcji ruchowej
+   - d. odpowiedź b jest nieprawidłowa prawidłowe
+   - e. odpowiedzi A, B i C są prawidłowe ✔️
+
+3. Na miejscu wypadku pacjent odniósł złamanie nasady dalszej kości promieniowej lewej i złamanie trzonu kości ramiennej prawej – w systemie TRIAGE dostanie opaskę z kolorem:  
+   - a. Czarny
+   - b. Czerwony
+   - c. Żółty ✔️
+   - d. Zielony
+   - e. Pomarańczowy
+
+4. Kolorem czerwonym w systemie TRIAGE oznaczysz:  
+   - a. Osobę ze złamaniem kostki bocznej w obrębie kończyny dolnej.
+   - b. Osobę z urazem kręgosłupa i porażeniem kończyn. ✔️
+   - c. Osobę z urazem głowy, ale przytomny.
+   - d. Osobę z oparzeniami 5 procent powierzchni ciała stopnia II.
+   - e. Osoba z oparzeniami całej powierzchni ciała z przewagą stopnia II i III.
+
+---
+
+Let me know if you need this text in a different format or have any questions!Here is the text from all the images, as requested:
+
+---
+
+**Image 1:**
+```
+Skala AVPU – litera V oznacza
+
+a. Pacjent przytomny, skupia uwagę.
+b. Pacjent nieprzytomny, bez reakcji.
+c. Pacjent reaguje na ból.
+d. Pacjent reaguje na polecenia głosowe. ✔
+e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
+```
+
+---
+
+**Image 2:**
+```
+Nadzór nad postępowaniem leczniczym u chorego z urazem wielonarządowym powinien sprawować:
+a. Chirurg ogólny
+b. Chirurg ortopeda
+c. Anestezjolog ✔
+d. Neurochirurg
+e. A i C są prawidłowe
+
+W którym urazie wysokoenergetycznym będziesz podejrzewał największe ryzyko utraty krwi?
+a. Złamanie trzonu kości łokciowej.
+b. Złamanie nasady dalszej kości promieniowej.
+c. Złamanie miednicy. ✔
+d. Złamanie trzonu kości piszczelowej.
+e. Złamanie szyjki chirurgicznej kości ramiennej.
+
+U chorego w stabilnym stanie uszkodzenia urazowe zaopatruje się w następującej kolejności:
+a. Uszkodzenia mózgu, uszkodzenia twarzoczaszki i oczu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, złamania i zwichnięcia. ✔
+b. Uszkodzenia mózgu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, złamania i zwichnięcia, uszkodzenia twarzoczaszki i oczu.
+c. Uszkodzenia twarzoczaszki i oczu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, złamania i zwichnięcia, uszkodzenia mózgu.
+d. Uszkodzenia mózgu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, uszkodzenia twarzoczaszki i oczu, złamania i zwichnięcia.
+e. Złamania i zwichnięcia, uszkodzenia mózgu, uszkodzenia twarzoczaszki i oczu, uszkodzenia narządów wewnętrznych, postępujący niedowład po urazie rdzenia kręgowego.
+```
+
+---
+
+**Image 3:**
+```
+Na miejscu wypadku znajdujesz pacjenta nieprzytomnego bez oddechu po udrożnieniu dróg oddechowych, bez tętna – w systemie TRIAGE dostanie opaskę z kolorem:
+a. Czarny ✔
+b. Czerwony
 c. Żółty
+d. Zielony
+e. Pomarańczowy
+
+Pacjenta bez urazu można uznać:
+a. u którego wywiad, relacje świadków i badania wykluczają przebycie urazu ✔
+b. bez otarć skóry
+c. pacjent, który neguje uraz
+d. pacjent samodzielnie chodzący
+e. wszystkie odpowiedzi są prawidłowe
+```
+
+---
+
+Let me know if you need these texts translated or explained!Oto tekst z obrazów (pogrubioną czcionką zaznaczono wybrane odpowiedzi):
+
+---
+
+**Obraz 1:**
+
+**W którym urazie wysokoenergetycznym będziesz podejrzewał największe ryzyko utraty krwi?**
+a. Złamanie trzonu kości łokciowej.
+b. Złamanie nasady dalszej kości promieniowej.
+**c. Złamanie miednicy.** ✔️
+d. Złamanie trzonu kości piszczelowej.
+e. Złamanie szyjki chirurgicznej kości ramiennej.
+
+**Skala AVPU – litera U oznacza**
+a. Pacjent przytomny, skupia uwagę.
+**b. Pacjent nieprzytomny, bez reakcji.** ✔️
+c. Pacjent reaguje na ból.
+d. Pacjent reaguje na polecenia głosowe.
+e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
+
+**Kolorem czerwonym w systemie TRIAGE oznaczysz:**
+a. Osobę ze złamaniem kostki bocznej w obrębie kończyny dolnej.
+**b. Osobę z urazem kręgosłupa i porażeniem kończyn.** ✔️
+c. Osobę z urazem głowy, ale przytomny.
+d. Osobę z poparzeniami 5 procent powierzchni ciała stopnia II.
+e. Osoba z oparzeniami całej powierzchni ciała z przewagą stopnia II i III.
+
+**Na miejscu wypadku pacjent odniósł złamanie nasady dalszej kości promieniowej lewej i złamanie trzonu kości ramiennej prawej – w systemie TRIAGE dostanie opaskę z kolorem:**
+a. Czarny
+b. Czerwony
+**c. Żółty** ✔️
 d. Zielony
 e. Pomarańczowy
 
 ---
 
-**Wstępne zaopatrzenie ran na miejscu wypadku polega na zaopatrzeniu rany krwawiącej jałowym opatrunkiem uciskowym. (1) Złamania i zwichnięcia należy unieruchomić z próbą repozycji. (2)**
-a. Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy.
-b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.
-c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa. ✔️
-d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa.
+**Obraz 2:**
+
+**Skala Glasgow ocenia poziom przytomności na podstawie:**
+a. otwierania oczu
+b. kontaktu słowny
+c. reakcji ruchowej
+d. odpowiedź b jest nieprawidłowa prawidłowe
+**e. odpowiedzi A, B i C są prawidłowe** ✔️
+
+**Kolor czarnym w systemie TRIAGE oznaczysz:**
+**a. Osobę z widocznymi ciężkimi obrażeniami czaszki i mózgu.** ✔️
+b. Kobieta w ciąży.
+c. Osobę ze złamaniem nasady dalszej kości promieniowej.
+d. Osobę ze złamaniem szyjki kości udowej.
+e. Osobę z urazem kręgosłupa.
+
+**Skala AVPU – litera P oznacza**
+a. Pacjent przytomny, skupia uwagę.
+b. Pacjent nieprzytomny, bez reakcji.
+**c. Pacjent reaguje na ból.** ✔️
+d. Pacjent reaguje na polecenia głosowe.
+e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
+
+---
+
+**Obraz 3:**
+
+**Na miejscu wypadku, w razie potrzeby:**
+**a. można zdjąć każdą ortezę** ✔️
+b. można zdjąć ortezę w porozumieniu z lekarzem
+c. można zdjąć ortezę tylko w porozumieniu z lekarzem leczącycm
+d. można zdjąć ortezę, ale należy założyć inne unieruchomienie
+e. nie należy zdejmować ortez, bo może to spowodować pogorszenie stanu pacjenta
+
+**Skala AVPU – litera V oznacza**
+a. Pacjent przytomny, skupia uwagę.
+b. Pacjent nieprzytomny, bez reakcji.
+c. Pacjent reaguje na ból.
+**d. Pacjent reaguje na polecenia głosowe.** ✔️
+e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
+
+**W postępowaniu na miejscu zdarzenia najważniejsze jest:**
+**a. bezpieczeństwo własne** ✔️
+b. bezpieczeństwo na miejscu zdarzeniu
+c. określenie liczby poszkodowanych
+d. ocena mechanizmu urazu
+e. wszystkie odpowiedzi prawidłowe
+
+**Nadzór nad postępowaniem leczniczym u chorego z urazem wielonarządowym powinien sprawować:**
+a. Chirurg ogólny
+b. Chirurg ortopeda
+**c. Anestezjolog** ✔️
+d. Neurochirurg
+e. A i C są prawidłowe
+
+---Here is the text from the images:
+
+---
+
+**Image 1:**
+
+U chorego w stabilnym stanie uszkodzenia urazowe zaopatruje się w następującej kolejności:
+- a. Uszkodzenia mózgu, uszkodzenia twarzoczaszki i oczu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, złamania i zwichnięcia. ✔️
+- b. Uszkodzenia mózgu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, złamania i zwichnięcia, uszkodzenia twarzoczaszki i oczu.
+- c. Uszkodzenia twarzoczaszki i oczu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, złamania i zwichnięcia, uszkodzenia mózgu.
+- d. Uszkodzenia mózgu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, uszkodzenia twarzoczaszki i oczu, złamania i zwichnięcia.
+- e. Złamania i zwichnięcia, uszkodzenia mózgu, uszkodzenia twarzoczaszki i oczu, uszkodzenia narządów wewnętrznych, postępujący niedowład po urazie rdzenia kręgowego.
+
+Śmiertelność w urazach wielonarządowych kształtuje się w granicach:
+- a. 0%-10%
+- b. 10%-20%
+- c. 20%-30% ✔️
+- d. 30%-40%
+- e. 40%-50%
+
+Nagłym stanem zagrożenia życia jest:
+- a. skręcenia stawu skokowego
+- b. wieloodłamowe złamanie kości strzałkowej
+- c. złamanie obojczyka
+- d. wieloodłamowe złamanie miednicy ✔️
+- e. wszystkie odpowiedzi są prawidłowe
+
+---
+
+**Image 2:**
+
+Skala AVPU – litera A oznacza
+- a. Pacjent przytomny, skupia uwagę. ✔️
+- b. Pacjent nieprzytomny, bez reakcji.
+- c. Pacjent reaguje na ból.
+- d. Pacjent reaguje na polecenia głosowe.
+- e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
+
+---
+
+**Image 3:**
+
+W systemie START:
+- a. Oceniamy świadomość w skali AVPU.
+- b. Oceniamy oddech po udrożnieniu dróg oddechowych.
+- c. Oceniamy krążenie – tętno na tętnicy promieniowej.
+- d. To prosta segregacja i szybkie leczenie.
+- e. Wszystkie odpowiedzi są prawidłowe. ✔️
+
+Transport pacjenta do szpitala powinien być:
+- a. przede wszystkim bezpieczny. ✔️
+- b. bardzo szybki.
+- c. do najbliższego szpitala.
+- d. każdym środkiem lokomocji.
+- e. wszystkie odpowiedzi są prawidłowe.
+
+W przypadku urazu wielonarządowego pierwszeństwo w zaopatrzeniu ostatecznym ma:
+- a. Rozdarcie pęcherza moczowego
+- b. Otwarte złamanie kości udowej
+- c. Krwiak opłucnej
+- d. Narastająca ciasnota śródczaszkowa ✔️
+- e. Wszystkie odpowiedzi są prawidłowe
+
+---
+
+Let me know if you need this in another format!Here is the transcribed text from the images:
+
+---
+
+**Image 1:**
+
+Na miejscu wypadku pacjent zgłasza silny ból zamostkowy, promieniujący do lewej ręki i szyi, oceniasz powrót włośniczkowy na dłuższy niż 2 sekundy, tętno słabo wyczuwalne, skóra blada, kontakt z pacjentem ciężki – w systemie TRIAGE dostanie opaskę z kolorem:
+
+a. Czarny  
+b. Czerwony ✔️  
+c. Żółty  
+d. Zielony  
+e. Pomarańczowy  
+
+Bóle grzbietu mogą być objawem:
+1. zapalenia przydatków;  
+2. zapalenia uchyłków esicy;  
+3. niedoborów witaminy A;  
+4. pękania tętniaka aorty brzusznej.
+
+Prawidłowa kombinacja odpowiedzi to:
+
+a. 4  
+b. 1, 3  
+c. 1, 2, 4 ✔️  
+d. 2, 3, 4  
+e. 1, 2, 3, 4  
+
+---
+
+**Image 2:**
+
+Zaznacz zdanie fałszywe:
+
+a. Uraz wielomiejscowy to uszkodzenie co najmniej dwóch topograficznie różnych części ciała np. złamanie kości ramiennej i piszczelowej.  
+b. Uraz wielonarządowy to uraz wielomiejscowy, gdzie każde uszkodzenie może zagrażać życiu i wymaga leczenia specjalistycznego.  
+c. TRIAGE – to system segregacji rannych na miejscu wypadku.  
+d. Czerwony kolor w systemie TRIAGE oznacza osobę uznaną za niemożliwą do uratowania. ✔️  
+e. Pacjentowi powinniśmy udzielić pomocy w ciągu 20 minut, jeśli ma kolor żółty w systemie TRIAGE.
+
+Na miejscu wypadku znajdujesz pacjenta w ciężkim stanie astmatycznym z oparzeniem dróg oddechowych – w systemie TRIAGE dostanie opaskę z kolorem:
+
+a. Czarny  
+b. Czerwony ✔️  
+c. Żółty  
+d. Zielony  
+e. Pomarańczowy  
+
+Na miejscu wypadku pacjent odniósł złamanie nasady dalszej kości promieniowej prawej – w systemie TRIAGE dostanie opaskę z kolorem:
+
+a. Czarny  
+b. Czerwony  
+c. Żółty  
+d. Zielony ✔️  
+e. Pomarańczowy  
+
+---
+
+**Image 3:**
+
+Na miejscu wypadku pacjent doznał urazu kręgosłupa bez porażenia kończyn dolnych i górnych – w systemie TRIAGE dostanie opaskę z kolorem:
+
+a. Czarny  
+b. Czerwony  
+c. Żółty ✔️  
+d. Zielony  
+e. Pomarańczowy  
+
+Kolorem czerwonym w postępowaniu na miejscu katastrofy masowej oznaczamy poszkodowanych:
+
+a. którzy wymagają natychmiastowej pomocy.  
+b. pomoc dla tych osób może być odroczona do 6 godzin.  
+c. nie wymagają pomocy i ewakuacji z miejsca zdarzenia w pierwszej kolejności.  
+d. wymagają natychmiastowej pomocy i są ewakuowani z miejsca zdarzenia w pierwszej kolejności. ✔️  
+e. kolor czarny w postępowaniu przedszpitalnym ma priorytet zatem osoby oznaczone kolor czerwonym ewakuowane są w drugiej kolejności.
+
+Skala AVPU – litera P oznacza
+
+a. Pacjent przytomny, skupia uwagę.  
+b. Pacjent nieprzytomny, bez reakcji.  
+c. Pacjent reaguje na ból. ✔️  
+d. Pacjent reaguje na polecenia głosowe.  
+e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
+
+Kolorem zielonym w postępowaniu na miejscu katastrofy masowej oznaczamy poszkodowanych:
+
+a. którzy wymagają natychmiastowej pomocy.  
+b. pomoc dla tych osób może być odroczona do 6 godzin.  
+c. nie wymagają pomocy i ewakuacji z miejsca zdarzenia w pierwszej kolejności. ✔️  
+d. wymagają natychmiastowej pomocy i są ewakuowani z miejsca zdarzenia w pierwszej kolejności.  
+e. kolor czerwony w postępowaniu przedszpitalnym ma priorytet zatem osoby oznaczone kolorem zielonym ewakuowane są w drugiej kolejności.
+
+---
+
+If you need this in English or need any explanation, let me know!Here is the extracted text from the images:
+
+---
+
+**Image 1:**
+
+**Wstępne zaopatrzenie ran na miejscu wypadku polega na zaopatrzeniu rany krwawiącej jałowym opatrunkiem uciskowym. (1) Złamania i zwichnięcia należy unieruchomić z próbą repozycji. (2)**  
+a. Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy.  
+b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.  
+c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa. ✔️  
+d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa.  
+e. Obie części zdania są fałszywA.
+
+**Złota godzina to:**  
+a. czas oczekiwania na transport pacjenta po urazie.  
+b. maksymalny czas potrzebny na diagnostykę dla pacjenta po ciężkim urazie w ramach SOR.  
+c. maksymalny czas jaki może upłynąć dla pacjenta po ciężkim urazie od momentu powstania urazu do znalezienia się w szpitalu i rozpoczęcia zabiegów ratujących zdrowie i życie pacjenta. ✔️  
+d. minimalny czas potrzebny na diagnostykę dla pacjenta po ciężkim urazie w ramach SOR.  
+e. czas oczekiwania pacjenta w poczekalni SOR.
+
+**Podczas transportu dziecka w ambulansie należy:**  
+a. stworzyć przyjazną atmosferę ze względu na lęk po urazie i nowe miejsce  
+b. stale monitorować dziecko wzrokiem  
+c. umożliwić rodzicom lub opiekunom przebywanie w ambulansie podczas transportu  
+d. zabezpieczyć wkłucia i urządzenia monitorujące  
+e. wszystkie odpowiedzi prawidłowe ✔️
+
+**Pacjenta bez urazu można uznać:**  
+a. u którego wywiad, relacje świadków i badania wykluczają przebycie urazu ✔️  
+b. bez otarć skóry  
+c. pacjent, który neguje uraz  
+d. pacjent samodzielnie chodzący  
+e. wszystkie odpowiedzi są prawidłowe
+
+---
+
+**Image 2:**
+
+**Wskaż zdanie prawidłowe odnośnie skal ciężkości obrażeń:**  
+a. służą do celów statystycznych  
+b. wskazują prawidłowe postępowanie w procesie diagnostycznym i terapeutycznym  
+c. 8 lub mniej pkt. w skali Glasgow jest wskazaniem do intubacji  
+d. wszystkie powyższe odpowiedzi są prawidłowe ✔️  
+e. brak prawidłowej odpowiedzi
+
+---
+
+**Image 3:**
+
+**Na miejscu wypadku pacjent ze złamaniem paliczka dystalnego IV ręki prawej, chodzący, bez innych obrażeń ciała – w systemie TRIAGE dostanie opaskę z kolorem:**  
+a. Czarny  
+b. Czerwony  
+c. Żółty  
+d. Zielony ✔️  
+e. Pomarańczowy
+
+**Na miejscu wypadku znajdujesz pacjenta w ciężkim stanie astmatycznym z oparzeniem dróg oddechowych – w systemie TRIAGE dostanie opaskę z kolorem:**  
+a. Czarny  
+b. Czerwony ✔️  
+c. Żółty  
+d. Zielony  
+e. Pomarańczowy
+
+**Skala AVPU – litera P oznacza**  
+a. Pacjent przytomny, skupia uwagę.  
+b. Pacjent nieprzytomny, bez reakcji.  
+c. Pacjent reaguje na ból. ✔️  
+d. Pacjent reaguje na polecenia głosowe.  
+e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
+
+**Wstępne zaopatrzenie złamań i zwichnięć na miejscu wypadku polega na unieruchomieniu kończyny w ustawieniu takim, jakie zastano na miejscu wypadku za pomocą szyn Kramera (1). W przypadku braku szyn należy przybandażować kończynę górną do klatki piersiowej, a dolną do drugiej kończyny (2).**  
+a. Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy. ✔️  
+b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.  
+c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa.  
+d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa.  
 e. Obie części zdania są fałszywa.
 
 ---
 
-**Skala AVPU – litera A oznacza**
+If you need a translation or further formatting, let me know!
+Here is the text extracted from your images:
+
+---
+
+**Image 1:**
+
+Transport pacjenta do szpitala powinien być:
+- a. przede wszystkim bezpieczny. ✅
+- b. bardzo szybki.
+- c. do najbliższego szpitala.
+- d. każdym środkiem lokomocji.
+- e. wszystkie odpowiedzi są prawidłowe.
+
+Do wezwania lotniczego pogotowia uprawnione są:
+- a. policjant ruchu drogowego
+- b. koordynatorzy medyczni i dyspozytorzy pogotowia ✅
+- c. ratownik na miejscu wypadku
+- d. A i B są prawidłowe
+- e. wszystkie odpowiedzi są prawidłowe
+
+U pacjenta nieprzytomnego z niejasnym wywiadem urazowym bez możliwości zebrania wywiadu i ustalenia przyczyn urazu najtrafniejszym wyborem badania diagnostycznego będzie:
+- a. RTG klatki piersiowej celem wykluczenia odmy opłucnowej oraz obecności płynu w opłucnej
+- b. MRI głowy celem wykluczenia zmian urazowych w mózgowiu i rdzeniu przedłużonym
+- c. RTG klatki piersiowej oraz miednicy celem oceny ewentualnych uszkodzeń części kostnych
+- d. tomografia komputerowa głowy, kręgosłupa szyjnego, klatki piersiowej i jamy brzusznej z miednicą ✅
+- e. tomografia komputerowa szkieletu osiowego
+
+---
+
+**Image 2:**
+
+Na miejscu wypadku pacjent doznał urazu kręgosłupa bez porażenia kończyn dolnych i górnych – w systemie TRIAGE dostanie opaskę z kolorem:
+- a. Czarny
+- b. Czerwony
+- c. Żółty ✅
+- d. Zielony
+- e. Pomarańczowy
+
+---
+
+**Image 3:**
+
+U chorego w stabilnym stanie uszkodzenia urazowe zaopatruje się w następującej kolejności:
+- a. Uszkodzenia mózgu, uszkodzenia twarzoczaszki i oczu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, złamania i zwichnięcia. ✅
+- b. Uszkodzenia mózgu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, złamania i zwichnięcia, uszkodzenia twarzoczaszki i oczu.
+- c. Uszkodzenia twarzoczaszki i oczu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, złamania i zwichnięcia, uszkodzenia mózgu.
+- d. Uszkodzenia mózgu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, uszkodzenia twarzoczaszki i oczu, złamania i zwichnięcia.
+- e. Złamania i zwichnięcia, uszkodzenia mózgu, uszkodzenia twarzoczaszki i oczu, uszkodzenia narządów wewnętrznych, postępujący niedowład po urazie rdzenia kręgowego.
+
+Bóle grzbietu mogą być objawem:
+1. zapalenia przydatków;
+2. zapalenia uchyłków esicy;
+3. niedoborów witaminy A;
+4. pękania tętniaka aorty brzusznej.
+
+Prawidłowa kombinacja odpowiedzi to:
+- a.  4
+- b.  1, 3
+- c.  1, 2, 4 ✅
+- d.  2, 3, 4
+- e.  1, 2, 3, 4
+
+---
+
+If you need translation or further explanation, let me know!Here is the extracted text from the images:
+
+---
+
+### 1st Image:
+
+Na miejscu wypadku pacjent odniósł złamanie nasady dalszej kości promieniowej lewej i złamanie trzonu kości ramiennej prawej – w systemie TRIAGE dostanie opaskę z kolorem:
+- a. Czarny
+- b. Czerwony
+- c. Żółty ⬅️ (selected)
+- d. Zielony
+- e. Pomarańczowy
+
+Podczas transportu dziecka w ambulansie należy:
+- a. stworzyć przyjazną atmosferę ze względu na lęk po urazie i nowe miejsce
+- b. stale monitorować dziecko wzrokiem
+- c. umożliwić rodzicom lub opiekunom przebywanie w ambulansie podczas transportu
+- d. zabezpieczyć wkłucia i urządzenia monitorujące
+- e. wszystkie odpowiedzi prawidłowe ⬅️ (selected)
+
+W przypadku urazu wielonarządowego pierwszeństwo w zaopatrzeniu ostatecznym ma:
+- a. Rozdarcie pęcherza moczowego
+- b. Otwarte złamanie kości udowej
+- c. Krwiak opłucnej
+- d. Narastająca ciasnota śródczaszkowa ⬅️ (selected)
+- e. Wszystkie odpowiedzi są prawidłowe
+
+Nadzór nad postępowaniem leczniczym u chorego z urazem wielonarządowym powinien sprawować:
+- a. Chirurg ogólny
+- b. Chirurg ortopeda
+- c. Anestezjolog ⬅️ (selected)
+- d. Neurochirurg
+- e. A i C są prawidłowe
+
+---
+
+### 2nd Image:
+
+U pacjenta nieprzytomnego z niejasnym wywiadem urazowym bez możliwości zebrania wywiadu i ustalenia przyczyn urazu najtrafniejszym wyborem badania diagnostycznego będzie:
+- a. RTG klatki piersiowej celem wykluczenia odmy opłucnowej oraz obecności płynu w opłucnej
+- b. MRI głowy celem wykluczenia zmian urazowych w mózgowiu i rdzeniu przedłużonym
+- c. RTG klatki piersiowej oraz miednicy celem oceny ewentualnych uszkodzeń części kostnych
+- d. tomografia komputerowa głowy, kręgosłupa szyjnego, klatki piersiowej i jamy brzusznej z miednicą ⬅️ (selected)
+- e. tomografia komputerowa szkieletu osiowego
+
+W systemie START:
+- a. Oceniamy świadomość w skali AVPU.
+- b. Oceniamy oddech po udrożnieniu dróg oddechowych.
+- c. Oceniamy krążenie – tętno na tętnicy promieniowej.
+- d. To prosta segregacja i szybkie leczenie.
+- e. Wszystkie odpowiedzi są prawidłowe. ⬅️ (selected)
+
+Śmiertelność w urazach wielonarządowych kształtuje się w granicach:
+- a. 0%-10%
+- b. 10%-20%
+- c. 20%-30% ⬅️ (selected)
+- d. 30%-40%
+- e. 40%-50%
+
+Na miejscu wypadku pacjent zgłasza silny ból zamostkowy, promieniujący do lewej ręki i szyi, oceniasz powrót włośniczkowy na dłuższy niż 2 sekundy, tętno słabo wyczuwalne, skóra blada, kontakt z pacjentem ciężki – w systemie TRIAGE dostanie opaskę z kolorem:
+- a. Czarny
+- b. Czerwony ⬅️ (selected)
+- c. Żółty
+- d. Zielony
+- e. Pomarańczowy
+
+---
+
+### 3rd Image:
+
+Złota godzina to:
+- a. czas oczekiwania na transport pacjenta po urazie.
+- b. maksymalny czas potrzebny na diagnostykę dla pacjenta po ciężkim urazie w ramach SOR.
+- c. maksymalny czas jaki może upłynąć dla pacjenta po ciężkim urazie od momentu powstania urazu do znalezienia się w szpitalu i rozpoczęcia zabiegów ratujących zdrowie i życie pacjenta. ⬅️ (selected)
+- d. minimalny czas potrzebny na diagnostykę dla pacjenta po ciężkim urazie w ramach SOR.
+- e. czas oczekiwania pacjenta w poczekalni SOR.
+
+Na miejscu wypadku, w razie potrzeby:
+- a. można zdjąć ortezę ⬅️ (selected)
+- b. można zdjąć ortezę w porozumieniu z lekarzem
+- c. można zdjąć ortezę tylko w porozumieniu z lekarzem leczącym
+- d. można zdjąć ortezę, ale należy założyć inne unieruchomienie
+- e. nie należy zdejmować ortez, bo to może to spowodować pogorszenie stanu pacjenta
+
+Zaznacz zdanie fałszywe:
+- a. Uraz wielomiejscowy to uszkodzenie co najmniej dwóch topograficznie różnych części ciała np. złamanie kości ramiennej i piszczelowej.
+- b. Uraz wielonarządowy to uraz wielomiejscowy, gdzie każde uszkodzenie może zagrażać życiu i wymaga leczenia specjalistycznego.
+- c. TRIAGE – to system segregacji rannych na miejscu wypadku.
+- d. Czerwony kolor w systemie TRIAGE oznacza osobę uznaną za niemożliwą do uratowania. ⬅️ (selected)
+- e. Pacjentowi powinniśmy udzielić pomocy w ciągu 20 minut, jeśli ma kolor żółty w systemie TRIAGE.
+
+Kolorem zielonym w postępowaniu na miejscu katastrofy masowej oznaczamy poszkodowanych:
+- a. którzy wymagają natychmiastowej pomocy.
+- b. pomoc dla tych osób może być odroczona do 6 godzin.
+- c. nie wymagają pomocy i ewakuacji z miejsca zdarzenia w pierwszej kolejności. ⬅️ (selected)
+- d. wymagają natychmiastowej pomocy i są ewakuowani z miejsca zdarzenia w pierwszej kolejności.
+- e. kolor czerwony w postępowaniu przed szpitalnym na priorytet ewakuacji to osoby oznaczone kolorem zielonym ewakuowane są w drugiej kolejności.
+
+---
+
+Let me know if you need this information in a different format or if you'd like a translation.Here is the text extracted from the images:
+
+---
+
+**Image 1:**
+
+Skala AVPU – litera V oznacza 
+a. Pacjent przytomny, skupia uwagę.
+b. Pacjent nieprzytomny, bez reakcji.
+c. Pacjent reaguje na ból.
+d. Pacjent reaguje na polecenia głosowe. ✔️ 
+e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
+
+---
+
+**Image 2:**
+
+Kolor czarnym w systemie TRIAGE oznaczasz:
+a. Osobę z widocznymi ciężkimi obrażeniami czaszki i mózgu. ✔️
+b. Kobieta w ciąży.
+c. Osobę ze złamaniem nasady dalszej kości promieniowej.
+d. Osobę ze złamaniem szyjki kości udowej.
+e. Osobę z urazem kręgosłupa.
+
+Skala AVPU – litera A oznacza
 a. Pacjent przytomny, skupia uwagę. ✔️
 b. Pacjent nieprzytomny, bez reakcji.
 c. Pacjent reaguje na ból.
 d. Pacjent reaguje na polecenia głosowe.
 e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
 
----
-
-**Na miejscu wypadku pacjent odniósł złamanie nasady dalszej kości promieniowej prawej – w systemie TRIAGE dostanie opaskę z kolorem:**
+Na miejscu wypadku pacjent odniósł złamanie nasady dalszej kości promieniowej prawej – w systemie TRIAGE dostanie opaskę z kolorem:
 a. Czarny
 b. Czerwony
 c. Żółty
 d. Zielony ✔️
 e. Pomarańczowy
 
+Pacjenta bez urazu można uznać:
+a. u którego wywiad, relacje świadków i badania wykluczają przebycie urazu ✔️
+b. bez otarć skóry
+c. pacjent, który neguje uraz
+d. pacjent samodzielnie chodzący
+e. wszystkie odpowiedzi są prawidłowe
+
 ---
 
-**U pacjenta nieprzytomnego z niejasnym wywiadem urazowym bez możliwości zebrania wywiadu i ustalenia przyczyn urazu najtrafniejszym wyborem badania diagnostycznego będzie:**
-a. RTG klatki piersiowej celem wykluczenia odmy opłucnowej oraz obecności płynu w opłucnej
-b. MRI głowy celem wykluczenia zmian urazowych w mózgowiu i rdzeniu przedłużonym
-c. RTG klatki piersiowej oraz miednicy celem oceny ewentualnych uszkodzeń części kostnych
-d. tomografia komputerowa głowy, kręgosłupa szyjnego, klatki piersiowej i jamy brzusznej z miednicą ✔️
-e. tomografia komputerowa szkieletu osiowego
+**Image 3:**
+
+W którym urazie wysokoenergetycznym będziesz podejrzewał największe ryzyko utraty krwi?
+a. Złamanie trzonu kości łokciowej.
+b. Złamanie nasady dalszej kości promieniowej.
+c. Złamanie miednicy. ✔️
+d. Złamanie trzonu kości piszczelowej.
+e. Złamanie szyjki chirurgicznej kości ramiennej.
+
+Kolorem czerwonym w systemie TRIAGE oznaczasz:
+a. Osobę ze złamaniem kostki bocznej w obrębie kończyny dolnej.
+b. Osobę z urazem kręgosłupa i porażeniem kończyn. ✔️
+c. Osobę z urazem głowy, ale przytomny.
+d. Osobę z poparzeniami 5 procent powierzchni ciała stopnia II.
+e. Osoba z oparzeniami całej powierzchni ciała z przewagą stopnia II i III.
+
+Nagłym stanem zagrożenia życia jest:
+a. skręcenia stawu skokowego
+b. wieloodłamowe złamanie kości strzałkowej
+c. złamanie obojczyka
+d. wieloodłamowe złamanie miednicy ✔️
+e. wszystkie odpowiedzi są prawidłowe
+
+Na miejscu wypadku pacjent ze złamaniem paliczka dystalnego IV ręki prawej, chodzący, bez innych obrażeń ciała – w systemie TRIAGE dostanie opaskę z kolorem:
+a. Czarny
+b. Czerwony
+c. Żółty
+d. Zielony ✔️
+e. Pomarańczowy
 
 ---Here is the text from the images:
 
 ---
 
-**First Image:**
+**Image 1:**
+
+Skala Glasgow ocenia poziom przytomności na podstawie:
+- a. otwierania oczu
+- b. kontakt słowny
+- c. reakcji ruchowej
+- d. odpowiedź bjest nieprawidłowa prawidłowe
+- e. odpowiedzi A, B i C są prawidłowe ✅
+
+---
+
+**Image 2:**
+
+W przypadku urazu wielonarządowego pierwszeństwo w zaopatrzeniu ostatecznym ma:
+- a. Rozdarcie pęcherza moczowego
+- b. Otwarte złamanie kości udowej
+- c. Krwiak opłucnej
+- d. Narastająca ciasnota śródczaszkowa ✅
+- e. Wszystkie odpowiedzi są prawidłowe
+
+Skala AVPU – litera U oznacza
+- a. Pacjent przytomny, skupia uwagę.
+- b. Pacjent nieprzytomny, bez reakcji. ✅
+- c. Pacjent reaguje na ból.
+- d. Pacjent reaguje na polecenia głosowe.
+- e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
+
+Na miejscu wypadku znajdujesz pacjenta w ciężkim stanie astmatycznym z oparzeniem dróg oddechowych – w systemie TRIAGE dostanie opaskę z kolorem:
+- a. Czarny
+- b. Czerwony
+- c. Żółty ✅
+- d. Zielony
+- e. Pomarańczowy
+
+Wskaż zdanie prawidłowe odnośnie skal ciężkości obrażeń:
+- a. służą do celów statystycznych
+- b. wskazują prawidłowe postępowanie w procesie diagnostycznym i terapeutycznym
+- c. 8 lub mniej pkt. w skali Glasgow jest wskazaniem do intubacji
+- d. wszystkie powyższe odpowiedzi są prawidłowe ✅
+- e. brak prawidłowej odpowiedzi
+
+---
+
+**Image 3:**
+
+W postępowaniu na miejscu zdarzenia najważniejsze jest:
+- a. bezpieczeństwo własne ✅
+- b. bezpieczeństwo na miejscu zdarzeniu
+- c. określenie liczby poszkodowanych
+- d. ocena mechanizmy urazu
+- e. wszystkie odpowiedzi prawidłowe
+
+---
+
+If you need translations or more context, feel free to ask!Here is the text from the images you provided:
+
+---
+
+**Image 1:**
+
+1. **Kolorem czerwonym w postępowaniu na miejscu katastrofy masowej oznaczamy poszkodowanych:**
+   - d. wymagają natychmiastowej pomocy i są ewakuowani z miejsca zdarzenia w pierwszej kolejności.  ✅
+
+2. **Na miejscu wypadku, w razie potrzeby:**
+   - a. można zdjąć każdą ortezę.  ✅
+
+3. **Kolorem zielonym w postępowaniu na miejscu katastrofy masowej oznaczamy poszkodowanych:**
+   - c. nie wymagają pomocy i ewakuacji z miejsca zdarzenia w pierwszej kolejności.   ✅
+
+4. **Nagłym stanem zagrożenia życia jest:**
+   - d. wieloodłamowe złamanie miednicy.   ✅
+
+---
+
+**Image 2:**
+
+1. **Pacjenta bez urazu można uznać:**
+   - a. u którego wywiad, relacje świadków i badania wykluczają przebycie urazu.   ✅
+
+2. **Zaznacz zdanie fałszywe:**
+   - d. Czerwony kolor w systemie TRIAGE oznacza osobę uznaną za niemożliwą do uratowania.  ✅
+
+3. **Wskaż zdanie prawidłowe odnośnie skal ciężkości obrażeń:**
+   - d. wszystkie powyższe odpowiedzi są prawidłowe.   ✅
+
+4. **Skala Glasgow ocenia poziom przytomności na podstawie:**
+   - e. odpowiedzi A, B i C są prawidłowe.   ✅
+
+---
+
+**Image 3:**
+
+1. **W postępowaniu na miejscu zdarzenia najważniejsze jest:**
+   - a. bezpieczeństwo własne.   ✅
+
+2. **Śmiertelność w urazach wielonarządowych kształtuje się w granicach:**
+   - c. 20%-30%.   ✅
+
+3. **Na miejscu wypadku pacjent zgłasza silny ból zamostkowy, promieniujący do lewej ręki i szyi, oceniasz powrót włośniczkowy na dłuższy niż 2 sekundy, tętno słabo wyczuwalne, skóra blada, kontakt z pacjentem ciężki – w systemie TRIAGE dostanie opaskę z kolorem:**
+   - b. Czerwony.   ✅
+
+4. **Kolorem czerwonym w systemie TRIAGE oznaczysz:**
+   - b. Osobę z urazem kręgosłupa i porażeniem kończyn.   ✅
+
+---
+
+If you need the text in plain format or for a specific question, let me know!Here is the text from the images:
+
+---
+
+**Image 1:**
+
+Skala AVPU – litera P oznacza
+
+a. Pacjent przytomny, skupia uwagę.
+
+b. Pacjent nieprzytomny, bez reakcji.
+
+c. Pacjent reaguje na ból. ✔️
+
+d. Pacjent reaguje na polecenia głosowe.
+
+e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
+
+---
+
+**Image 2:**
+
+Na miejscu wypadku pacjent ze złamaniem paliczka dystalnego IV ręki prawej, chodzący, bez innych obrażeń ciała – w systemie TRIAGE dostanie opaskę z kolorem:
+
+a. Czarny
+
+b. Czerwony
+
+c. Żółty
+
+d. Zielony ✔️
+
+e. Pomarańczowy
+
+---
+
+U pacjenta nieprzytomnego z niejasnym wywiadem urazowym bez możliwości zebrania wywiadu i ustalenia przyczyn urazu najtrafniejszym wyborem badania diagnostycznego będzie:
+
+a. RTG klatki piersiowej celem wykluczenia odmy opłucnowej oraz obecności płynu w opłucnej
+
+b. MRI głowy celem wykluczenia zmian urazowych w mózgowiu i rdzeniu przedłużonym
+
+c. RTG klatki piersiowej oraz miednicy celem oceny ewentualnych uszkodzeń części kostnych
+
+d. tomografia komputerowa głowy, kręgosłupa szyjnego, klatki piersiowej i jamy brzusznej z miednicą ✔️
+
+e. tomografia komputerowa szkieletu osiowego
+
+---
+
+Na miejscu wypadku znajdujesz pacjenta nieprzytomnego bez oddechu po udrożnieniu dróg oddechowych, bez tętna – w systemie TRIAGE dostanie opaskę z kolorem:
+
+a. Czarny ✔️
+
+b. Czerwony
+
+c. Żółty
+
+d. Zielony
+
+e. Pomarańczowy
+
+---
+
+Podczas transportu dziecka w ambulansie należy:
+
+a. stworzyć przyjazną atmosferę ze względu na lęk po urazie i nowe miejsce
+
+b. stale monitorować dziecko wzrokiem
+
+c. umożliwić rodzicom lub opiekunom przebywanie w ambulansie podczas transportu
+
+d. zabezpieczyć wkłucia i urządzenia monitorujące
+
+e. wszystkie odpowiedzi prawidłowe ✔️
+
+---
+
+**Image 3:**
+
+Transport pacjenta do szpitala powinien być:
+
+a. przede wszystkim bezpieczny. ✔️
+
+b. bardzo szybki.
+
+c. do najbliższego szpitala.
+
+d. każdym środkiem lokomocji.
+
+e. wszystkie odpowiedzi są prawidłowe.
+
+---
+
+W systemie START:
+
+a. Oceniamy świadomość w skali AVPU.
+
+b. Oceniamy oddech po udrożnieniu dróg oddechowych.
+
+c. Oceniamy krążenie – tętno na tętnicy promieniowej.
+
+d. To prosta segregacja i szybkie leczenie.
+
+e. Wszystkie odpowiedzi są prawidłowe. ✔️
+
+---
+
+Kolorem czerwonym w postępowaniu na miejscu katastrofy masowej oznaczamy poszkodowanych:
+
+a. którzy wymagają natychmiastowej pomocy.
+
+b. pomoc dla tych osób może być odroczona do 6 godzin.
+
+c. nie wymagają pomocy i ewakuacji z miejsca zdarzenia w pierwszej kolejności.
+
+d. wymagają natychmiastowej pomocy i są ewakuowani z miejsca zdarzenia w pierwszej kolejności. ✔️
+
+e. kolor czarny w postępowaniu przedszpitalnym ma priorytet zatem osoby oznaczone kolor czerwonym ewakuowane są w drugiej kolejności.
+
+---
+
+Unieruchomienie transportowe wymaga:
+
+a. Założenia zgodnie z zasadami Potta.
+
+b. Oceny krążenia i unerwienia na obwodzie kończyny przed i po założeniu.
+
+c. Zmiany na unieruchomienie definitywne po wykonaniu diagnostyki.
+
+d. A i B są prawidłowe.
+
+e. Wszystkie odpowiedzi są właściwe.
+
+---
+
+Let me know if you need a translation or further information!**Here is the extracted text from all the images:**
+
+---
+
+### Image 1
+
+**Na miejscu wypadku pacjent odniósł złamanie nasady dalszej kości promieniowej lewej i złamanie trzonu kości ramiennej prawej – w systemie TRIAGE dostanie opaskę z kolorem:**
+
+- a. Czarny
+- b. Czerwony
+- c. Żółty  ✅
+- d. Zielony
+- e. Pomarańczowy
+
+**Na miejscu wypadku pacjent odniósł złamanie nasady dalszej kości promieniowej prawej – w systemie TRIAGE dostanie opaskę z kolorem:**
+
+- a. Czarny
+- b. Czerwony
+- c. Żółty
+- d. Zielony  ✅
+- e. Pomarańczowy
+
+---
+
+### Image 2
+
+**W którym urazie wysokoenergetycznym będziesz podejrzewał największe ryzyko utraty krwi?**
+
+- a. Złamanie trzonu kości łokciowej.
+- b. Złamanie nasady dalszej kości promieniowej.
+- c. Złamanie miednicy. ✅
+- d. Złamanie trzonu kości piszczelowej.
+- e. Złamanie szyjki chirurgicznej kości ramiennej.
+
+**Wstępne zaopatrzenie złamań i zwichnięć na miejscu wypadku polega na unieruchomieniu kończyny w ustawieniu takim, jakie zastano na miejscu wypadku za pomocą szyn Kramera (1). W przypadku braku szyn należy przybandażować kończynę górną do klatki piersiowej, a dolną do drugiej kończyny (2).**
+
+- a. Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy. ✅
+- b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.
+- c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa.
+- d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa.
+- e. Obie części zdania są fałszywe.
+
+**Platinumowe 10 min w postępowaniu u Pacjenta po urazie to:**
+
+- a. maksymalny czas pobytu zespołu ratunkowego na miejscu wypadku dla pacjenta z ciężkim uszkodzeniem ciała. ✅
+- b. minimalny czas potrzebny na diagnostykę dla pacjenta po ciężkim urazie w ramach SOR.
+- c. maksymalny czas potrzebny na diagnostykę dla pacjenta po ciężkim urazie w ramach SOR.
+- d. czas niezbędny na dokładne zbadanie pacjenta z ciężkim uszkodzeniem ciała.
+- e. minimalny czas pobytu zespołu ratunkowego na miejscu wypadku dla pacjenta z ciężkim uszkodzeniem ciała.
+
+**U chorego w stabilnym stanie uszkodzenia urazowe zaopatruje się w następującej kolejności:**
+
+- a. Uszkodzenia mózgu, uszkodzenia twarzoczaszki i oczu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, złamania i zwichnięcia. ✅
+- b. Uszkodzenia mózgu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, złamania i zwichnięcia, uszkodzenia twarzoczaszki i oczu.
+- c. Uszkodzenia twarzoczaszki i oczu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, złamania i zwichnięcia, uszkodzenia mózgu.
+- d. Uszkodzenia mózgu, postępujący niedowład po urazie rdzenia kręgowego, uszkodzenia narządów wewnętrznych, uszkodzenia twarzoczaszki i oczu, złamania i zwichnięcia.
+- e. Złamania i zwichnięcia, uszkodzenia mózgu, uszkodzenia twarzoczaszki i oczu, uszkodzenia narządów wewnętrznych, postępujący niedowład po urazie rdzenia kręgowego.
+
+---
+
+### Image 3
 
 **Złota godzina to:**
-a. czas oczekiwania na transport pacjenta po urazie.  
-b. maksymalny czas potrzebny na diagnostykę dla pacjenta po ciężkim urazie w ramach SOR.  
-**c. maksymalny czas jaki może upłynąć dla pacjenta po ciężkim urazie od momentu powstania urazu do znalezienia się w szpitalu i rozpoczęcia zabiegów ratujących zdrowie i życie pacjenta.** ✔️  
-d. minimalny czas potrzebny na diagnostykę dla pacjenta po ciężkim urazie w ramach SOR.  
-e. czas oczekiwania pacjenta w poczekalni SOR.  
 
-**Na miejscu wypadku pacjent doznał urazu kręgosłupa bez porażenia kończyn dolnych i górnych – w systemie TRIAGE dostanie opaskę z kolorem:**  
-a. Czarny  
-b. Czerwony  
-**c. Żółty** ✔️  
-d. Zielony  
-e. Pomarańczowy  
+- a. czas oczekiwania na transport pacjenta po urazie.
+- b. maksymalny czas potrzebny na diagnostykę dla pacjenta po ciężkim urazie w ramach SOR.
+- c. maksymalny czas jaki może upłynąć dla pacjenta po ciężkim urazie od momentu powstania urazu do znalezienia się w szpitalu i rozpoczęcia zabiegów ratujących zdrowie i życie pacjenta. ✅
+- d. minimalny czas potrzebny na diagnostykę dla pacjenta po ciężkim urazie w ramach SOR.
+- e. czas oczekiwania pacjenta w poczekalni SOR.
 
-**Kolor czarnym w systemie TRIAGE oznaczysz:**  
-**a. Osobę z widocznymi ciężkimi obrażeniami czaszki i mózgu.** ✔️  
+**Wstępne zaopatrzenie ran na miejscu wypadku polega na zaopatrzeniu rany krwawiącej jałowym opatrunkiem uciskowym. (1) Złamania i zwichnięcia należy unieruchomić z próbą repozycji. (2)**
+
+- a. Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy.
+- b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.
+- c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa. ✅
+- d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa.
+- e. Obie części zdania są fałszywA.
+
+**Skala AVPU – litera U oznacza**
+
+- a. Pacjent przytomny, skupia uwagę.
+- b. Pacjent nieprzytomny, bez reakcji. ✅
+- c. Pacjent reaguje na ból.
+- d. Pacjent reaguje na polecenia głosowe.
+- e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
+
+**Na miejscu wypadku pacjent doznał urazu kręgosłupa bez porażenia kończyn dolnych i górnych – w systemie TRIAGE dostanie opaskę z kolorem:**
+
+- a. Czarny
+- b. Czerwony
+- c. Żółty ✅
+- d. Zielony
+- e. Pomarańczowy
+
+---
+
+If you want the text in a different format, let me know!Here is the text extracted from the images:
+
+---
+**Image 1:**
+
+Podaj najwłaściwsze postępowanie z chorym nieprzytomnym, w ciężkim stanie ogólnym, po urazie wielonarządowym, wielomiejscowym na miejscu wypadku:
+
+a. jak najszybciej transportujemy do najbliższego szpitala  
+b. unieruchamiamy złamania kończyn i jak najszybciej transportujemy do najbliższego szpitala  
+c. wykonujemy zabiegi resuscytacyjne, uzupełniamy łóżysko naczyniowe 0.9 procent NaCl i transportujemy do najbliższego szpitala  
+d. wykonujemy zabiegi resuscytacyjne, uzupełniamy łóżysko naczyniowe 0.9 procent NaCl i transportujemy do najbliższego szpitala wieloprofilowego prowadzącego ostry dyżur ✔️  
+e. wykonujemy zabiegi resuscytacyjne, wyrównujemy chorego hemodynamicznie wlewem Voluvenu i transportujemy do najbliższego szpitala wieloprofilowego prowadzącego ostry dyżur
+
+Kolor czarnym w systemie TRIAGE oznaczysz:
+
+a. Osobę z widocznymi ciężkimi obrażeniami czaszki i mózgu. ✔️  
 b. Kobieta w ciąży.  
 c. Osobę ze złamaniem nasady dalszej kości promieniowej.  
 d. Osobę ze złamaniem szyjki kości udowej.  
@@ -81,334 +1397,584 @@ e. Osobę z urazem kręgosłupa.
 
 ---
 
-**Second Image:**
+**Image 2:**
+
+Nadzór nad postępowaniem leczniczym u chorego z urazem wielonarządowym powinien sprawować:
+
+a. Chirurg ogólny  
+b. Chirurg ortopeda  
+c. Anestezjolog ✔️  
+d. Neurochirurg  
+e. A i C są prawidłowe
 
 Bóle grzbietu mogą być objawem:  
-  1. zapalenia przydatków;  
-  2. zapalenia uchyłków esicy;  
-  3. niedoborów witaminy A;  
-  4. pękania tętniaka aorty brzusznej.  
-Prawidłowa kombinacja odpowiedzi to:  
-a. 4  
-b. 1, 3  
-**c. 1, 2, 4** ✔️  
-d. 2, 3, 4  
-e. 1, 2, 3, 4  
+   1. zapalenia przydatków;
+   2. zapalenia uchyłków esicy;
+   3. niedoborów witaminy A;
+   4. pękania tętniaka aorty brzusznej.
 
----
+Prawidłowa kombinacja odpowiedzi to:
 
-**Third Image:**
+a. 4  
+b. 1, 3  
+c. 1, 2, 4 ✔️  
+d. 2, 3, 4  
+e. 1, 2, 3, 4
 
-Podczas transportu dziecka w ambulanse należy:  
-a. stworzyć przyjazną atmosferę ze względu na lęk po urazie i nowe miejsce  
-b. stale monitorować dziecko wzrokiem  
-c. umożliwić rodzicom lub opiekunom przebywanie w ambulansie podczas transportu  
-d. zabezpieczyć wkłucia i urządzenia monitorujące  
-**e. wszystkie odpowiedzi prawidłowe** ✔️  
+Skala AVPU – litera A oznacza
 
----
-
-Let me know if you need the translation or have any further questions!Here is the text from the image:
-
----
-
-Skala AVPU – litera P oznacza
-
-a. Pacjent przytomny, skupia uwagę.  
+a. Pacjent przytomny, skupia uwagę. ✔️  
 b. Pacjent nieprzytomny, bez reakcji.  
-**c. Pacjent reaguje na ból.** ✔️  
-d. Pacjent reaguje na polecenia głosowe.  
-e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
-
----
-
-Kolorem czerwonym w systemie TRIAGE oznaczysz:
-
-a. Osobę ze złamaniem kostki bocznej w obrębie kończyny dolnej.  
-**b. Osobę z urazem kręgosłupa i porażeniem kończyn.** ✔️  
-c. Osobę z urazem głowy, ale przytomny.  
-d. Osobę z poparzeniami 5 procent powierzchni ciała stopnia II.  
-e. Osoba z oparzeniami całej powierzchni ciała z przewagą stopnia II i III.
-
----
-
-Skala AVPU – litera U oznacza
-
-a. Pacjent przytomny, skupia uwagę.  
-**b. Pacjent nieprzytomny, bez reakcji.** ✔️  
 c. Pacjent reaguje na ból.  
 d. Pacjent reaguje na polecenia głosowe.  
 e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
 
 ---
-**Obrazek 1:**
 
-**W otwartym uszkodzeniu stawu należy m.in.:**
-a. Obficie płukać staw solą fizjologiczną lub roztworem Ringera.  
-b. Nie wolno używać do płukania wody utlenionej.  
-c. Nastawić i zespolić złamania.  
-d. Podac antybiotyk i.v.  
-e. Wszystkie odpowiedzi są prawidłowe. ✔️
+**Image 3:**
 
-**Postępowanie na SOR w przypadku otwartego złamania kości udowej obejmuje m.in.:**
-a. Podanie anatoksyny przeciwtężcowej lub surowicy przeciwtężcowej.  
-b. Wykonanie RTG i/lub TK i/lub angio-TK w zależności od charakteru urazu.  
-c. Podanie antybiotyku np. Augmentin w dawce 1,2-2,2g i.v.  
-d. Kontrola rany.  
-e. Wszystkie odpowiedzi są prawidłowe. ✔️
+W którym urazie wysokoenergetycznym będziesz podejrzewał największe ryzyko utraty krwi?
 
-**Wstrząs septyczny charakteryzuje się:**
-a. fazą hiperdynamiczną która przechodzi w fazę hipodynamiczną  
-b. wysoką gorączką o charakterze hektycznym.  
-c. może mieć etiologię grzybiczą.  
-d. wymaga stosowania leków obniżających temperaturę ciała, odpowiedniego nawodnienia, monitorowania chorego.  
-e. wszystkie odpowiedzi prawidłowe. ✔️  
+a. Złamanie trzonu kości łokciowej.  
+b. Złamanie nasady dalszej kości promieniowej.  
+c. Złamanie miednicy. ✔️  
+d. Złamanie trzonu kości piszczelowej.  
+e. Złamanie szyjki chirurgicznej kości ramiennej.
 
+Zaznacz zdanie fałszywe:
 
----
+a. Uraz wielomiejscowy to uszkodzenie co najmniej dwóch topograficznie różnych części ciała np. złamanie kości ramiennej i piszczelowej.  
+b. Uraz wielonarządowy to uraz wielomiejscowy, gdzie każde uszkodzenie może zagrażać życiu i wymaga leczenia specjalistycznego.  
+c. TRIAGE - to system segregacji rannych na miejscu wypadku.  
+d. Czerwony kolor w systemie TRIAGE oznacza osobę uznaną za niemożliwą do uratowania. ✔️  
+e. Pacjentowi powinniśmy udzielić pomocy w ciągu 20 minut, jeśli ma kolor żółty w systemie TRIAGE.
 
-**Obrazek 2:**
+W przypadku podejrzenia złamania należy obowiązkowo zbadać i opisać w dokumentacji:
+1. tętno na dostępnych badaniu tętnicach dystalnie do miejsca złamania;
+2. czucie skórne dystalnie do miejsca złamania;
+3. ruchomość patologiczną w miejscu złamania;
+4. ruchomość w stawach, które tworzy złamana kość;
+5. ciśnienie, tętno, stan świadomości pacjenta.
 
-**Złamanie stabilne to:**
-a. Odłamy kostne wykazują znaczną ruchomość względem siebie.  
-b. Odłamy kostne wykazują umiarkowaną ruchomość względem siebie.  
-c. Odłamy kostne wykazują dość stałe położenie względem siebie. ✔️  
-d. Złamanie, w którym po nastawieniu odłamy kostne nadal przemieszczają się względem siebie.  
-e. Jest to synonim złamania patologicznego.
+Prawidłowa kombinacja odpowiedzi to:
 
-**W nomenklaturze urazów posługujemy się zasadą która mówi:**
-a. kierunek przemieszczenia określa odłam bliższy lub krąg wyżej leżący.  
-b. kierunek przemieszczenia określa odłam bliższy lub krąg niżej leżący.  
-c. kierunek przemieszczenia określa odłam dalszy lub krąg niżej leżący.  
-d. kierunek przemieszczenia określa odłam dalszy lub krąg wyżej leżący. ✔️  
-e. kierunek przemieszczenia nie ma znaczenia w dalszym postępowaniu klinicznym.
+a. 1, 2, 3, 4, 5  
+b. tylko 1  
+c. 1, 2, 4  
+d. 1, 3, 5  
+e. 1, 2, 5 ✔️
 
-**W klasyfikacji złamań przynasadowo-nasadowych wg Saltera i Harrisa ile wyróżniamy typów?**
-a. 3  
-b. 4  
-c. 5 ✔️  
-d. 6  
-e. 7  
-
+---Here is the text extracted from the images:
 
 ---
 
-**Obrazek 3:**
+**Image 1**
 
-**Przy wstrząsie oligowolemicznym organizm ludzki jest w stanie skompensować utratę:**
-a. 40 procent objętości krwi krążącej.  
-b. 50 procent objętości krwi krążącej.  
-c. 30 procent objętości krwi krążącej. ✔️  
-d. 45 procent objętości krwi krążącej.  
-e. 60 procent objętości krwi krążącej.  
+Na miejscu wypadku znajdujesz pacjenta nieprzytomnego bez oddechu po udrożnieniu dróg oddechowych, bez tętna – w systemie TRIAGE dostanie opaskę z kolorem:
+- a. Czarny ✔️
+- b. Czerwony
+- c. Żółty
+- d. Zielony
+- e. Pomarańczowy
 
----Here is the transcribed text from the images:
+Transport pacjenta do szpitala powinien być:
+- a. przede wszystkim bezpieczny. ✔️
+- b. bardzo szybki.
+- c. do najbliższego szpitala.
+- d. każdym środkiem lokomocji.
+- e. wszystkie odpowiedzi są prawidłowe.
 
----
+Skala AVPU – litera V oznacza
+- a. Pacjent przytomny, skupia uwagę.
+- b. Pacjent nieprzytomny, bez reakcji.
+- c. Pacjent reaguje na ból.
+- d. Pacjent reaguje na polecenia głosowe. ✔️
+- e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
 
-**Zaznacz prawdziwe:**
-1. Klasyfikacja wg Gustillo i Andersona dotyczy złamań zamkniętych.
-2. W trakcie zwichnięcia w stawie dochodzi do chwilowej lub trwałej utraty kontaktu powierzchni stawowych.
-3. Przykładem wtórnego powikłania złamania jest przykurcz Volkmana.
-4. Złamanie awulsyjne to złamanie w wyniku którego dochodzi do odrywania fragmentu kostnego przez ścięgno lub więzadło.
-5. Każde złamanie wymaga podania anatoksyny przeciwtężcowej.
-
-- a. 1, 2
-- b. 1, 2, 3, 4
-- c. 2, 3, 4 ✔️
-- d. 1, 2, 3, 4, 5
-- e. brak poprawnej kombinacji odpowiedzi
-
----
-
-**Przy wstrząsie oligowolemicznym organizm ludzki jest w stanie skompensować utratę:**
-- a. 40 procent objętości krwi krążącej.
-- b. 50 procent objętości krwi krążącej.
-- c. 30 procent objętości krwi krążącej. ✔️
-- d. 45 procent objętości krwi krążącej.
-- e. 60 procent objętości krwi krążącej.
+Podaj najwłaściwsze postępowanie z chorym nieprzytomnym, w ciężkim stanie ogólnym, po urazie wielonarządowym, wielomiejscowym na miejscu wypadku:
+- a. jak najszybciej transportujemy do najbliższego szpitala
+- b. unieruchamiamy złamania kończyn i jak najszybciej transportujemy do najbliższego szpitala
+- c. wykonujemy zabiegi resuscytacyjne, uzupełniamy łożysko naczyniowe 0.9 procent NaCl i transportujemy do najbliższego szpitala
+- d. wykonujemy zabiegi resuscytacyjne, uzupełniamy łożysko naczyniowe 0.9 procent NaCl i transportujemy do najbliższego szpitala wieloprofilowego prowadzącego ostry dyżur ✔️
+- e. wykonujemy zabiegi resuscytacyjne, wyrównujemy chorego hemodynamicznie wlewem Voluvenu i transportujemy do najbliższego szpitala wieloprofilowego prowadzącego ostry dyżur
 
 ---
 
-**W skali MESS oceniasz następujące parametry:**
-- a. Uraz tkanek miękkich i kości, niedokrwienie kończyny, wstrząs, wiek
-- b. Uraz tkanek miękkich i kości, płeć, niedokrwienie kończyny, wiek. ✔️
-- c. Niedokrwienie kończyny, przytomność, częstość oddechów, tętno.
-- d. Przodkrwi kapilarny, uraz tkanek miękkich i kości, tętno, częstość oddechów.
-- e. Wiek, płeć, wstrząs, przytomność.
+**Image 2**
+
+Wstępne zaopatrzenie ran na miejscu wypadku polega na zaopatrzeniu rany krwawiącej jałowym opatrunkiem uciskowym. (1) Złamania i zwichnięcia należy unieruchomić z próbą repozycji. (2)
+- a. Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy.
+- b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.
+- c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa. ✔️
+- d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa.
+- e. Obie części zdania są fałszywe.
+
+Śmiertelność w urazach wielonarządowych kształtuje się w granicach:
+- a. 0%-10%
+- b. 10%-20%
+- c. 20%-30% ✔️
+- d. 30%-40%
+- e. 40%-50%
+
+Nadzór nad postępowaniem leczniczym u chorego z urazem wielonarządowym powinien sprawować:
+- a. Chirurg ogólny
+- b. Chirurg ortopeda
+- c. Anestezjolog ✔️
+- d. Neurochirurg
+- e. A i C są prawidłowe
 
 ---
 
-**Prawidłowe postępowanie w przypadku otwartego uszkodzenia stawu polega na:**
-- a. Płukanie stawu roztworem soli fizjologicznej.
-- b. Nastawienie i zespolenie złamania lub stabilizacji stawu.
-- c. Założenie drenu do stawu.
-- d. Profilaktyka antybiotykowa.
-- e. Wszystkie odpowiedzi są prawidłowe. ✔️
+**Image 3**
+
+Bóle grzbietu mogą być objawem:
+1. zapalenia przydatków;
+2. zapalenia uchyłków esicy;
+3. niedoborów witaminy A;
+4. pękania tętniaka aorty brzusznej.
+
+Prawidłowa kombinacja odpowiedzi to:
+- a. 4
+- b. 1, 3
+- c. 1, 2, 4 ✔️
+- d. 2, 3, 4
+- e. 1, 2, 3, 4
+
+Skala AVPU – litera P oznacza
+- a. Pacjent przytomny, skupia uwagę.
+- b. Pacjent nieprzytomny, bez reakcji.
+- c. Pacjent reaguje na ból. ✔️
+- d. Pacjent reaguje na polecenia głosowe.
+- e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
+
+Skala AVPU – litera U oznacza
+- a. Pacjent przytomny, skupia uwagę.
+- b. Pacjent nieprzytomny, bez reakcji. ✔️
+- c. Pacjent reaguje na ból.
+- d. Pacjent reaguje na polecenia głosowe.
+- e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
 
 ---
 
-**Co to jest staw rzekomy:**
-- a. brak zrostu między końcami odłamów kostnych. ✔️
-- b. zesztywnienie stawu.
-- c. staw który uległ skróceniu.
-- d. przykurcz stawu.
-- e. żadna odpowiedź nie jest prawidłowa.
+Let me know if you need the translation or any more help!Here is the text from the images:
 
 ---
 
-**Powikłaniem długotrwałego unieruchomienia w łóżku może być:**
-- a. zapalenie płuc
-- b. zakażenie układu moczowego
-- c. odleżyna
-- d. zaniki mięśniowe
-- e. wszystkie wyżej wymienione ✔️
+**Image 1:**
+
+1. Skala AVPU – litera A oznacza
+   - a. Pacjent przytomny, skupia uwagę. **(correct)**
+   - b. Pacjent nieprzytomny, bez reakcji.
+   - c. Pacjent reaguje na ból.
+   - d. Pacjent reaguje na polecenia głosowe.
+   - e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
+
+2. Na miejscu wypadku pacjent odniósł złamanie nasady dalszej kości promieniowej lewej i złamanie trzonu kości ramiennej prawej – w systemie TRIAGE dostanie opaskę z kolorem:
+   - a. Czarny
+   - b. Czerwony
+   - c. Żółty **(correct)**
+   - d. Zielony
+   - e. Pomarańczowy
+
+3. U pacjenta nieprzytomnego z niejasnym wywiadem urazowym bez możliwości zebrania wywiadu i ustalenia przyczyn urazu najtrafniejszym wyborem badania diagnostycznego będzie:
+   - a. RTG klatki piersiowej celem wykluczenia odmy opłucnowej oraz obecności płynu w opłucnej
+   - b. MRI głowy celem wykluczenia zmian urazowych w mózgowiu i rdzeniu przedłużonym
+   - c. RTG klatki piersiowej oraz miednicy celem oceny ewentualnych uszkodzeń części kostnych
+   - d. tomografia komputerowa głowy, kręgosłupa szyjnego, klatki piersiowej i jamy brzusznej z miednicą **(correct)**
+   - e. tomografia komputerowa szkieletu osiowego
+
+4. Skala AVPU – litera V oznacza
+   - a. Pacjent przytomny, skupia uwagę.
+   - b. Pacjent nieprzytomny, bez reakcji.
+   - c. Pacjent reaguje na ból.
+   - d. Pacjent reaguje na polecenia głosowe. **(correct)**
+   - e. Pacjent nie reaguje na ból, ale reaguje na polecenia głosowe.
 
 ---
 
-**Złamanie przynasadowo-nasadowe wg Saltera i Harrisa typ V oznacza:**
-- a. Złamanie przebiegające przez nasadę i przynasadę.
-- b. Złamanie przez samą nasadę (epifizę).
-- c. Złuszczenie przez chrząstkę wzrostową z jej poszerzeniem, bez złamania.
-- d. Złuszczenie przez chrząstkę wzrostową z odłamaniem fragmentu kostnego z przynasady.
-- e. Osiowy uraz ze zgnieceniem chrząstki wzrostowej. ✔️
+**Image 2:**
+
+1. Zaznacz prawdziwe zdanie dotyczące złamania łopatki
+   - a. Jest to częste złamanie w obrębie kończyny górnej
+   - b. Zwykle brak jest dolegliwości bólowych
+   - c. Każde złamanie łopatki powinno być leczone operacyjnie
+   - d. Powstaje przez bezpośredni uraz łopatki **(correct)**
+   - e. Pierwszym badaniem diagnostycznym powinno być wykonanie MRI
+
+2. Wybierz prawidłowe stwierdzenie odnośnie objawu klawisza:
+   1. jest jednym z objawów zwichnięcia stawu ramiennego;
+   2. jest jednym z objawów zwichnięcia stawu obojczykowo-barkowego;
+   3. może być maskowany przez masywny obrzęk;
+   4. jest jednym z objawów zwichnięcia łokcia.
+   Prawdziwa kombinacja odpowiedzi to:
+   - a. 1, 3
+   - b. 2, 3 **(correct)**
+   - c. 3, 4
+   - d. 2
+   - e. 4
+
+3. Leczenie złamania obojczyka bez przemieszczenia polega na m.in.:
+   - a. Zastosowanie opatrunku ósemkowego
+   - b. Zastosowanie ortezy „collar and cuff sling”
+   - c. Unieruchomienie ramienia z zgiętym łokciem do tułowia
+   - d. U noworodków/niemowląt specjalne leczenie nie jest konieczne
+   - e. Wszystkie odpowiedzi są prawidłowe **(correct)**
 
 ---
 
-**Według zasady Potta o unieruchamianiu złamań kości długich należy:**
-- a. unieruchomić całą kończynę
-- b. unieruchomić złamaną kość wraz z sąsiednim bliższym stawem
-- c. unieruchomić złamaną kość wraz z obydwoma sąsiednimi stawami ✔️
-- d. unieruchomić złamaną kość wraz z sąsiadującym stawem dalszym
-- e. żadna odpowiedź nie jest prawidłowa
+**Image 3:**
+
+1. Repozycji zwichniętego stawu ramiennego, nie wykonasz przy użyciu:
+   - a. wyciągu Arlta.
+   - b. wyciągu Hipokratesa.
+   - c. wyciągu Zeno. **(correct)**
+   - d. manewru Kocher'a.
+   - e. Brak prawidłowej odpowiedzi.
+
+2. II stopień zwichnięcia w stawie barkowo-obojczykowym polega na:
+   - a. Koniec barkowy obojczyka rzutuje w poziomie wyrostka barkowego
+   - b. Podwichnięcie końca barkowego obojczyka wobec wyrostka barkowego **(correct)**
+   - c. Pełne przemieszczenie końca barkowego obojczyka wobec wyrostka barkowego
+   - d. Podwichnięcie końca obojczykowego wyrostka barkowego wobec końca mostkowego obojczyka
+   - e. Pełne przemieszczenie końca mostkowego obojczyka wobec wyrostka barkowego
+
+3. Zaznacz zdanie prawdziwe w odniesieniu do zwichnięcia stawu mostkowo-obojczykowego:
+   - a. Najczęstsze to zwichnięcie przednie, które powstaje przy upadku na wyprostowane ramię **(correct)**
+   - b. Leczeniem pierwszego rzutu jest leczenie operacyjne
+   - c. Najczęstsze to zwichnięcie tylne, które powstaje przy urazie bezpośrednim
+   - d. Nie należy wykonywać zdjęcia RTG, gdyż jest ono zbędne.
+   - e. Nie należy nastawiać, ponieważ istnieje zbyt duże ryzyko uszkodzenia naczyń i nerwów.
+
+4. Pacjent ma złamanie obojczyka ze znacznym przemieszczeniem odłamów. Istnieje ryzyko, że odłam obojczyka przebije skórę. Jakie postępowanie w tym przypadku będzie najlepsze?
+   - a. Leczenie operacyjne – nastawienie otwarte i zespolenie płytką anatomiczną ze śrubami **(correct)**
+   - b. Unieruchomienie w opatrunku ósemkowym
+   - c. Unieruchomienie w temblaku
+   - d. Opatrunek gipsowy Desaulta
+   - e. Specjalistyczne leczenie nie jest konieczne
 
 ---
 
-**Do typowych objawów złamania nie należy:**
-- a. ból w miejscu urazu.
-- b. ruchomość patologiczna.
-- c. obrzęk pourazowy.
-- d. zaburzenia krążenia.
-- e. objaw włośniczkowy. ✔️
+Let me know if you need the text in a different format!Here is the text from the images:
 
 ---
 
-**Typowym objawem złamania nie jest:**
-- a. ból w miejscu urazu.
-- b. ruchomość patologiczna.
-- c. obrzęk pourazowy.
-- d. zaburzenia krążenia.
-- e. objaw włośniczkowy. ✔️
+**First image:**
+
+Kobieta, lat 41. Zawód wykonywany - fryzjer. Zgłasza silny ból okolicy stawu ramiennego od 4 dni, nasilający się i promieniujący dystalnie, podczas czynnego podnoszenia kończyny. Uraz wymienionej okolicy pacjentka neguje. Wykazuje bolesność w badaniu palpacyjnym. CRP- 43. Opisany stan wskazuje na:
+
+a. zwichnięcie stawu ramiennego.  
+b. złamanie szyjki chirurgicznej.  
+c. zapalenie pierścienia rotatorów. ✔️  
+d. złamanie szyjki anatomicznej.  
+e. przerwanie nerwu ramiennego.  
+
+Stwierdzając u chorego na miejscu wypadku komunikacyjnego zwichnięcie stawu ramiennego:
+
+a. repo­nu­jesz je jak najszybciej i po unieruchomieniu kończyny w temblaku transportujesz chorego na dyżur urazowy.  
+b. rep­onujesz je jak najszybciej i po unieruchomieniu kończyny w opatrunku gipsowym Dessaulta transportujesz chorego na dyżur urazowy.  
+c. transportujesz chorego na dyżur urazowy.  
+d. unieruchamiasz w pozycji, w której kończyna się znajduje i transportujesz chorego na dyżur urazowy. ✔️  
+e. zakładasz choremu temblak i zalecasz mu udanie się w celu dalszego leczenia do ortopedy.
+
+Objaw Hill-Sachsa to:
+
+a. Wgniecenie głowy kości ramiennej w tylnej części panewki powstały przy zwichnięciu w stawie ramienno-łopatkowym. ✔️  
+b. Złamanie guzka większego kości ramiennej przy zwichnięciu w stawie ramiennym.  
+c. Porażenie nerwu promieniowego towarzyszące zwichnięciu kości ramiennej.  
+d. Zerwanie ścięgna mięśnia długowego ramienia.  
+e. Brak prawidłowej odpowiedzi.
 
 ---
 
-**Urazem może być:**
-- a. Stłuczenia.
-- b. Skręcenia.
-- c. Złamania.
-- d. Zwichnięcia.
-- e. Wszystkie odpowiedzi są prawidłowe. ✔️
+**Second image:**
 
----Here is the transcribed text from the images you provided:
+Zaznacz zdanie prawdziwe:
 
----
+a. Leczenie operacyjne jest wskazane w 4-fragmentowym złamaniu szyjki chirurgicznej kości ramiennej. ✔️  
+b. Złamanie nieprzemieszczone guzka większego kości ramiennej polega na endoprotezoplastyce połowiczej stawu ramiennego.  
+c. W niestabilnych złamaniach trzonu kości ramiennej leczeniem z wyboru jest leczenie zachowawcze.  
+d. Wszystkie zdania są prawdziwe.  
+e. A i B są prawidłowe.
 
-### 1st Image
+W przypadku złamania trzonu kości ramiennej jakich powikłań możesz się spodziewać:  
+1. Uszkodzenie nerwu promieniowego.  
+2. Objaw tzw. ręki opadającej.  
+3. Powstania stawu rzekomego.  
+4. Zaburzenia czucia skóry w obrębie palca V.  
+5. Objaw tzw. ręki błogosławiącej.
 
-#### Przykładem złamania awulsyjnego będzie:
-a. złamanie szyjki kości udowej.  
-b. złamanie wgnieceniowe kłykcia bocznego kości piszczelowej.  
-c. **złamanie kolca biodrowego przedniego górnego.** ✔️  
-d. złamanie zęba obrotnika.  
-e. wszystkie odpowiedzi są prawidłowe.
+Odpowiedzi:  
+a. 1, 2, 3 ✔️  
+b. 2, 3, 4  
+c. 3, 4, 5  
+d. 1, 3, 5  
+e. 1, 2, 4
 
-#### Zaznacz zdanie **fałszywe**:
-a. W wyciągu pośrednim siła zewnętrzna jest przenoszona na tkanki miękkie za pomocą kamasza założonego na stopę lub przez przylepiec (plaster) przyklejony do skóry np. na udzie.
-b. Wskazaniem do leczenia operacyjnego złamania kostnego jest przemieszczenie samoistne przez złamanie stawowe.
-c. **Wyciąg szkieletowy to inaczej wyciąg pośredni.** ✔️  
-d. Zrost kliniczny oznacza, że w miejscu złamania nie stwierdza się ruchomości patologicznej.
-e. Powikłaniem złamania kości może być przykurcz Volkmanna.
+Gips Caldwella (wiszący) stosujemy w:
 
-#### W której sytuacji podejrzewasz złamanie o charakterze zmęczeniowym:
-a. **Złamanie powstające pod wpływem niewielkiej siły, która działa na kość przez długi okres czasu.** ✔️  
-b. Złamanie powstające w wyniku silnego urazu na dotychczas zdrową kość.
-c. Złamanie powstałe w wyniku upadku z wysokości minimum 5 metrów.
-d. Złamanie powstałe w wyniku upadku z wysokości własnego ciała.
-e. Złamanie zmęczeniowe często obserwuje się w trzonach kości długich u dzieci.
+a. Złamaniu kości przedramienia.  
+b. Złamaniu trzonu kości ramiennej. ✔️  
+c. Powolnym nastawieniu zwichnięcia stawu ramiennego.  
+d. Złamaniu kości łódeczkowatej.  
+e. Poprawne b i c.
 
 ---
 
-### 2nd Image
+**Third image:**
 
-#### Zwichnięcie jest to rozległe urazowe uszkodzenie tkanek około- i wewnątrzstawowych (1) wywołane przez ruch w stawie nieprzekraczający zakresu fizjologicznego (2).
-a. Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy.
-b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.
-c. **Pierwsza część zdania jest prawdziwa, druga część jest fałszywa.** ✔️  
-d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa.
-e. Obie części zdania są fałszywe.
+Złamanie trzonu k. ramiennej najczęściej może powodować:
 
-#### Objawami złamania mogą być:
-a. Zniesienie ruchów.  
-b. Zaburzenie osi.  
-c. Skrócenie kończyny.  
-d. Zgięcie kątowe.  
-e. **Wszystkie odpowiedzi są prawidłowe.** ✔️  
-
-#### Odmianą leczenia zachowawczego złamań kości jest leczenie na wyciągu, (1) którego zadaniem jest powolne nastawienie odłamów kości i utrzymanie prawidłowej pozycji odłamów kostnych (2).
-a. **Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy.** ✔️  
-b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.
-c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa.
-d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa.
-e. Obie części zdania są fałszywe.
-
-#### Złamanie "zielonej gałązki", to:
-a. złamanie u osoby ze stwierdzoną osteoporozą pomenopauzalną.
-b. złamanie patologiczne bez wyraźnego urazu.
-c. złamanie głowy kości udowej.
-d. złamanie szyjki kości udowej u młodego dorosłego.
-e. **żadne z wymienionych.** ✔️  
+a. zespół Sudecka.  
+b. uszkodzenie nerwu pośrodkowego.  
+c. uszkodzenie tętnicy ramiennej.  
+d. uszkodzenie nerwu promieniowego. ✔️  
+e. przykurcz Volkmanna.Here is the text from the images:
 
 ---
 
-### 3rd Image
+**First Image:**
 
-#### Kiedy będziesz podejrzewać zespół ciasnoty przedziałów powięziowych?
-a. Gdy ból jest proporcjonalny do urazu lub operacji.
-b. **Gdy stwierdzamy takie objawy jak ból nasilający się przy rozciąganiu mięśnia, obrzęk, parestezje, osłabienie siły mięśniowej, brak tętna na obwodzie.** ✔️  
-c. Gdy pacjent w wywiadzie ma chorobę nowotworową kości.
-d. Gdy występuje duży gradient ciśnieniowy między ciśnieniem śródmięśniowym a ciśnieniem rozkurczowym krwi.
+Do powikłań złamania trzonu kości ramiennej zaliczysz:  
+a. Staw rzekomy.  
+b. Uszkodzenie nerwu promieniowego.  
+c. Przykurcz Volkmanna.  
+d. Zespół Sudecka.  
+e. Wszystkie odpowiedzi są prawidłowe. ✅
+
+---
+
+**Second Image:**
+
+Najprostszą metodą unieruchomienia transportowego pacjenta ze złamaniem trzonu kości ramiennej jest:  
+a. przybandażowanie do tułowia wyprostowanej w łokciu kończyny.  
+b. założenie na wyprostowaną w łokciu kończynę szyny Kramera.  
+c. pozostawienie kończyny bez unieruchomienia co umożliwi powolne, samoistne nastawianie złamania.  
+d. założenie na zgiętą w łokciu kończynę szynę Kramera. ✅  
+e. A i C są prawidłowe.
+
+---
+
+**Third Image:**
+
+W przypadku złamania trzonu kości ramiennej jakich powikłań możesz się spodziewać:  
+1. Uszkodzenie nerwu promieniowego.  
+2. Objaw tzw. ręki opadającej.  
+3. Powstania stawu rzekomego.  
+4. Zaburzenia czucia skóry w obrębie palca V.  
+5. Objaw tzw. ręki błogosławiącej.
+
+Odpowiedzi:  
+a. 1, 2, 3 ✅  
+b. 2, 3, 4  
+c. 3, 4, 5  
+d. 1, 3, 5  
+e. 1, 2, 4
+
+---
+
+W złamaniach trzonu kości ramiennej leczeniem z wyboru jest leczenie nieoperacyjne (1). Zawsze trzeba nastawiać tego typu złamania w celu uzyskania anatomicznego ustawienia odłamów kostnych (2).
+
+a. Zdania 1 i 2 są prawdziwe i jest związek przyczynowo-skutkowy.  
+b. Zdania 1 i 2 są prawdziwe i brak jest związku przyczynowo-skutkowego.  
+c. Pierwsze zdanie jest prawdziwe, drugie zdanie jest fałszywe. ✅  
+d. Pierwsze zdanie jest fałszywe, drugie zdanie jest prawdziwe.  
+e. Oba zdania są fałszywe.
+
+---
+
+Najprostszą metodą unieruchomienia transportowego pacjenta ze złamaniem trzonu kości ramiennej jest:  
+a. przybandażowanie do tułowia wyprostowanej w łokciu kończyny.  
+b. założenie na wyprostowaną w łokciu kończynę szyny Kramera.  
+c. pozostawienie kończyny bez unieruchomienia co umożliwi powolne, samoistne nastawianie złamania.  
+d. założenie na zgiętą w łokciu kończynę szynę Kramera. ✅  
+e. A i C są prawidłowe.
+
+---
+
+Tick marks (✅) indicate the correct answers as selected in the images. If you need a translation or further information, let me know!Oto tekst z obrazów:
+
+---
+
+**Gips odwodzący znajduje zastosowanie w:**
+a. leczeniu zmiażdżenia palca ręki.  
+b. leczeniu przykurczu przywodzicieli stawu biodrowego.  
+**c. leczeniu złamania kości ramiennej. ✔️**  
+d. leczeniu złamania łopatki.  
+e. Wszystkie odpowiedzi są prawidłowe.  
+
+---
+
+**W przypadku złamania guzka większego kości ramiennej nieprzemieszczonego – jakie jest leczenie I rzutu?**  
+**a. Leczenie nieoperacyjne na temblaku około 4-5 tygodni. ✔️**  
+b. Leczenie nieoperacyjne na temblaku około 1-2 tygodni.  
+c. Leczenie operacyjne z zespoleniem za pomocą śruby.  
+d. Leczenie operacyjne za pomocą płytki.  
 e. Wszystkie odpowiedzi są prawidłowe.
 
-#### Objawy zespoły ciasnoty przedziałów powięziowych to:
-a. **Samosity ból.** ✔️  
-b. Ból, który maleje przy biernym rozciąganiu mięśni.
-c. Hiperestezja.
-d. Brak obrzęku.
-e. Wszystkie odpowiedzi są prawidłowe.
+---
 
-#### W ostrym zespole ciasnoty przedziałów powięziowych fasciotomia liczy się przede wszystkim czas (1), ponieważ zwłoka w wykonaniu fasciotomii powoduje nieodwracalne skutki (2).
-a. **Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy.** ✔️  
-b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.
-c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa.
-d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa.
-e. Obie części zdania są fałszywe.
-
-#### Zespół ciasnoty przedziałów powięziowych występuje:
-a. Po złamaniu podudzia.  
-b. Po długiej operacji w zacisku.  
-c. Po złamaniu ręki.  
-d. Gdy został założony zbyt ciasny opatrunek gipsowy.  
-e. **Wszystkie odpowiedzi są prawidłowe.** ✔️  
+**Gips Caldwella (wiszący) stosujemy w:**  
+a. Złamaniu kości przedramienia.  
+**b. Złamaniu trzonu kości ramiennej. ✔️**  
+c. Powolnym nastawieniu zwichnięcia stawu ramiennego.  
+d. Złamaniu kości łódeczkowatej.  
+e. Poprawne b i c.  
 
 ---
 
-If you need the translation to English or further help with the content, let me know!Here is the text extracted from the images:
+**Zaznacz zdanie prawdziwe dotyczące złamania trzonu kości ramiennej:**  
+a. Częstsze jest u dzieci niż dorosłych.  
+b. Złamanie poprzeczne powstaje z mechanizmu pośredniego.  
+c. Leczeniem z wyboru jest leczenie operacyjne.  
+**d. Złamanie spiralne powstaje np. w wyniku upadku na wyprostowane ramię. ✔️**  
+e. Wszystkie odpowiedzi są prawidłowe.  
 
 ---
 
-### Image 1
+**U dzieci w złamaniu przynasady bliższej kości ramiennej akceptowalne przemieszczenie kątowe wynosi:**  
+a. Do 5 stopni.  
+b. Do 10 stopni.  
+**c. Do 20 stopni. ✔️**  
+d. Do 40 stopni.  
+e. Do 50 stopni.  
 
-**Skręcenie jest to urazowe uszkodzenie torebki stawowej i więzadeł (1) wywołane przez ruch w stawie, w trakcie którego jest zachowany kontakt powierzchni stawowych, przekraczający fizjologiczny zakres danego stawu (2).**
+---
+
+**W jakiej sytuacji zdecydujesz się na leczenie operacyjne?**  
+**a. Złamanie niestabilne, przemieszczone na poziomie szyjki chirurgicznej kości ramiennej. ✔️**  
+b. Złamanie zaklinowane na poziomie szyjki chirurgicznej kości ramiennej.  
+c. Złamanie nieprzemieszczone guzka większego kości ramiennej.  
+d. Złamanie z przemieszczeniem do 5 mm guzka większego kości ramiennej.  
+e. We wszystkich sytuacjach leczeniem I rzutu jest leczenie operacyjne.
+
+---
+
+**Jaki uraz w obrębie kończyny górnej należy traktować ze szczególną uwagą ze względu na statystycznie wysoki odsetek poważnych towarzyszących obrażeń:**  
+a. złamanie obojczyka.  
+b. zwichnięcie stawu ramiennego.  
+**c. złamanie kości ramiennej. ✔️**  
+d. złamanie łopatki.  
+e. zwichnięcie stawu barkowo-obojczykowego.  
+
+---
+
+**Złamania kłykcia bocznego kości ramiennej przebiegają często z znacznym przemieszczeniem odłamów (1), dlatego takie złamania oceniamy jako niestabilne i wymagają zespolenia drutem Kirschnera lub śrubą (2).**
+**a. Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy. ✔️**
+b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.  
+c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa.  
+d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa.  
+e. Obie części zdania są fałszywa.  
+
+---
+
+**Objawy przykurczu Volkmanna to:**  
+a. Ból samoistny.  
+b. Brak krążenia włośniczkowego, osłabione tętno.  
+c. Osłabienie czucia na obwodzie.  
+d. Porażenie mięśni.  
+**e. Wszystkie odpowiedzi są prawidłowe. ✔️**  
+
+---
+
+**Złamanie nadkłykciowe kości ramiennej u dzieci:**  
+a. Powikłaniem mogą być zaburzenia krążenia i unerwienia.  
+b. Najczęściej są to złamania typu wyprostnego.  
+c. Rozpoznanie stawiamy na podstawie objawów klinicznych i RTG.  
+d. Konieczna jest repozycja na zamknięto.  
+**e. Wszystkie odpowiedzi są prawidłowe. ✔️**  
+
+---
+
+**Leczenie złamania nadkłykciowego kości ramiennej u dzieci to:**  
+a. Pilna repozycja w celu prewencji rozwoju znacznego obrzęku.  
+b. Nastawione złamanie wymaga ustabilizowania dwoma drutami Kirschnera.  
+c. Nie należy stosować gipsów okrężnych u dzieci.  
+d. Złamanie wyprostne z niewielkim przemieszczeniem leczy się w longecie gipsowej w zgięciu 90 stopni przez 3-4 tygodnie.  
+**e. Wszystkie odpowiedzi są prawidłowe. ✔️**
+
+---Here is the text from the images you provided:
+
+---
+
+**Złamanie główki kości ramiennej**
+
+a. Bardzo rzadko obserwuje się u dzieci. ✔️  
+b. Leczenie z reguły jest zachowawcze.  
+c. Najczęściej powstaje na podłożu złamań patologicznych.  
+d. To inaczej złamanie Collesa.  
+e. Wszystkie odpowiedzi są fałszywe.  
+
+**Zaznacz, które złamanie wymaga leczenia operacyjnego:**  
+
+a. Nieprzemieszczone złamanie wyrostka łokciowego.  
+b. Złamanie kłykcia bocznego kości ramiennej z przemieszczeniem około 1mm.  
+c. Złamanie wyprostne nadkłykciowe kości ramiennej z przemieszczeniem około 5 stopni u dziecka w wieku 10 lat.  
+d. Przemieszczone złamanie przestawowe nadkłykcia kości ramiennej u dorosłych. ✔️  
+e. Zwichnięcie typu piastunki.  
+
+**Zaznacz zdanie prawdziwe:**  
+
+a. W złamaniach nadkłykciowych kości ramiennej u dzieci typu wyprostnego odłam dystalny jest przemieszczony grzbietowo. ✔️  
+b. Złamanie główki kości ramiennej występuje przede wszystkim u dzieci.  
+c. Metoda Hipokratesa to metoda nastawienia stawu łokciowego.  
+d. Każde złamanie trzeba nastawić w celu uzyskania anatomicznego ustawienia odłamów kostnych.  
+e. Wszystkie odpowiedzi są prawidłowe.  
+
+**Zwichnięcie stawu łokciowego – zaznacz prawidłową odpowiedź:**  
+
+a. Izolowane zwichnięcie występuje u dzieci.  
+b. Najczęstsze zwichnięcie jest tylno-boczne.  
+c. Rozpoznanie stawia się na podstawie objawów klinicznych i RTG.  
+d. Leczenie polega na zamkniętym nastawieniu przez wyciąg za przedramię przy lekko zgiętym łokciu w sedacji lub narkozie.  
+e. Wszystkie odpowiedzi są prawidłowe. ✔️  
+
+
+---
+
+**Zaznacz fałszywe.**
+
+a. Złamanie wyrostka łokciowego z reguły leczone jest operacyjnie na otwarto nastawienie i zespolenie poprzegiem Webera.  
+b. W złamaniu nadkłykcia przyśrodkowego kości ramiennej można zastosować unieruchomienie w longie gipsowej przez 10-14 dni nawet gdy przemieszczenie nadkłykcia wynosi więcej niż 5 mm. ✔️  
+c. Złamanie główki kości ramiennej z reguły wymaga leczenia operacyjnego.  
+d. U dorosłych zwichnięcie w stawie łokciowym często towarzyszy złamanie głowy kości promieniowej.  
+e. Zwichnięcie typu piastunki to zwichnięcie głowy kości promieniowej z więzadła obrączkowatego.  
+
+**"Łokciem tenisisty" nazywamy:**  
+
+a. zapalenie ścięgna m. trójgłowego.  
+b. złamanie zmęczeniowe wyrostka łokciowego.  
+c. zapalenie przyczepu prostowników przedramienia. ✔️  
+d. zapalenie przyczepu zginaczy przedramienia.  
+e. złamanie wyrostka dziobiastego.  
+
+**Zaznacz prawdziwe:**  
+
+a. Złamanie główki kości ramiennej może wystąpić przy upadku na wyprostowane ramię. ✔️  
+b. Złamanie wyrostka łokciowego jest najczęściej nieprzemieszczone.  
+c. Wieloodłamowe złamanie głowy kości promieniowej powinno się leczyć zachowawczo.  
+d. Zwichnięcie stawu łokciowego najczęściej jest przednio-przyśrodkowe.  
+e. Wszystkie odpowiedzi są prawidłowe.  
+
+**Leczenie złamania nadkłykciowego kości ramiennej u dzieci to:**  
+
+a. Pilna repozycja w celu prewencji rozwoju znacznego obrzęku.  
+b. Nastawienie złamania wymaga ustabilizowania dwoma drutami Kirschnera.  
+c. Nie należy stosować gipsów okrężnych u dzieci.  
+d. Złamanie wyprostne z niewielkim przemieszczeniem leczy się w longie gipsowej w zgięciu 90 stopni przez 3-4 tygodnie.  
+e. Wszystkie odpowiedzi są prawidłowe. ✔️  
+
+
+---
+
+**Zaznacz, które złamanie wymaga leczenia operacyjnego:**  
+
+a. Nieprzemieszczone złamanie wyrostka łokciowego.  
+b. Złamanie kłykcia bocznego kości ramiennej z przemieszczeniem około 1mm.  
+c. Złamanie wyprostne nadkłykciowe kości ramiennej z przemieszczeniem około 5 stopni u dziecka w wieku 10 lat.  
+d. Przemieszczone złamanie przestawowe nadkłykcia kości ramiennej u dorosłych. ✔️  
+e. Zwichnięcie typu piastunki.  
+
+**U dzieci nigdy nie należy usuwać głowy kości promieniowej przy złamaniach szyjki kości promieniowej (1), ponieważ powoduje to zahamowanie wzrostu kości promieniowej, doprowadza do koślawego ustawienia łokcia czy parezy nerwu łokciowego (2).**
 
 a. Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy. ✔️  
 b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.  
@@ -416,41 +1982,651 @@ c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa.
 d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa.  
 e. Obie części zdania są fałszywe.  
 
+**Złamania nadkłykciowe kości ramiennej u dzieci:**  
+
+a. Najczęściej powstają przy urazach w mechanizmie wyprostnym. ✔️  
+b. Nie jest konieczna ocena ukrwienia i czucia na obwodzie.  
+c. Zwykle nie wymaga leczenia.  
+d. Do powikłań złamania możemy zaliczyć porażenie nerwu pachowego.  
+e. W urazach typu zgięciowego odłam dystalny przemieszczony jest grzbietowo.  
+
+**Zaznacz zdanie fałszywe:**  
+
+a. Złamanie wyrostka łokciowego często ulega przemieszczeniu.  
+b. Najczęstsze zwichnięcie w stawie łokciowym to zwichnięcie tylno-boczne.  
+c. Zwichnięcie typu piastunki to zwichnięcie w obrębie stawu ramiennego. ✔️  
+d. Zwichnięcie głowy kości promieniowej może nastąpić w wyniku nagłego pociągnięcia za przedramię w pozycji pronacji.  
+e. Metoda FARES to metoda nastawienia w stawie ramiennym.  
+
+
+---Here is the text extracted from all three images:
+
 ---
 
-**Złamanie niestabilne (nie dające się nastawić), stawowe jest wskazaniem do leczenia:**
+**Powikłania złamania nadkłykciowego kości ramiennej u dzieci to:**
+- a. Przykurcz niedokrwienny Volkmanna.  
+- b. Zespół ciasnoty przedziałów powięziowych.
+- c. Uszkodzenie chrząstki wzrostowej.
+- d. Szpotawe ustawienie w stawie łokciowym.
+- e. Wszystkie odpowiedzi są prawidłowe. ✔️
 
-a. Operacyjnego. ✔️  
-b. Wyciągiem szkieletowym.  
-c. Opatrunkiem gipsowym.  
-d. Ortezą.  
-e. Wyciągiem pośrednim.  
-
----
-
-**Złamanie polega na przerwaniu ciągłości tkanki kostnej (1), dlatego aby potwierdzić złamanie zawsze musimy wykonać badanie ruchomości patologicznej (2):**
-
-a. oba zdania są prawdziwe i pozostają w związku przyczynowo skutkowym  
-b. oba zdania są prawdziwe, ale nie pozostają w związku przyczynowo-skutkowym  
-c. pierwsze zdanie jest fałszywe, drugie prawdziwe  
-d. pierwsze zdanie jest prawdziwe, drugie fałszywe ✔️  
-e. oba zdania są fałszywe  
+**Objawy przykurczu Volkmanna to:**
+- a. Ból samoistny.
+- b. Brak krążenia włośniczkowego, osłabione tętno.
+- c. Osłabienie czucia na obwodzie.
+- d. Porażenie mięśni.
+- e. Wszystkie odpowiedzi są prawidłowe. ✔️
 
 ---
 
-### Image 2
+**Zaznacz fałszywe.**
+- a. Złamanie wyrostka łokciowego z reguły leczone jest operacyjnie na otwarto nastawienie i zespolenie poprzegiem Webera.
+- b. W złamaniu nadkłykcia przyśrodkowego kości ramiennej można zastosować unieruchomienie w longetcie gipsowej przez 10-14 dni nawet gdy przemieszczenie nadkłykcia wynosi więcej niż 5 mm. ✔️ 
+- c. Złamanie główki kości ramiennej z reguły wymaga leczenia operacyjnego.
+- d. U dorosłych zwichnięcie w stawie łokciowym często towarzyszy złamanie głowy kości promieniowej.
+- e. Zwichnięcie typu piastunki to zwichnięcie głowy kości promieniowej z więzadła obrączkowego.
 
-**Pacjentka 70-letnia upadła z własnej wysokości na wyprostowaną kończynę górną przy zgięciu grzbietowym w stawie promieniowo-nadgarstkowym. W badaniu fizykalnym: ustawienie bagnetowe nadgarstka, deformacja, obrzęk, bolesność palpacyjna w rzucie stawu promieniowo-nadgarstkowego. Co podejrzewasz w pierwszej kolejności?**
+**"Łokciem tenisisty" nazywamy:**
+- a. zapalenie ścięgna m. trójgłowego.
+- b. złamanie zmęczeniowe wyrostka łokciowego.
+- c. zapalenie przyczepu prostowników przedramienia. ✔️ 
+- d. zapalenie przyczepu zginaczy przedramienia.
+- e. złamanie wyrostka dziobiastiego.
 
-a. Złamanie nasady dalszej kości promieniowej typu Collesa. ✔️  
+**Zaznacz prawdziwe:**
+- a. Złamanie główki kości ramiennej może wystąpić przy upadku na wyprostowane ramię. ✔️
+- b. Złamanie wyrostka łokciowego jest najczęściej nieprzemieszczone.
+- c. Wieloodłamowe złamanie głowy kości promieniowej powinno się leczyć zachowawczo.
+- d. Zwichnięcie stawu łokciowego najczęściej jest przednio-przyśrodkowe.
+- e. Wszystkie odpowiedzi są prawidłowe.
+
+**Leczenie złamania nadkłykciowego kości ramiennej u dzieci to:**
+- a. Pilna repozycja w celu prewencji rozwoju znacznego obrzęku.
+- b. Nastawione złamanie wymaga ustabilizowania dwoma drutami Kirschnera.
+- c. Nie należy stosować gipsów okrężnych u dzieci.
+- d. Złamanie wyprostne z niewielkim przemieszczeniem leczy się w longetcie gipsowej w zgięciu 90 stopni przez 3-4 tygodnie.
+- e. Wszystkie odpowiedzi są prawidłowe. ✔️
+
+---
+
+**Zaznacz, które złamanie wymaga leczenia operacyjnego:**
+- a. Nieprzemieszczone złamanie wyrostka łokciowego.
+- b. Złamanie kłykcia bocznego kości ramiennej z przemieszczeniem około 1mm.
+- c. Złamanie wyprostne nadkłykciowe kości ramiennej z przemieszczeniem około 5 stopni u dziecka w wieku 10 lat.
+- d. Przemieszczenie złamanie przestawowe nadkłykcia kości ramiennej u dorosłych. ✔️
+- e. Zwichnięcie typu piastunki.
+
+**U dzieci nigdy nie należy usuwać głowy kości promieniowej przy złamaniach szyjki kości promieniowej (1), ponieważ powoduje to zahamowanie wzrostu kości promieniowej, doprowadza do koślawego ustawienia łokcia czy parezy nerwu łokciowego (2).**
+- a. Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy. ✔️
+- b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.
+- c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa.
+- d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa.
+- e. Obie części zdania są fałszywe.
+
+**Złamania nadkłykciowe kości ramiennej u dzieci:**
+- a. Najczęściej powstają przy urazach w mechanizmie wyprostnym. ✔️
+- b. Nie jest konieczna ocena ukrwienia i czucia na obwodzie.
+- c. Zwykle nie wymaga leczenia.
+- d. Do powikłań złamania możemy zaliczyć porażenie nerwu pachowego.
+- e. W urazach typu zgięciowego odłam dystalny przemieszczony jest grzbietowo.
+
+**Zaznacz zdanie fałszywe:**
+- a. Złamanie wyrostka łokciowego często ulega przemieszczeniu.
+- b. Najczęstsze zwichnięcie w stawie łokciowym to zwichnięcie tylno-boczne.
+- c. Zwichnięcie typu piastunki to zwichnięcie w obrębie stawu ramiennego. ✔️
+- d. Zwichnięcie głowy kości promieniowej może nastąpić w wyniku nagłego pociągnięcia za przedramię w pozycji pronacji.
+- e. Metoda FARES to metoda nastawienia w stawie ramiennym.
+
+---Here is the text extracted from the images you provided:
+
+---
+
+**Image 1:**
+
+Powikłania złamania nadkłykciowego kości ramiennej u dzieci to:
+- a. Przykurcz niedokrwienny Volkmanna.
+- b. Zespół ciasnoty przedziałów powięziowych.
+- c. Uszkodzenie chrząstki wzrostowej.
+- d. Szpotawość ustawienie w stawie łokciowym.
+- e. Wszystkie odpowiedzi są prawidłowe. ✔️
+
+Objawy przykurczu Volkmanna to:
+- a. Ból samoistny.
+- b. Brak krążenia włośniczkowego, osłabione tętno.
+- c. Osłabienie czucia na obwodzie.
+- d. Porażenie mięśni.
+- e. Wszystkie odpowiedzi są prawidłowe. ✔️
+
+---
+
+**Image 2:**
+
+Pacjentka 70-letnia upadła z własnej wysokości na wyprostowaną kończynę górną przy zgięciu grzbietowym w stawie promieniowo-nadgarstkowym. W badaniu fizykalnym: ustawienie bagnetowe nadgarstka, deformacja, obrzęk, bolesność palpacyjna w rzucie stawu promieniowo-nadgarstkowego. Co podejrzewasz w pierwszej kolejności?
+- a. Złamanie nasady dalszej kości promieniowej typu Collesa. ✔️
+- b. Złamanie typu Monteggia.
+- c. Zwichnięcie w stawie promieniowo-nadgarstkowym.
+- d. Złamanie nasady dalszej kości promieniowej typu Smitha.
+- e. Odwrotne złamanie Bartona.
+
+Leczenie operacyjne polegające na stabilizacji dwoma drutami Kirschnera wg Kapandji lub sp. De-Palmy lub otwarte nastawienie i zespolenie płytką anatomiczną ze śrubami kątowo-stabilnymi zastosujesz w następującym przypadku:
+- a. W złamaniach wieloodłamowych i przestawowych nasady dalszej kości promieniowej. ✔️
+- b. W złamaniach w obrębie trzonu kości ramiennej.
+- c. W złamaniach prostych pozastawowych w obrębie nasady dalszej kości promieniowej.
+- d. Złamaniach w obrębie I kości śródręcza.
+- e. Złamanie w obrębie trzonu kości łokciowej.
+
+Podejrzenie złamania kości przedramienia w okolicy nadgarstka na czas transportu zabezpieczamy:
+- a. szyną Kramera domodelowaną, sięgającą do łokcia.
+- b. szyną Kramera domodelowaną, sięgającą za łokieć. ✔️
+- c. szyną Browna domodelowaną, sięgającą do łokcia.
+- d. A i B są prawidłowe.
+- e. B i C są prawidłowe.
+
+---
+
+**Image 3:**
+
+Zaznacz zdanie fałszywe:
+- a. Wyniki leczenia złamań pozastawowych końca dalszego kości promieniowej są zwykle dobre.
+- b. Możliwym powikłaniem złamania końca dalszego kości promieniowej to np. zespół cieśni nadgarstka.
+- c. Złamania wysokoenergetyczne typu Smitha u osób młodych leczy się z reguły operacyjnie.
+- d. Nastawienie złamania końca dalszego kości promieniowej typu Collesa polega na zastosowaniu wyciągu za ramię przy łokciu zgiętym 90 stopni, wyciągu za rękę pacjenta w osi ręki i w stronę łokciową.
+- e. Leczenie złamania Collesa to z reguły otwarta repozycja i zespolenie za pomocą drutów Kirschnera. ✔️
+
+Złamanie Essex-Lopresti to:
+- a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej.
+- b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.
+- c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym. ✔️
+- d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dogłowowym oraz w ustawieniu supinacji i radializacji.
+- e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dogłowowym, ustawiony w radializacji i pronacji.
+
+Leczenie złamań kości przedramienia u dzieci:
+- a. Złamania kompresyjne końca dalszego kości promieniowej są stabilne.
+- b. Złamania nasady dalszej kości promieniowej z przemieszczeniem wymagają repozycji.
+- c. W złamaniu trzonów kości przedramienia z przemieszczeniem kątowym większym niż 10 stopni należy wykonać zamkniętą repozycję i stabilizację gwoździem śródszpikowym TEN.
+- d. Złamania kości przedramienia bez przemieszczenia lub złamania typu zielonej gałązki - wymagają unieruchomienia w szynie gipsowej obejmującej przedramię i nadgarstek.
+- e. Wszystkie odpowiedzi są prawidłowe. ✔️
+
+---
+
+If you need any part translated or further explained, let me know!Here is the transcribed text from the images:
+
+---
+
+**Image 1:**
+> Wybierz zdanie prawdziwe:
+>
+> a. obrażenia kończyny górnej i obręczy kończyny górnej najczęściej są spowodowane urazami pośrednimi.  
+> b. złamanie Montegilia to złamanie kości promieniowej.  
+> c. w zwichnięciu piastunki ulega przemieszczeniu główka kości ramiennej.  
+> d. wszystkie złamania dalszej nasady kości promieniowej leczymy operacyjnie.  
+> e. wszystkie zdania są fałszywe. ✔️
+
+---
+
+**Image 2:**
+> Zaznacz zdanie fałszywe:
+> 
+> a. Złamania w obrębie nasady dalszej kości promieniowej przestawne i wieloodłamowe są często przyczyną ograniczenia funkcji i rozwoju artrozy.
+> b. W deformacji Madelunga może być wskazana osteotomia korekcyjna i zszycie więzadeł w stawie promieniowo-łokciowym dalszym.
+> c. Powikłaniem złamania końca dalszego kości promieniowej jest m.in. zespół kanału nadgarstka.
+> d. Powikłaniem złamania końca dalszego kości promieniowej jest m.in. zerwanie ścięgna prostownika długiego kciuka.
+> e. Wyniki leczenia złamań pozastawowych końca dalszego kości promieniowej są zwykle złe. ✔️
+>
+> Złamanie Galeazzie to:
+>
+> a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej
+> b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym. ✔️
+> c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.
+> d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dołgłowowym oraz w ustawieniu supinacji i radializacji.
+> e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dołgłowowym, ustawiony w radializacji i pronacji.
+>
+> Leczenie złamania przedramienia:
+>
+> a. Izolowane złamanie kości łokciowej lub promieniowej można leczyć w orzecie po unieruchomieniu w opatrunku gipsowym przez około 7 dni, jeżeli złamanie jest stabilne.
+> b. Złamania obu kości przedramienia wymagają zwykle leczenia operacyjnego ORIF.
+> c. Zespoleńie trzonu kości łokciowej w złamaniu Monteggia powoduje zwykle samostną repozycję głowy kości promieniowej.
+> d. W przypadku przewlekłej niestabilności stawu promieniowo-łokciowego dalszego wykonuje się rekonstrukcję więzadeł.
+> e. Wszystkie odpowiedzi są prawidłowe. ✔️
+>
+> Złamanie przestawowe z fragmentem po stronie dłoniowej często z podwichnięciem w stawie promieniowo-nadgarstkowym to złamanie:
+>
+> a. Typu Smitha.
+> b. Typu Collesa.
+> c. Typu Bartona. ✔️
+> d. Typu Monteggia.
+> e. Typu Bankarta.
+
+---
+
+**Image 3:**
+> Złamanie Colesa to:
+>
+> a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej.
+> b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.
+> c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.
+> d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dołgłowowym oraz w ustawieniu supinacji i radializacji. ✔️
+> e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dołgłowowym, ustawiony w radializacji i pronacji.
+
+---
+
+Let me know if you need a translation or any further assistance!Here is the text from the images:
+
+---
+
+**First image:**
+
+---
+Złamanie dalszej nasady kości promieniowej, z grzbietowym przemieszczeniem złamania i widelcowatym zniekształceniem nadgarstka to złamanie:
+- a. typu Collesa. ✔️
+- b. typu Bartona.
+- c. typu Smitha.
+- d. typu Monteggia.
+- e. Wszystkie odpowiedzi są prawidłowe.
+
+Złamanie Smitha to:
+- a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej.
+- b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.
+- c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.
+- d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dogłowowym oraz w ustawieniu supinacji i radializacji.
+- e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dogłowowym, ustawiony w radializacji i pronacji. ✔️
+
+---
+
+**Second image:**
+
+---
+W których złamaniach występuje złamanie kości łokciowej?
+- a. Złamanie typu Monteggia. ✔️
+- b. Złamanie Bartona.
+- c. Złamanie Essex-Lopresti.
+- d. Złamanie Collesa.
+- e. Złamanie Smith’a.
+
+Złamanie typu Monteggia:
+- a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej. ✔️
+- b. Złamanie szyjki chirurgicznej kości ramiennej.
+- c. Złamanie nasady dalszej kości promieniowej.
+- d. Złamanie szyjki kości udowej.
+- e. To inaczej jałowa martwica guzaowatości kości piszczelowej.
+
+Które z poniższych złamań dotyczą kości promieniowej?
+- a. Złamanie typu Pilon.
+- b. Złamanie Galeazzi. ✔️
+- c. Złamanie Jeffersona.
+- d. Złamanie Tillaux.
+- e. Złamanie Malgaigne.
+
+Leczenie złamania przedramienia:
+- a. Izolowane złamanie kości łokciowej lub promieniowej można leczyć w ortezie po unieruchomieniu w opatrunku gipsowym przez około 7 dni, jeżeli złamanie jest stabilne.
+- b. Złamania obu kości przedramienia wymagają zwykle leczenia operacyjnego ORIF.
+- c. Zespolenie trzonu kości łokciowej w złamaniu Monteggia powoduje zwykle samoistną repozycję głowy kości promieniowej.
+- d. W przypadku przewlekłej niestabilności stawu promieniowo-łokciowego dalszego wykonuje się rekonstrukcję więzadeł.
+- e. Wszystkie odpowiedzi są prawidłowe. ✔️
+
+---
+
+**Third image:**
+
+---
+Zaznacz zdanie fałszywe:
+- a. Wyniki leczenia złamań pozastawowych końca dalszego kości promieniowej są zwykle dobre.
+- b. Możliwym powikłaniem złamania końca dalszego kości promieniowej to np. zespół cieśni nadgarstka.
+- c. Złamania wysokoenergetyczne typu Smitha u osób młodych leczy się z reguły operacyjnie.
+- d. Nastawienie złamania końca dalszego kości promieniowej typu Collesa polega na zastosowaniu wyciągu za ramię przy łokciu zgiętym 90 stopni, wyciągu za rękę pacjenta w osi ręki i w stronę łokciową.
+- e. Leczenie złamania Collesa to z reguły otwarta repozycja i zespolenie za pomocą drutów Kirschnera. ✔️ 
+
+---
+
+Let me know if you need the translation of any part or further information!Here is the extracted text from the images:
+
+---
+
+**Złamanie Monteggia to:**
+a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej ✅  
+b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym  
+c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym  
+d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dogłowowym oraz w ustawieniu supinacji i radializacji  
+e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dogłowowym, ustawiony w radializacji i pronacji  
+
+**Pacjentka 70-letnia upadła z własnej wysokości na wyprostowaną kończynę górną...**
+a. Złamanie nasady dalszej kości promieniowej typu Collesa. ✅  
 b. Złamanie typu Monteggia.  
 c. Zwichnięcie w stawie promieniowo-nadgarstkowym.  
 d. Złamanie nasady dalszej kości promieniowej typu Smitha.  
 e. Odwrotne złamanie Bartona.  
 
+**Leczenie złamań kości przedramienia u dzieci:**
+a. Złamania kompresyjne końca dalszego kości promieniowej są stabilne.  
+b. Złamania nasady dalszej kości promieniowej z przemieszczeniem wymagają repozycji.  
+c. W złamaniu trzonów kości przedramienia z przemieszczeniem kątowym większym niż 10 stopni należy wykonać zamkniętą repozycję i stabilizację gwoździem śródszpikowym TEN.  
+d. Złamania kości przedramienia bez przemieszczenia lub złamania typu zielonej gałązki – wymagają unieruchomienia w szynie gipsowej obejmującej przedramię i nadgarstek.  
+e. Wszystkie odpowiedzi są prawidłowe. ✅  
+
+**Złamanie Smitha to:**
+a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej.  
+b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.  
+c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.  
+d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dogłowowym oraz w ustawieniu supinacji i radializacji.  
+e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dogłowowym, ustawiony w radializacji i pronacji. ✅  
+
 ---
 
-**Leczenie operacyjne polegające na stabilizacji dwoma drutami Kirschnera wg Kapandji lub sp. De-Palmy lub otwarte nastawienie i zespolenie płytką anatomiczną ze śrubami kątowo-stabilnymi zastosujesz w następującym przypadku:**
+**Złamanie Essex-Lopresti to:**
+a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej.  
+b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym. ✅  
+c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym. ✅  
+d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dogłowowym oraz w ustawieniu supinacji i radializacji.  
+e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dogłowowym, ustawiony w radializacji i pronacji.  
+
+**Złamanie Monteggia to:**
+a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej ✅  
+b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym  
+c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym  
+d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dogłowowym oraz w ustawieniu supinacji i radializacji  
+e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dogłowowym, ustawiony w radializacji i pronacji
+
+**Złamanie dalszej nasady kości promieniowej, z dłoniowym... to złamanie:**
+a. typu Collesa.  
+b. typu Bennetta.  
+c. typu Smitha. ✅  
+d. typu Monteggia.  
+e. złamanie tzw. „szofer­skie”.  
+
+---
+
+**Złamanie Galeazziego to:**
+a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej  
+b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym. ✅  
+c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.  
+d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dogłowowym oraz w ustawieniu supinacji i radializacji.  
+e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dogłowowym, ustawiony w radializacji i pronacji.  
+
+---
+
+If you need the translation or specific data highlighted, please let me know!Here is the transcribed text from the images:
+
+---
+
+**Image 1:**
+
+1. Złamanie przestawowe z fragmentem po stronie dłoniowej często z podwichnięciem w stawie promieniowo-nadgarstkowym to złamanie:
+- a. Typu Smitha.
+- b. Typu Collesa.
+- **c. Typu Bartona.**  ✔️
+- d. Typu Monteggia.
+- e. Typu Bankarta.
+
+2. Złamanie Collesa to:
+- a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej.
+- b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.
+- c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.
+- **d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dogłowowym oraz w ustawieniu supinacji i radializacji.** ✔️
+- e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dogłowowym, ustawiony w radializacji i pronacji.
+
+3. W złamaniu typu "Collesa" dalszy odłam jakiemu przemieszczeniu nie ulega:
+- a. Dorsalizacji.
+- b. ulnaryzacji.
+- c. pronacji.
+- **d. Supinacji.** ✔️
+- e. A i C są prawidłowe.
+
+4. Wybierz zdanie prawdziwe:
+- a. obrażenia kończyny górnej i obręczy kończyny górnej najczęściej są spowodowane urazami pośrednimi.
+- b. złamanie Monteggia to złamanie kości promieniowej.
+- c. w zwichnięciu piastunki ulega przemieszczeniu główka kości ramiennej.
+- d. wszystkie złamania dalszej nasady kości promieniowej leczymy operacyjnie.
+- **e. wszystkie zdania są fałszywe.** ✔️
+
+---
+
+**Image 2:**
+
+5. Leczenie operacyjne polegające na stabilizacji dwoma drutami Kirschnera wg Kapandji lub sp. De-Palmy lub otwarte nastawienie i zespolenie płytką anatomiczną ze śrubami kątowo-stabilnymi zastosujesz w następującym przypadku:
+- **a. W złamaniach wieloodłamowych i przestawowych nasady dalszej kości promieniowej.** ✔️
+- b. W złamaniach w obrębie trzonu kości ramiennej.
+- c. W złamaniach prostych pozastawowych w obrębie nasady dalszej kości promieniowej.
+- d. Złamaniach w obrębie I kości śródręcza.
+- e. Złamanie w obrębie trzonu kości łokciowej.
+
+6. Złamanie typu Monteggia:
+- **a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej.** ✔️
+- b. Złamanie szyjki chirurgicznej kości ramiennej.
+- c. Złamanie nasady dalszej kości promieniowej.
+- d. Złamanie szyjki kości udowej.
+- e. To inaczej jałowa martwica guzowatości kości piszczelowej.
+
+7. W których złamaniach występuje złamanie kości łokciowej?
+- **a. Złamanie typu Monteggia.** ✔️
+- b. Złamanie Bartona.
+- c. Złamanie Essex-Lopresti.
+- d. Złamanie Collesa.
+- e. Złamanie Smith’a.
+
+---
+
+**Image 3:**
+
+8. Zaznacz zdanie fałszywe:
+- a. Złamania w obrębie nasady dalszej kości promieniowej przestawowe i wieloodłamowe są często przyczyną ograniczenia funkcji i rozwoju artrozy.
+- b. W deformacji Madelunga może być wskazana osteotomia korekcyjna i szycie więzadeł w stawie promieniowo-łokciowym dalszym.
+- c. Powikłaniem złamania końca dalszego kości promieniowej jest m.in. zespół kanału nadgarstka.
+- d. Powikłaniem złamania końca dalszego kości promieniowej jest m.in. zerwanie ścięgna prostownika długiego kciuka.
+- **e. Wyniki leczenia złamań pozastawowych końca dalszego kości promieniowej są zwykle złe.** ✔️
+
+9. Pacjentka 50-letnia w wyniku urazu doznała złamania trzonu kości łokciowej oraz trzonu kości promieniowej. W badaniu fizykalnym: obrzęk o umiarkowanym nasileniu, widoczna deformacja, bez ubytków czucia i ukrwienia na obwodzie, bolesność palpacyjna. Jakie leczenie zaproponujesz pacjentce?
+- a. Unieruchomienie w opatrunku gipsowym na okres około tygodnia, następnie orteza obejmująca przedramię przez 10 tygodni.
+- b. Orteza przedramienna przez około 4 tygodnie, następnie rehabilitacja.
+- **c. Leczenie operacyjne – zespolenie złamania sposobem ORIF.** ✔️
+- d. Orteza przedramienno-ramienna przez okres 4 tygodni, następnie rehabilitacja.
+- e. Unieruchomienie w opatrunku gipsowym przez okres 2 tygodni, następnie rehabilitacja.
+
+10. Które z poniższych złamań dotyczą kości promieniowej?
+- a. Złamanie typu Pilon.
+- **b. Złamanie Galeazziego.** ✔️
+- c. Złamanie Jeffersona.
+- d. Złamanie Tillaux.
+- e. Złamanie Malgaigne’a.
+
+11. Podejrzenie złamania kości przedramienia w okolicy nadgarstka na czas transportu zabezpieczamy:
+- a. szyną Kramera domodelowaną, sięgającą do łokcia.
+- **b. szyną Kramera domodelowaną, sięgającą za łokieć.** ✔️
+- c. szyną Browna domodelowaną, sięgającą do łokcia.
+- d. A i B są prawidłowe.
+- e. B i C są prawidłowe.
+
+---
+
+If you need translation or further explanation for any of the above, let me know!Here is the extracted text from the images you provided:
+
+---
+
+### Image 1
+
+**Złamanie dalszej nasady kości promieniowej, z grzbietowym przemieszczeniem złamania i widelcowatym zniekształceniem nadgarstka to złamanie:**
+
+a. typu Collesa. ✔️  
+b. typu Bartona.  
+c. typu Smitha.  
+d. typu Monteggia.  
+e. Wszystkie odpowiedzi są prawidłowe.
+
+---
+
+### Image 2
+
+#### 1.
+**Pacjentka 50-letnia w wyniku urazu doznała złamania trzonu kości łokciowej oraz trzonu kości promieniowej. W badaniu fizykalnym: obrzęk o umiarkowanym nasileniu, widoczna deformacja, bez ubytków czucia i ukrwienia na obwodzie, bolesność palpacyjnaA. Jakie leczenie zaproponujesz pacjentce?**
+
+a. Unieruchomienie w opatrunku gipsowym na okres około tygodnia, następnie orteza obejmująca przedramię przez 10 tygodni.  
+b. Orteza przedramienia przez około 4 tygodnie, następnie rehabilitacja.  
+c. Leczenie operacyjne - zespolenie złamania sposobem ORIF. ✔️  
+d. Orteza przedramienno-ramienna przez okres 4 tygodni, następnie rehabilitacja.  
+e. Unieruchomienie w opatrunku gipsowym przez okres 2 tygodni, następnie rehabilitacja.
+
+---
+
+#### 2.
+**Złamanie dalszej nasady kości promieniowej, z dłoniowym przemieszczeniem złamania i widelcowatym zniekształceniem nadgarstka to złamanie:**
+
+a. typu Collesa.  
+b. typu Bennetta.  
+c. typu Smitha. ✔️  
+d. typu Monteggia.  
+e. złamanie tzw. „szofeŕskie”.
+
+---
+
+#### 3.
+**Złamanie dalszej nasady kości promieniowej, z grzbietowym przemieszczeniem złamania i widelcowatym zniekształceniem nadgarstka to złamanie:**
+
+a. typu Collesa. ✔️  
+b. typu Bartona.  
+c. typu Smitha.  
+d. typu Monteggia.  
+e. Wszystkie odpowiedzi są prawidłowe.
+
+---
+
+#### 4.
+**W których złamaniach występuje złamanie kości łokciowej?**
+
+a. Złamanie typu Monteggia. ✔️  
+b. Złamanie Bartona.  
+c. Złamanie Essex-Lopresti.  
+d. Złamanie Collesa.  
+e. Złamanie Smith’a.
+
+---
+
+### Image 3
+
+#### 1.
+**Leczenie złamania przedramienia:**
+
+a. Izolowane złamanie kości łokciowej lub promieniowej można leczyć w ortezie po unieruchomieniu w opatrunku gipsowym przez około 7 dni, jeżeli złamanie jest stabilne.  
+b. Złamania obu kości przedramienia wymagają zwykle leczenia operacyjnego ORIF.  
+c. Zespolenie trzonu kości łokciowej w złamaniu Monteggia powoduje zwykle samoistną repozycję głowy kości promieniowej.  
+d. W przypadku przewlekłej niestabilności stawu promieniowo-łokciowego dalszego wykonuje się rekonstrukcję więzadeł.  
+e. Wszystkie odpowiedzi są prawidłowe. ✔️
+
+---
+
+#### 2.
+**Które z poniższych złamań dotyczą kości promieniowej?**
+
+a. Złamanie typu Pilon.  
+b. Złamanie Galeazzie. ✔️  
+c. Złamanie Jeffersona.  
+d. Złamanie Tillaux.  
+e. Złamanie Malgaigne.
+
+---
+
+#### 3.
+**Złamanie Galeazzie to:**
+
+a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej  
+b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym. ✔️  
+c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości promieniowej w stawie promieniowo-łokciowym dalszym.  
+d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dogłowowym oraz w ustawieniu supinacji i radializacji.  
+e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dogłowowym, ustawiony w radializacji i pronacji.
+
+---
+
+#### 4.
+**Zaznacz zdanie fałszywe:**
+
+a. Złamania w obrębie nasady dalszej kości promieniowej przestawne i wieloodłamowe są często przyczyną ograniczenia funkcji i rozwoju artrozy.  
+b. W deformacji Madelunga może być wskazana osteotomia korekcyjna i zszycie więzadeł w stawie promieniowo-łokciowym dalszym.  
+c. Powikłaniem złamania końca dalszego kości promieniowej jest m.in. zespół kanału nadgarstka.  
+d. Powikłaniem złamania końca dalszego kości promieniowej jest m.in. zerwanie ścięgna prostownika długiego kciuka.  
+e. Wyniki leczenia złamań pozastawowych końca dalszego kości promieniowej są zwykle złe. ✔️
+
+---
+
+Let me know if you need any specific part or question translated to English!Oczywiście! Oto tekst z załączonych obrazów:
+
+---
+
+**Obraz 1:**
+
+Leczenie złamań kości przedramienia u dzieci:
+
+a. Złamania kompresyjne końca dalszego kości promieniowej są stabilne.
+b. Złamania nasady dalszej kości promieniowej z przemieszczeniem wymagają repozycji.
+c. W złamaniu trzonów kości przedramienia z przemieszczeniem kątowym większym niż 10 stopni należy wykonać zamkniętą repozycję i stabilizację gwoździem śródszpikowym TEN.
+d. Złamania kości przedramienia bez przemieszczenia lub złamania typu zielonej gałązki - wymagają unieruchomienia w szynie gipsowej obejmującej przedramię i nadgarstek.
+e. Wszystkie odpowiedzi są prawidłowe.
+
+---
+
+**Obraz 2:**
+
+Złamanie Monteggia to:
+
+a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej
+b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym
+c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym
+d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dogłowowym oraz w ustawieniu supinacji i radializacji
+e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dogłowowym, ustawiony w radializacji i pronacji
+
+Złamanie Smitha to:
+
+a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej.
+b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.
+c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.
+d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dogłowowym oraz w ustawieniu supinacji i radializacji.
+e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dogłowowym, ustawiony w radializacji i pronacji.
+
+W złamaniu wyprostnym "locotypico" nasady dalszej kości promieniowej odłam dalszy ulega przemieszczeniu:
+a. grzbietowo.
+b. dopromieniowo.
+c. nawróceniu/supinacji.
+d. A i B są prawidłowe.
+e. wszystkie odpowiedzi są prawidłowe.
+
+---
+
+**Obraz 3:**
+
+Złamanie Colesa to:
+a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej.
+b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.
+c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.
+d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dogłowowym oraz w ustawieniu supinacji i radializacji.
+e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dogłowowym, ustawiony w radializacji i pronacji.
+
+Zaznacz zdanie fałszywe:
+a. Wyniki leczenia złamań pozastawowych końca dalszego kości promieniowej są zwykle dobre.
+b. Możliwym powikłaniem złamania końca dalszego kości promieniowej to np. zespół cieśni nadgarstka.
+c. Złamania wysokoenergetyczne typu Smitha u osób młodych leczy się z reguły operacyjnie.
+d. Nastawienie złamania końca dalszego kości promieniowej typu Collesa polega na zastosowaniu wyciągu za ramię przy łokciu zgiętym 90 stopni, wyciągu za rękę pacjenta w osi ręki i w stronę łokciową.
+e. Leczenie złamania Collesa to z reguły otwarta repozycja i zespolenie za pomocą drutów Kirschnera.
+
+Złamanie przestawowe z fragmentem po stronie dłoniowej często z podwichnięciem w stawie promieniowo-nadgarstkowym to złamanie:
+a. Typu Smitha.
+b. Typu Collesa.
+c. Typu Bartona.
+d. Typu Monteggia.
+e. Typu Bankarta.
+
+Pacjentka 70-letnia upadła z własnej wysokości na wyprostowaną kończynę górną przy zgięciu grzbietowym w stawie promieniowo-nadgarstkowym. W badaniu fizykalnym: ustawienie bagnetowe nadgarstka, deformacja, obrzęk, bolesność palpacyjna w rzucie stawu promieniowo-nadgarstkowego. Co podejrzewasz w pierwszej kolejności?
+a. Złamanie nasady dalszej kości promieniowej typu Collesa.
+b. Złamanie typu Monteggia.
+c. Zwichnięcie w stawie promieniowo-nadgarstkowym.
+d. Złamanie nasady dalszej kości promieniowej typu Smitha.
+e. Odwrotne złamanie Bartona.
+
+---
+
+Daj znać, jeśli mam przetłumaczyć na angielski lub pomóc w inny sposób!Oto tekst z obrazków:
+
+---
+
+**Obrazek 1:**
+
+Leczenie operacyjne polegające na stabilizacji dwoma drutami Kirschnera wg Kapandji lub sp. De-Palmy lub otwarte nastawienie i zespolenie płytką anatomiczną ze śrubami kątowo-stabilnymi zastosujesz w następującym przypadku:
 
 a. W złamaniach wieloodłamowych i przestawowych nasady dalszej kości promieniowej. ✔️  
 b. W złamaniach w obrębie trzonu kości ramiennej.  
@@ -458,393 +2634,197 @@ c. W złamaniach prostych pozastawowych w obrębie nasady dalszej kości promien
 d. Złamaniach w obrębie I kości śródręcza.  
 e. Złamanie w obrębie trzonu kości łokciowej.  
 
----
+Wybierz zdanie prawdziwe:
 
-**Podejrzenie złamania kości przedramienia w okolicy nadgarstka na czas transportu zabezpieczamy:**
-
-a. szyną Kramera domodelowaną, sięgającą do łokcia.  
-b. szyną Kramera domodelowaną, sięgającą za łokieć. ✔️  
-c. szyną Browna domodelowaną, sięgającą do łokcia.  
-d. A i B są prawidłowe.  
-e. B i C są prawidłowe.  
-
----
-
-### Image 3
-
-**Złamanie przynasadowo-nasadowe wg Saltera i Harrisa typ III oznacza:**
-
-a. Złamanie przebiegające przez nasadę i przynasadę.  
-b. Złamanie przez samą nasadę (epifizę). ✔️  
-c. Złuszczenie przez chrząstkę wzrostową z jej poszerzeniem, bez złamania.  
-d. Złuszczenie przez chrząstkę wzrostową z odłamaniem fragmentu kostnego z przynasady.  
-e. Osiowy uraz ze zgnieceniem chrząstki wzrostowej.  
-
----
-
-**Jeśli w miejscu gojenia się złamania jest wystarczająca cisza mechaniczna to nie dojdzie do zrostu kości (1), natomiast brak kostniny w miejscu złamania określamy jako staw rzekomy atroficzny (2):**
-
-a. Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy.  
-b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.  
-c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa.  
-d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa. ✔️  
-e. Obie części zdania są fałszywe.  
-
----
-
-**Zaznacz zdanie prawdziwe:**
-
-a. Gdy pomiędzy odłamami kostnymi nie ma wystarczającej „ciszy mechanicznej" to może dojść do powstania stawu rzekomego. ✔️  
-b. Gojenie złamania odbywa się wg następujących po sobie faz: faza zapalna, faza niedojrzałej kostniny, faza krwiaka, faza konsolidacji kostnej.  
-c. Złamanie awulsyjne to złamanie występujące w kości objętej chorobą pod wpływem niewielkiej siły.  
-d. Klasyfikacja Saltera i Harrisa dotyczy otwartych złamań kości.  
-e. Wszystkie odpowiedzi są prawidłowe.  
-
----
-
-**Akronim ORIF oznacza:**
-
-a. Otwarte nastawienie odłamów kostnych i zespolenie wewnętrzne. ✔️  
-b. Zamknięte nastawienie odłamów kostnych i na otwarto zespolenie wewnętrzNE.  
-c. Otwarte nastawienie odłamów kostnych i zespolenie zewnętrzne.  
-d. Zamknięte nastawienie odłamów kostnych i leczenie zachowawcze.  
-e. Otwarte nastawienie odłamów kostnych i leczenie zachowawcze.  
-
----
-
-If you need the text in a specific format or translated, please let me know!Sure! Here is the extracted text from the images:
-
----
-
-### First Image
-
-#### Wskazaniem do fasciotomii jest:
-- a. zakrzepica żył głębokich.
-- b. **zespół ciasnoty przedziałów powięziowych.** ✔️
-- c. uszkodzenie tętnicy udowej.
-- d. zerwanie więzadeł strzałkowego wspólnego.
-- e. zerwanie więzadła krzyżowego przedniego.
-
-#### W przedziale powięziowym przednim podudzia znajdziemy następujące mięśnie:
-- a. **M. piszczelowy przedni.** ✔️
-- b. M. piszczelowy tylny.
-- c. M. strzałkowy długi.
-- d. M. strzałkowy krótki.
-- e. Wszystkie odpowiedzi są prawidłowe.
-
-#### Pacjent 4 tygodnie temu został poddany operacji rekonstrukcji więzadła trójgraniiastego stopy prawej. Operacja trwała długo w zacisku. Obecnie zgłasza bardzo silne bóle, nieproporcjonalne do operacji. Ból nasila się przy biernym rozciąganiu mięśnia trójgłowego łydki. Ponadto stwierdzasz znaczny obrzęk w obrębie podudzia oraz obniżenie czucia w okolicy grzbietowej stopy dolnej prawej. Co podejrzewasz?
-- a. **Zespół ciasnoty przedziałów powięziowych.** ✔️
-- b. Złamanie zmęczeniowe kości skokowej.
-- c. Złamanie awulsyjne końca dalszego kości piszczelowej.
-- d. Złamanie patologiczne w obrębie końca dalszego kości piszczelowej.
-- e. Zwichnięcie w stawie skokowym.
-
-#### Fasciotomia na przedramieniu wykonywana jest z dostępu grzbietowego i dłoniowego często wraz z otwarciem kanału nadgarstka, (1) ponieważ fasciotomia musi obejmować wszystkie przedziały powięziowe w obrębie danego odcinka kończyny (2).
-- a. Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy.
-- b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.
-- c. Pierwsza część zdania jest prawdziwa, druga część fałszywa.
-- d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa. **✔️**
-- e. Obie części zdania są fałszywe.
-
-#### Fasciotomia jest wskazana gdy różnica między ciśnieniem rozkurczowym, a śródmięśniowym jest większa niż 30 mmHg (1) i polega na przecięciu powięzi (2).
-- a. Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy.
-- b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.
-- c. Pierwsza część zdania jest prawdziwa, druga część fałszywa.
-- d. **Obie części zdania są prawdziwe.** ✔️
-- e. Obie części zdania są fałszywe.
-
----
-
-### Second Image
-
-#### Kiedy oceniasz ryzyko amputacji w skali MESS jako ryzyko znaczne?
-- a. Powyżej 6 punktów.
-- b. **Powyżej 7 punktów.** ✔️
-- c. Powyżej 8 punktów.
-- d. Powyżej 9 punktów.
-- e. Brak prawidłowej odpowiedzi.
-
-#### Złamanie otwarte przebiegające z raną urazową ponad 10 cm bez ubytków skóry z możliwością zamknięcia rany bez plastyki skóry to wg Gustillo i Andersona stopień:
-- a. I
-- b. II
-- c. **IIIA** ✔️
-- d. IIIB
-- e. IIIC
-
-#### Ile punktów w skali MESS uzyska następujący pacjent w wieku 40 lat, który w wyniku urazu odniósł złamanie zamknięte bez przemieszczenia, ma słabo wypełnione tętno na obwodzie przez około 3 godzin, ciśnieniem skurczowym 95 mmHg?
-- a. 1 punkt
-- b. **3 punkty** ✔️
-- c. 5 punktów
-- d. 7 punktów
-- e. 9 punktów
-
----
-
-### Third Image
-
-#### Do powikłań złamań kości zaliczysz:
-- a. Staw rzekomy.
-- b. Martwica jałowa kości.
-- c. Uszkodzenie nerwów.
-- d. Porażenie mięśni.
-- e. **Wszystkie odpowiedzi są prawidłowe.** ✔️
-
-#### Unieruchomienie złamania na czas transportu daje:
-- a. zmniejszenie dalszej traumytyzacji tkanek.
-- b. zmniejszenie dolegliwości bólowych.
-- c. zmniejszenie ryzyka krwotoków i porażeń nerwów.
-- d. **wszystkie prawidłowe.** ✔️
-- e. żadna odpowiedź nie jest prawidłowa.
-
-#### Wybierz zdanie prawdziwe:
-- a. **złamania patologiczne mogą wystąpić przy niewielkim urazie.** ✔️
-- b. złamania typu zielonej gałązki są nazywane złamaniami geriatrycznymi.
-- c. złamania awulsyjne powstają w wyniku często powtarzających się mikrourazów.
-- d. wszystkie powyższe odpowiedzi są prawidłowe.
-- e. żadna odpowiedź nie jest prawidłowa.
-
----
-
-If you need a different format, let me know!Oto tekst z obrazków:
-
----
-
-**Obrazek 1:**
-
-1. **Jaki antybiotyk podasz i w jakiej dawce w przypadku złamania otwartego u osób uczulonych na cefalosporyny?**
-    - a. Augmentin 1,2g-2,2g i.v.
-    - b. Cefazolina 1,0 g i.v.
-    - c. Klindamycyna 3x600 mg i.v. ✔️
-    - d. Cefuroksym 1,5 g i.v.
-    - e. Cefamandol 2,0 i.v.
-
-2. **Rana urazowa ponad 10 cm, z uszkodzeniem pnia naczyniowego wymagające naprawy chirurgicznej to który stopień złamań otwartych wg Gustillo i Andersona?**
-    - a. II
-    - b. I
-    - c. IIIA
-    - d. IIIB
-    - e. IIIC ✔️
-
-3. **W skali MESS oceniasz następujące parametry:**
-    - a. Uraz tkanek miękkich i kości, niedokrwienie kończyny, wstrząs, wiek. ✔️
-    - b. Uraz tkanek miękkich i kości, płeć, niedokrwienie kończyny.
-    - c. Niedokrwienie kończyny, przytomność, częstość oddechów, tętno.
-    - d. Powrót kapilarny, uraz tkanek miękkich i kości, tętno, częstość oddechów.
-    - e. Wiek, płeć, wstrząs, przytomność.
-
-4. **Złamanie otwarte, gdzie czysta rana urazowa poniżej 1 cm, powstała wskutek przebicia skóry „od wewnątrz” przez odłam kości, bez uszkodzenia głębokich tkanek miękkich to wg Gustillo i Andersona stopień:**
-    - a. I ✔️
-    - b. II
-    - c. IIIA
-    - d. IIIB
-    - e. IIIC
-
-5. **Jaki antybiotyk podasz i w jakiej dawce w przypadku złamania otwartego?**
-    - a. Augmentin 1,2g-2,2 g i.v.
-    - b. Cefazolina 1,0 g i.v.
-    - c. Cefuroksym 1,5 g i.v.
-    - d. Cefamandol 2,0 g i.v.
-    - e. Wszystkie odpowiedzi są prawidłowe. ✔️
+a. obrażenia kończyny górnej i obręczy kończyny górnej najczęściej są spowodowane urazami pośrednimi.  
+b. złamanie Montegia to złamanie kości promieniowej.  
+c. w zwichnięciu piastunki ulega przemieszczeniu główka kości ramiennej.  
+d. wszystkie złamania dalszej nasady kości promieniowej leczymy operacyjnie.  
+e. wszystkie zdania są fałszywe. ✔️  
 
 ---
 
 **Obrazek 2:**
 
-6. **Staw rzekomy kości:**
-    - a. Jest powikłaniem złamania.
-    - b. Może być spowodowany błędem w leczeniu.
-    - c. Może zależeć od stanu zdrowia pacjenta.
-    - d. Wszystkie odpowiedzi (a,b,c) są prawidłowe. ✔️
-    - e. Żadna odpowiedź nie jest prawidłowa
+Dziecko ok 5 lat, po urazie przedramienia prawego z zaburzeniem osi przedramienia ok 60 stopni. Na miejscu wypadku wymaga:
 
-7. **Skala VAS to skala**
-    - a. oceny odczuwania bólu. ✔️
-    - b. trudności w nastawianiu zwichnięć.
-    - c. trudności w nastawianiu złamań.
-    - d. żadna odpowiedź nie jest prawidłowa.
-    - e. stwierdzanych zaburzeń osi urażonych kończyn na miejscu wypadku.
-
-8. **Protokół PRICE:**
-    - a. Oznacza oszczędzanie, zimne okłady, miejscowy ucisk za pomocą bandaża elastycznego oraz wyższe ułożenie stopy np. w przypadku skręcenia stawu skokowego. ✔️
-    - b. Oznacza otwarte nastawienie odłamów kostnych i zespolenie wewnętrzne.
-    - c. Dotyczy postępowania w przypadku otwartego złamania kości udowej.
-    - d. Opisuje jakie powikłania występują po skręceniu stawu skokowego.
-    - e. Opisuje mechanizmy urazu, w wyniku których dochodzi do skręcenia stawu skokowego.
-
-9. **Podwichnięciem nazywamy:**
-    - a. przemieszczenie powierzchni stawowych pod wpływem zadziałania siły.
-    - b. całkowitą utratę kontaktu między powierzchniami stawowymi.
-    - c. częściową utratę kontaktu między powierzchniami stawowymi. ✔️
-    - d. uszkodzenie struktur torebkowo-więzadłowych stawu.
-    - e. żadna odpowiedź nie jest prawidłowa.
-
-10. **Przykładem skręcenia III stopnia będzie:**
-    - a. zerwanie więzadła krzyżowego przedniego w stawie kolanowym. ✔️
-    - b. boczne zwichnięcie rzepki.
-    - c. zerwanie ścięgna Achillesa.
-    - d. kręgozmyk.
-    - e. żadna odpowiedź nie jest prawidłowa.
+a. jedynie zimnego okładu na urazoną kończynę i skierowania do SOR.  
+b. założenia domodelowanej do urazonej kończyny szyny obejmującej rękę, przedramię i ramię, następnie przekazania chorego do SOR. ✔️  
+c. Zastosowanie wyciągu manualnego i odprowadzenie zgięcia kątowego przedramienia, a następnie założenie opatrunku unieruchamiającego i przekazania chorego do SOR.  
+d. oceny ruchomości stawów urazonej kończyny zanim zostaną podane leki przeciwbólowe, następnie zależnie temblaka, następnie przekazanie do SOR  
+e. Żadne z wymienionych  
 
 ---
 
 **Obrazek 3:**
 
-11. **Jaki antybiotyk podasz i w jakiej dawce w przypadku złamania otwartego u osób uczulonych na cefalosporyny?**
-    - a. Augmentin 1,2g-2,2g i.v.
-    - b. Cefazolina 1,0 g i.v.
-    - c. Wankomycyna 1g i.v. ✔️
-    - d. Cefuroksym 1,5 g i.v.
-    - e. Cefamandol 2,0 g i.v.
+Złamanie typu Monteggia:
 
-12. **Ile punktów w skali MESS uzyska następujący pacjent w wieku 40 lat, który w wyniku urazu odniósł złamanie zamknięte bez przemieszczenia, ma słabo wypełnione tętno na obwodzie przez około 3 godziny, ciśnieniem skurczowym 95 mmHg?**
-    - a. 1 punkt
-    - b. 3 punkty ✔️
-    - c. 5 punktów
-    - d. 7 punktów
-    - e. 9 punktów
+a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej. ✔️  
+b. Złamanie szyjki chirurgicznej kości ramiennej.  
+c. Złamanie nasady dalszej kości promieniowej.  
+d. Złamanie szyjki kości udowej.  
+e. To inaczej jałowa martwica guzowatości kości piszczelowej.  
 
-13. **Jaki antybiotyk podasz i w jakiej dawce w przypadku złamania otwartego u osób uczulonych na cefalosporyny?**
-    - a. Augmentin 1,2g-2,2 g i.v.
-    - b. Cefazolina 1,0 g i.v.
-    - c. Klindamycyna 3x600 mg i.v. ✔️
-    - d. Cefuroksym 1,5 g i.v.
-    - e. Cefamandol 2,0 i.v.
+Pacjentka 65-letnia upadła z własnej wysokości na wyprostowaną kończynę górną przy zgięciu dłoniowym w stawie promieniowo-nadgarstkowym. W badaniu fizykalnym: deformacja, obrzęk, bolesność palpacyjna w rzucie stawu, bez deficytu czucia i ukrwienia na obwodzie. Co podejrzewasz w pierwszej kolejności?
 
-14. **Jakie jest prawidłowe postępowanie na SOR w przypadku złamania otwartego kości ramiennej?**
-    - a. Sprawdzenie i udokumentowanie statusu na obwodzie kończyny, kontrola rany, podanie anatoksyny przeciwtężcowej, nastawienie złamania i unieruchomienie kończyny, podanie antybiotyku. ✔️
-    - b. W pierwszej kolejności — operacja; następnie anatoksyna przeciwtężcowa i podanie antybiotyku.
-    - c. Nastawienie złamania, podanie anatoksyny przeciwtężcowej, posiew z rany, antybiotyki podajemy dopiero po uzyskaniu wyników antybiogramu.
-    - d. Sprawdzenie i udokumentowanie powikłań kończyny, podanie surowicy przeciwtężcowej, podanie antybiotyku dopiero po 48 godzinach od urazu.
-    - e. Operacja — nastawienie i stabilizacja za pomocą płytki, a następnie podanie antybiotyków i anatoksyny przeciwtężcowej.
+a. Złamanie nasady dalszej kości promieniowej typu Collesa.  
+b. Złamanie typu Monteggia.  
+c. Zwichnięcie w stawie promieniowo-nadgarstkowym.  
+d. Złamanie nasady dalszej kości promieniowej typu Smitha. ✔️  
+e. Odwrotne złamanie Bartona.
 
-15. **W złamaniach otwartych z podejrzeniem kontaminacji Clostridium spp. należy podać:**
-    - a. Penicylinę dożylnie 3 mln j.m. ✔️
-    - b. Azytromycynę w dawce 500 mg p.o.
-    - c. Erytromycynę w dawce 200 mg p.o.
-    - d. Wankomycynę w dawce 500 mg i.v.
-    - e. Klaritromycynę w dawce 100 mg i.v.
+Wybierz zdanie prawdziwe:
+
+a. obrażenia kończyny górnej i obręczy kończyny górnej najczęściej są spowodowane urazami pośrednimi.  
+b. złamanie Montegia to złamanie kości promieniowej.  
+c. w zwichnięciu piastunki ulega przemieszczeniu główka kości ramiennej.  
+d. wszystkie złamania dalszej nasady kości promieniowej leczymy operacyjnie.  
+e. wszystkie zdania są fałszywe. ✔️  
+
+Zaznacz zdanie fałszywe:
+
+a. Złamania w obrębie nasady dalszej kości promieniowej przestawowe i wieloodłamowe są często przyczyną ograniczenia funkcji i rozwoju artrozy.  
+b. W deformacji Madelunga może być wskazana osteotomia korekcyjna i zszycie więzadeł w stawie promieniowo-łokciowym dalszym.  
+c. Powikłaniem złamania kości promieniowej jest m.in. zespół kanału nadgarstka.  
+d. Powikłaniem złamania końca dalszego kości promieniowej jest m.in. zerwanie ścięgna prostownika długiego kciuka.  
+e. Wyniki leczenia złamań pozastawowych końca dalszego kości promieniowej są zwykle złe. ✔️  
 
 ---
 
-Jeśli potrzebujesz wyszczególnienia poprawnych odpowiedzi lub przetłumaczenia na język angielski, daj znać!Here is the transcribed text from the images:
+Jeśli potrzebujesz tłumaczenia lub interpretacji którejś odpowiedzi, daj znać!Here is the text from the images:
 
 ---
 
 **Image 1:**
 
-Zgodnie z zasadą Potta w przypadku złamania trzonu kości piszczelowej należy:
-- a. Unieruchomić dwa sąsiednie stawy tj. staw kolanowy i biodrowy.
-- b. **Unieruchomić dwa sąsiednie stawy tj. staw kolanowy i skokowy.** ✅
-- c. Wystarczy unieruchomić staw kolanowy.
-- d. Wystarczy unieruchomić staw skokowy.
-- e. Wszystkie odpowiedzi są prawidłowe.
+**Złamanie Colesa to:**
+a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej.  
+b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.  
+c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.  
+**d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dogłowowym oraz w ustawieniu supinacji i radializacji** ✔  
+e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dogłowowym, ustawiony w radializacji i pronacji.
 
-Urazowe uszkodzenie torebki stawowej i więzadeł wywołane przez ruch w stawie przekraczający fizjologiczny zakres danego stawu, z zachowaniem kontaktu powierzchnii stawowych to:
-- a. **Skręcenie.** ✅
-- b. Zwichnięcie.
-- c. Złamanie awulsyjne.
-- d. Złamanie patologiczne.
-- e. Stłuczenie.
-
-Wymień w kolejności fazy gojenia się złamania:
-- a. Faza krwiaka, faza niedojrzałej kostniny, faza konsolidacji zrostu, faza zapalna.
-- b. Faza zapalna, faza krwiaka, faza niedojrzałej kostniny, faza konsolidacji zrostu.
-- c. **Faza krwiaka, faza zapalna, faza niedojrzałej kostniny, faza konsolidacji zrostu.** ✅
-- d. Faza niedojrzałej kostniny, faza zapalna, faza krwiaka, faza konsolidacji zrostu.
-- e. Faza krwiaka, faza niedojrzałej kostniny, faza zapalna, faza konsolidacji zrostu.
+**Leczenie złamania przedramienia:**
+a. Izolowane złamanie kości łokciowej lub promieniowej można leczyć w ortezie po unieruchomieniu w opatrunku gipsowym przez około 7 dni, jeżeli złamanie jest stabilne.  
+b. Złamania obu kości przedramienia wymagają zwykle leczenia operacyjnego ORIF.  
+c. Zespolenie trzonu kości łokciowej w złamaniu Monteggia powoduje zwykle samoistną repozycję głowy kości promieniowej.  
+d. W przypadku przewlekłej niestabilności stawu promieniowo-łokciowego dalszego wykonuje się rekonstrukcję więzadeł.  
+**e. Wszystkie odpowiedzi są prawidłowe.** ✔  
 
 ---
 
 **Image 2:**
 
-Do powikłań złamań kości zaliczysz:
-- a. Staw rzekomy.
-- b. Martwica jałowa kości.
-- c. Uszkodzenie nerwów.
-- d. Porażenie mięśni.
-- e. **Wszystkie odpowiedzi są prawidłowe.** ✅
-
-Unieruchomienie złamania na czas transportu daje:
-- a. zmniejszenie dalszej uratyzacji tkanek.
-- b. zmniejszenie dolegliwości bólowych.
-- c. zmniejszenie ryzyka krwotoków i porażeń nerwów.
-- d. **wszystkie prawidłowe.** ✅
-- e. żadna odpowiedź nie jest prawidłowa.
-
-Wybierz zdanie prawdziwe:
-- a. **złamania patologiczne mogą wystąpić przy niewielkim urazie.** ✅
-- b. złamania typu zielonej gałązki są nazywane złamaniami geriatrycznymi.
-- c. złamania awulsyjne powstają w wyniku często powtarzających się mikrourazów.
-- d. wszystkie powyższe odpowiedzi są prawidłowe.
-- e. żadna odpowiedź nie jest prawidłowa.
+**Złamanie Essex-Lopresti to:**
+a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej.  
+b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.  
+**c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.** ✔  
+d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dogłowowym oraz w ustawieniu supinacji i radializacji.  
+e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dogłowowym, ustawiony w radializacji i pronacji.
 
 ---
 
 **Image 3:**
 
-Przykurcz niedokrwienny Volkmanna, niedowłady, zespół ciasnoty przedziałów powięziowych, zapalenia kości to powikłania:
-- a. **Złamań kości.** ✅
-- b. Stłuczenia.
-- c. Rany ciętej.
-- d. Skręcenia.
-- e. Wszystkie odpowiedzi są prawidłowe.
-
-Wskazania do leczenia operacyjnego złamań kostnych zaliczysz:
-- a. Złamania niestabilne.
-- b. Złamanie otwarte II i III stopnia wg klasyfikacji Gustillo-Andersona.
-- c. Złamania przestawowe przemieszczone.
-- d. Złamania zamknięte z uszkodzeniem naczyń i nerwów.
-- e. **Wszystkie odpowiedzi są prawidłowe.** ✅
-
-Złamanie przynasadowo-nasadowe wg Saltera i Harrisa typ IV oznacza:
-- a. **Złamanie przebiegające przez nasadę i przynasadę.** ✅
-- b. Złamanie przez samą nasadę (epifizę).
-- c. Złuszczenie przez chrząstkę wzrostową z jej poszerzeniem, bez złamania.
-- d. Złuszczenie przez chrząstkę wzrostową z odłamaniem fragmentu kostnego z przynasady.
-- e. Osiowy uraz ze zgnieceniem chrząstki wzrostowej.
+**Złamanie dalszej nasady kości promieniowej, z dłoniowym przemieszczeniem złamania i widelcowatym zniekształceniem nadgarstka to złamanie:**
+a. typu Collesa.  
+b. typu Bennetta.  
+**c. typu Smitha.** ✔  
+d. typu Monteggia.  
+e. złamanie tzw. „szoferskie”.
 
 ---
 
-If you need this text in English or need further assistance, let me know!Here is the text extracted from the images:
+**Pacjentka 70-letnia upadła z własnej wysokości na wyprostowaną kończynę górną przy zgięciu grzbietowym w stawie promieniowo-nadgarstkowym. W badaniu fizykalnym: ustawienie bagnetowe nadgarstka, deformacja, obrzęk, bolesność palpacyjna w rzucie stawu promieniowo-nadgarstkowego. Co podejrzewasz w pierwszej kolejności?**
+**a. Złamanie nasady dalszej kości promieniowej typu Collesa.** ✔  
+b. Złamanie typu Monteggia.  
+c. Zwichnięcie w stawie promieniowo-nadgarstkowym.  
+d. Złamanie nasady dalszej kości promieniowej typu Smitha.  
+e. Odwrotne złamanie Bartona.
+
+---
+
+**W złamaniu typu “Collesa” dalszy odłam jakiemu przemieszczeniu nie ulega:**
+a. Dorsalizacji.  
+b. ulnaryzacji.  
+c. pronacji.  
+**d. Supinacji.** ✔  
+e. A i C są prawidłowe.
+
+---
+
+**W których złamaniach występuje złamanie kości łokciowej?**
+**a. Złamanie typu Monteggia.** ✔  
+b. Złamanie Bartona.  
+c. Złamanie Essex-Lopresti.  
+d. Złamanie Collesa.  
+e. Złamanie Smith’a.
+
+---
+
+If you want the answers only or further explanations, let me know!Here is the text from the images:
 
 ---
 
 **Image 1:**
 
-Złamaniem awulsyjnym jest złamanie:
+Pacjentka 50-letnia w wyniku urazu doznała złamania trzonu kości łokciowej oraz trzonu kości promieniowej. W badaniu fizykalnym: obrzęk o umiarkowanym nasileniu, widoczna deformacja, bez ubytków czucia i ukrwienia na obwodzie, bolesność palpacyjna. Jakie leczenie zaproponujesz pacjentce?
 
-a. Essexa-Loprestiego.  
-b. Galeazziego.  
-c. Przywiedzeniowe.  
-d. Wyprostne.  
-e. Z pociągnięcia. ✔️
+a. Unieruchomienie w opatrunku gipsowym na okres około tygodnia, następnie orteza obejmująca przedramię przez 10 tygodni.  
+b. Orteza przedramienna przez około 4 tygodnie, następnie rehabilitacja.  
+**c. Leczenie operacyjne - zespolenie złamania sposobem ORIF.** ✔️  
+d. Orteza przedramienno-ramienna przez okres 4 tygodni, następnie rehabilitacja.  
+e. Unieruchomienie w opatrunku gipsowym przez okres 2 tygodni, następnie rehabilitacja.  
+
+---
+
+**Złamanie Smitha to:**  
+
+a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej.  
+b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.  
+c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.  
+d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dogłowowym oraz w ustawieniu supinacji i radializacji.  
+**e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dogłowowym, ustawiony w radializacji i pronacji.** ✔️  
+
+---
+
+**Złamanie dalszej nasady kości promieniowej, z grzbietowym przemieszczeniem złamania i widelcowatym zniekształceniem nadgarstka to złamanie:**  
+
+**a. typu Collesa.** ✔️  
+b. typu Bartona.  
+c. typu Smitha.  
+d. typu Monteggia.  
+e. Wszystkie odpowiedzi są prawidłowe.  
+
+---
+
+Pacjentka 65-letnia upadła z własnej wysokości na wyprostowaną kończynę górną przy zgięciu dłoniowym w stawie promieniowo-nadgarstkowym. W badaniu fizykalnym: deformacja, obrzęk, bolesność palpacyjna w rzucie stawu, bez deficytu czucia i ukrwienia na obwodzie. Co podejrzewasz w pierwszej kolejności?
+
+a. Złamanie nasady dalszej kości promieniowej typu Collesa.  
+b. Złamanie typu Monteggia.  
+c. Zwichnięcie w stawie promieniowo-nadgarstkowym.  
+**d. Złamanie nasady dalszej kości promieniowej typu Smitha.** ✔️  
+e. Odwrotne złamanie Bartona.  
 
 ---
 
 **Image 2:**
 
-W złamaniach otwartych z podejrzeniem kontaminacji Clostridium spp. należy podać:
+Unieruchamiając nieprzemieszczone złamanie trzonu kości promieniowej najlepiej jest złożyć:
 
-a. Penicylinę dożylnie 3 mln j.m. ✔️  
-b. Azytromycynę w dawce 500 mg p.o.  
-c. Erytromycynę w dawce 200 mg p.o.  
-d. Flukonazol w dawce 50 mg i.v.  
-e. Klarytromycynę w dawce 100 mg i.v.
-
-Jaki antybiotyk podasz i w jakiej dawce w przypadku złamania otwartego u osób uczulonych na cefalosporyny?
-
-a. Augmentin 1,2g-2,2 g i.v.  
-b. Cefazolina 1,0 g i.v.  
-c. Wankomycyna 1g i.v. ✔️  
-d. Cefuroksym 1,5 g i.v.  
-e. Cefamandol 2,0 g i.v.
-
-Skala Andersona Gustillo to:
-
-a. klasyfikacja złamań otwartych. ✔️  
-b. skala odczuwania bólu.  
-c. skala oceny przytomności pacjenta po spożyciu środków odurzających.  
-d. klasyfikacja urazów skrętnych zamkniętych stawu kolanowego.  
-e. klasyfikacja urazów skrętnych zamkniętych stawu skokowego.
+a. Longetę ramienną w zgięciu łokcia do 90 st zgodnie z zasadami Potta.  
+**b. Okrężny gips ramienny w zgięciu łokcia do 90 st zgodnie z zasadami Potta.** ✔️  
+c. Longetęprzedramienną bez unieruchomienia łokcia, gdyż nie jest złamany trzon kości łokciowej.  
+d. Okrężny gips przedramienny bez unieruchomienia łokcia, gdyż nie jest złamany trzon kości łokciowej.  
+e. Wszystkie odpowiedzi są prawidłowe.  
 
 ---
+
+**Złamanie Essex-Lopresti to:**  
+
+a. Złamanie trzonu kości łokciowej ze zwichnięciem głowy kości promieniowej.  
+b. Złamanie trzonu kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.  
+**c. Złamanie szyjki kości promieniowej ze zwichnięciem głowy kości łokciowej w stawie promieniowo-łokciowym dalszym.** ✔️  
+d. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku grzbietowym i dogłowowym oraz w ustawieniu supinacji i radializacji.  
+e. Złamanie nasady dalszej kości promieniowej z przemieszczeniem odłamu dalszego w kierunku dłoniowym, dogłowowym, ustawiony w radializacji i pronacji.
