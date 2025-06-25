@@ -216,7 +216,7 @@ e. 4 miesiące.
 
 **1st Image:**
 Złamania paliczków:
-a. Mogą obejmować powierzchnie stawowe.
+a. Mogą obejmować powierzchnie stawowe. ✔️  
 b. Złamanie w obrębie trzonu są zwykle stabilne.
 c. Złamanie rotacyjne paliczka leczymy poprzez unieruchomienie z sąsiednim palcem i w szynie Zimmera przez około 4 tygodnie.
 d. Proste złamanie paliczka z minimalnym zagięciem kątowym powinno się mimo wszystko leczyć operacyjnie.
@@ -230,7 +230,7 @@ a. Uszkodzeniem więzadła pobocznego łokciowego stawu MCP kciuka.
 b. Powstaniem urazu o typie „kciuk narciarza”.
 c. Oderwaniem fragmentu więzadła UCL w kierunku dogłowowym
 d. Złamaniem awulsyjnym kciuka.
-e. Wszystkie odpowiedzi są prawidłowe.
+e. Wszystkie odpowiedzi są prawidłowe. ✔️  
 
 ---
 
@@ -239,7 +239,7 @@ Zwichnięcie w stawie DIP zwykle leczymy przez nastawienie na zamknięto i w szy
 
 a. Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy.
 b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.
-c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa.
+c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa. ✔️  
 d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa.
 e. Obie części zdania są fałszywa.
 
@@ -316,7 +316,7 @@ Let me know if you need the translation or any further help!Here is the text fro
 W złamaniu paliczka środkowego palca ręki stosuje się:
 
 a. opatrunek plastrowy.
-b. szynę Zimmera.
+b. szynę Zimmera. ✔️  
 c. szynę Stacka.
 d. a i b są prawidłowe.
 e. b i c są prawidłowe.
@@ -328,13 +328,13 @@ Tylne zwichnięcie w stawie biodrowym powstaje najczęściej wskutek działania 
 
 a. Obie części zdania są prawdziwe i jest związek przyczynowo-skutkowy.
 b. Obie części zdania są prawdziwe i brak związku przyczynowo-skutkowego.
-c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa.
+c. Pierwsza część zdania jest prawdziwa, druga część jest fałszywa. ✔️  
 d. Pierwsza część zdania jest fałszywa, druga część jest prawdziwa.
 e. Obie części zdania są fałszywe.
 
 Gips biodrowy zastosujesz w leczeniu zachowawczym:
 
-a. złamanie trzonu kości udowej.
+a. złamanie trzonu kości udowej. ✔️  
 b. złamaniu talerza kości biodrowej.
 c. wieloodłamowym złamaniu kości bliższej piszczeli.
 d. złamaniu kości krzyżowej.
@@ -345,15 +345,15 @@ e. Wszystkie odpowiedzi są prawidłowe.
 ```
 Leczenie w przypadku złamania miednicy polega na:
 
-a. Złamanie typu otwartej książki z przemieszczeniem leczymy poprzez repozycję i stabilizację spojenia łonowego płytką z śrubami
+a. Złamanie typu otwartej książki z przemieszczeniem leczymy poprzez repozycję i stabilizację spojenia łonowego płytką z śrubami ✔️  
 b. Złamanie pierścienia miednicy bez przemieszczenia leczymy zwykle operacyjnie
 c. Złamanie z podwójnym przerwaniem pierścienia miednicy – leczenie zachowawcze
 d. Złamanie tylnej kolumny panewki stawu biodrowego często leczy się zachowawczo poprzez odciążanie kończyny po stronie złamania
 e. Wszystkie odpowiedzi są prawidłowe
 
-W urazach wysokoenergetycznych chory często jest we wstrząsiE. (1) Powodem jest obfite krwawienie wewnętrzne, które może prowadzić do zgonu. (2).
+W urazach wysokoenergetycznych chory często jest we wstrząsie. (1) Powodem jest obfite krwawienie wewnętrzne, które może prowadzić do zgonu. (2).
 
-a. Oba zdania są prawdziwe i jest związek przyczynowo-skutkowy.
+a. Oba zdania są prawdziwe i jest związek przyczynowo-skutkowy. ✔️  
 b. Oba zdania są prawdziwe i brak związku przyczynowo-skutkowego.
 c. Pierwsze zdanie jest prawdziwe, drugie jest fałszywe.
 d. Pierwsze zdanie jest fałszywe, drugie jest prawdziwe.
@@ -361,12 +361,7 @@ e. Oba zdania są fałszywe.
 ```
 ---
 
-Zaznaczone są odpowiedzi:
-- 1: b
-- 2a: c
-- 2b: a
-- 3a: a
-- 3b: aSure! Here is the text from the provided images:
+
 
 ---
 
@@ -589,7 +584,6 @@ Które z poniższych badań dodatkowych często wykonuje się u pacjentów mają
 
 ---
 
-Check marks (✔️) indicate the selected correct answers.Here is the text from the images:
 
 ---
 
