@@ -1,0 +1,76 @@
+## Reinforcement-learning basics:
+1. What is RL formalism (MDP), policy, value function, rewards? Give examples.
+2. What are the basic components of a reinforcement learning algorithm?
+
+## Value-based methods
+1. What is the relation of value function and a policy?
+2. What is the difference between value function and q-function?
+3. Formulate Bellman equation. How many are there?
+4. What is a policy iteration algorithm and what are its stages?
+5. What are the differences between model-free and model-based methods?
+6. What is the difference between prediction and control?
+7. Describe the differences between Monte-Carlo and Temporal-Difference? 
+8. What is TD(k) and TD(λ)?
+9. Describe the SARSA algorithm.
+10. Describe the Q-learning algorithm.
+11. What is the difference between on-policy and off-policy algorithms?
+
+## Function approximation 
+1. Describe model-free prediction using function approximators and Monte-Carlo and Temporal Difference.
+2. Describe potential problems when using function approximators in RL. What is the deadly triad?
+3. Describe the DQN algorithm. What problems of using function approximators in RL DQN aims to solve?
+
+## Policy gradient-methods
+1. Why/when use policy methods and value methods?
+2. List two gradient-free policy algorithms?
+3. Evolutionary Strategies, what are their strengths and weaknesses? 
+4. Compare on-policy methods and off-policy methods. List a few algorithms in each class.
+5. Describe policy gradient theorem (show the proof - for ambitious students).
+6. What is the Reinforce algorithm?
+7. Describe the A3C algorithm. What are its strengths and weaknesses? (we may ask about the pseudo-code).
+8. What is IMPALA?
+9. Derive the TRPO algorithm. What are its strengths and weaknesses? (we may ask about the pseudo-code).
+10. Derive the PPO algorithm. What are its strengths and weaknesses? (we may ask about the pseudo-code).
+11. Derive the DDPG/TD3 algorithms. What are their strengths and weaknesses? (we may ask about the pseudo-code).
+12. What is the Polyak averaging? Where is it used? What are the alternatives?
+13. Describe the replay buffer technique? Where is it used?
+14. What is double Q-learning? Why and when is it used?
+15. What are methods of ensuring exploration in policy algorithms?
+16. Derive the SAC algorithms. What are their strengths and weaknesses? (we may ask about the pseudo-code).
+17. Describe briefly the maximum entropy RL formalism (compare with the “standard” approach).
+
+## Exploration-exploitation:
+1. Multi-armed bandits model.
+2. Regret and regret decomposition.
+3. Formulate asymptotic and worst case lower bounds on regret.
+4. Discuss optimality properties of the bandit algorithms.
+5. Define UCB and discuss its properties.
+
+## Model-based methods
+1. What is model-based RL, compare with model-free. What are its strengths and weaknesses?
+2. Describe the Dyna-algorithm (DynaQ).
+3. What is the back-propagation-through time algorithm? Why is it not used?
+4. Derive the LQR and iLQR algorithms. What are their strengths and weaknesses?
+5. Compare open-loop vs closed-loop algorithms.
+6. Describe the MCTS algorithms. What are their strengths and weaknesses? (we may ask about the pseudo-code).
+7. Describe the World models/Simple algorithms. What are their strengths and weaknesses? 
+8. Describe the I2A algorithm.
+9. Describe the MBMF algorithm.
+10. Describe the MBVE algorithm.
+11. Describe selected three RL benchmarks.
+12. Describe the DreamerV3 algorithm.
+
+## Advanced topics in RL
+1. Describe Reinforcement Learning for Improving Agent Design.
+2. Discuss open-endedness on the example of POET.
+3. Discuss morphological approach of Learning to Control Self-Assembling Morphologies.
+4. What are inductive biases, give definition and examples.
+5. Relational inductive bias on the example of Relational Deep Reinforcement Learning.
+6. Including biases as losses on the example of PVE.
+7. Discuss the topic of causality and adversarial examples (generally and in RL).
+8. Describe briefly the causal calculus.
+9. Casual confusion on the example of Causal Confusion in Imitation Learning
+10. Discuss End to End Learning for Self-Driving Cars approach (note the problems with imitation learning).
+11. Discuss random exploration on the example of Learning to Fly by Crashing.
+12. Discuss the domain randomisation technique on the example of OpenAi Rubik’s cube project.
+13. Discuss general/universal random functions and the hindsight replay buffer technique.

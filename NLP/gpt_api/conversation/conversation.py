@@ -9,10 +9,17 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 previous_response_id = None
 instructions = "You are a helpful, concise AI assistant. Answer only in Markdown format."
 
+user_input = ''
+
 while True:
     clear = False
+    skip = False
     try:
+        if user_input.strip().lower() == "skip":
+            skip = True
+
         user_input = input("Query: ")
+
         if user_input.strip().lower() in {"exit", "quit", "clear"}:
             clear = user_input.strip().lower() == "clear"
             raise KeyboardInterrupt
@@ -30,9 +37,10 @@ while True:
 
         previous_response_id = response.id
 
-        with open("chat_log.md", "a", encoding="utf-8") as f:
+        if not skip:
+            with open("chat_log.md", "a", encoding="utf-8") as f:
                 f.write(f"### You:\n{user_input}\n\n")
-                f.write(f"### AI:\n{response.output_text}\n\n")
+                f.write(f"### Response:\n{response.output_text}\n")
 
     except KeyboardInterrupt:
         if clear:
