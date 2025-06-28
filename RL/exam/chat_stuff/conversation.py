@@ -8,7 +8,7 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 previous_response_id = None
-instructions = "You are a helpful, concise AI assistant. Answer only in Markdown format."
+instructions = "You are a helpful AI assistant. Explain following Reinforcement Learning topics. Answer only in Markdown format."
 
 with open('questions.md', 'r', encoding='utf-8') as f:
     questions = f.read()
@@ -33,7 +33,7 @@ for line in tqdm.tqdm(questions.splitlines()):
         user_input = line
     
     response = client.responses.create(
-        model="gpt-4.1",
+        model="gpt-4.1-mini",
         input=user_input,
         instructions=instructions,
         previous_response_id=previous_response_id, 
