@@ -1,0 +1,147 @@
+% This must be in the first 5 lines to tell arXiv to use pdfLaTeX, which is strongly recommended.
+\pdfoutput=1
+% In particular, the hyperref package requires pdfLaTeX in order to break URLs across lines.
+
+\documentclass[11pt]{article}
+
+% Remove the "review" option to generate the final version.
+\usepackage{ACL2023}
+
+% Standard package includes
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{hyperref}
+
+% For proper rendering and hyphenation of words containing Latin characters (including in bib files)
+\usepackage[T1]{fontenc}
+% For Vietnamese characters
+% \usepackage[T5]{fontenc}
+% See https://www.latex-project.org/help/documentation/encguide.pdf for other character sets
+
+% This assumes your files are encoded as UTF8
+\usepackage[utf8]{inputenc}
+
+% This is not strictly necessary, and may be commented out.
+% However, it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+
+% This is also not strictly necessary, and may be commented out.
+% However, it will improve the aesthetics of text in
+% the typewriter font.
+\usepackage{inconsolata}
+
+
+% If the title and author information does not fit in the area allocated, uncomment the following
+%
+%\setlength\titlebox{5cm}
+%
+% and set <dim> to something 5cm or larger.
+\title{Evaluating Qwen3 Reasoning Capabilities Outside the Thinking Mode}
+
+\author{
+  % TODO add you names here
+  \textbf{Łukasz Smoliński}\\
+  \texttt{ls438719@students.mimuw.edu.pl}\\
+  \And
+  \textbf{Marek Lisowski}\\
+  \texttt{ml438584@students.mimuw.edu.pl}\\
+  \AND
+  \textbf{Jakub Nowacki}\\
+  \texttt{jn431513@students.mimuw.edu.pl}
+  \And
+  \textbf{Yun Chia Lee}\\
+  \texttt{y.lee15@student.uw.edu.pl}
+}
+\date{\vspace*{-0.2cm}}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We investigate whether Qwen3 models, trained to reason during post-training
+with the special \texttt{<think>} token, can exhibit similar reasoning
+behavior when prompted with natural language cues like \texttt{"Wait"}.
+While the Qwen3 thinking mode is expected to perform better, we aim to
+quantify how well Qwen3 models reason using regular language cues under
+various thinking budgets. Additionally, we compare Qwen3's performance with
+Qwen2.5 to assess the generalizability of reasoning capabilities elicited
+through natural language prompts. This will help determine whether
+post-training in Qwen3 improves general-purpose reasoning without
+explicit fine-tuning.
+\end{abstract}
+
+\section{Introduction}
+Large language models (LLMs) have demonstrated remarkable capabilities across
+various natural language processing tasks. A critical aspect of their
+performance lies in their ability to perform complex reasoning. Traditionally,
+enhancing reasoning in LLMs has involved techniques like Chain-of-Thought
+(CoT) prompting, where models are guided to generate intermediate reasoning
+steps before arriving at a final answer \citep{cot}. This approach
+has shown significant improvements in tasks requiring multi-step reasoning.
+
+Recent advancements have introduced models like Qwen3, which incorporate a
+dedicated thinking mode activated by special \texttt{<think>} and
+\texttt{</think>} tokens. This mode, integrated during post-training, allows the
+model to perform complex, multi-step reasoning tasks more effectively
+\citep{qwen3}.
+
+However, it remains unclear whether such specialized reasoning abilities can
+be elicited without relying on these special tokens. Specifically, we aim to
+investigate if natural language cues, such as the word \texttt{"Wait"}, can
+trigger similar reasoning processes in Qwen3 models. This exploration is
+motivated by the desire to understand the extent to which reasoning
+capabilities are inherently built into the model versus being reliant on
+\texttt{<think>} tokens.
+
+We propose to evaluate the Qwen3-1.7B model under different prompting
+strategies, including:
+\begin{itemize}
+    \item \textbf{Dedicated thinking mode}, where the model is explicitly
+    instructed to engage in structured reasoning with \texttt{<think>} tokens.
+    \item \textbf{Natural language cues}, where reasoning is encouraged
+    implicitly through natural language prompting.
+    \item \textbf{Baseline}, where the model is prompted to answer
+    directly without any explicit encouragement to reason.
+\end{itemize}
+Additionally, we will assess how varying the thinking budget --- the
+number of tokens allocated for reasoning --- impacts the model's performance
+across these different prompting methods.
+
+Furthermore, to evaluate the generalizability of reasoning capabilities
+elicited through natural language prompts, in our experiments we will
+include Qwen2.5-1.5B \citep{qwen2.5}, which has previously shown improvements
+under the budget forcing technique after fine-tuning \citep{s1}, but lacks
+Qwen3's reasoning enhancements. This comparative analysis will help determine
+whether the observed behaviors are unique to Qwen3.
+
+We will conduct experiments using the SVAMP \citep{svamp} dataset, which tests
+mathematical and reasoning abilities of language models. By analyzing
+performance, we aim to gain insights into the effectiveness of different
+prompting strategies and the inherent reasoning capabilities of the models
+under study.
+
+\section{Related Work}
+Recent work by \citet{s1} introduced the idea of budget forcing, where models
+are encouraged to continue reasoning by appending the word \texttt{"Wait"}
+multiple times during inference. Their experiments with the Qwen2.5-32B-Instruct
+model, fine-tuned on a small dataset of $1000$ reasoning examples, showed
+that this approach could improve performance on benchmarks consisting of mathematical problems.
+
+The Qwen3 series \citep{qwen3} shifts the paradigm by embedding reasoning
+capabilities directly into the model during post-training. This is done
+via dedicated \texttt{<think>} tokens, allowing the model to enter a
+reasoning phase and produce structured thought processes. The extent to
+which this behavior generalizes beyond the \texttt{<think>} block,
+however, remains unclear.
+
+Our study aims to bridge this gap by testing whether Qwen3's special post-training
+allows for reasoning even outside the thinking mode and without any
+additional fine-tuning, and how it compares to Qwen2.5, which lacks
+this special feature by default.
+
+\bibliography{refs}
+\bibliographystyle{acl_natbib}
+\end{document}
