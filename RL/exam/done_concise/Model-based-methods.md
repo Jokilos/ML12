@@ -127,58 +127,28 @@ For each real interaction step:
 **Summary:**  
 Dyna-Q accelerates RL by learning from both real and simulated experiences, blending model-free updates with model-based planning for greater efficiency.
 
-## Back-Propagation Through Time (BPTT)
+## **What is the back-propagation-through-time algorithm? Why is it not used?**
+
+**What is the Backpropagation-Through-Time (BPTT) algorithm?**
+
+Assume a deterministic continuous system with model $(m, r): \mathcal{S} \times \mathcal{A} \to \mathcal{S} \times \mathbb{R}$, where given state and action it returns next state and reward.
+
+For starting state $s_0$ and time horizon $n$, total reward is:
+
+$$
+R_n(s_0; a_0, \dots, a_n) = r(s_0, a_0) + r\big(m(s_0, a_0), a_1\big) + r\big(m(m(s_0, a_0), a_1), a_2\big) + \dots + r\big(m(\dots m(m(s_0, a_0), a_1) \dots), a_n\big)
+$$
+
+Since the function $(a_0, \dots, a_n) \mapsto R_n(s_0; a_0, \dots, a_n)$ is differentiable, we can compute gradients with automatic differentiation (e.g., PyTorch, JAX) and optimize with gradient descent. This is called **backpropagation through time**.
 
 ---
 
-### **What is BPTT?**
+**Why is it not used?**
 
-- **BPTT** is an extension of the standard backpropagation algorithm for training recurrent neural networks (RNNs).
-- It “unrolls” the RNN over time steps, treating each time step as a layer in a feedforward network, and applies backpropagation to compute gradients with respect to all weights over the entire sequence.
+It rarely works in practice because of:
 
----
-
-### **How it Works**
-
-1. **Unroll the RNN:**  
-   Represent the network for \( T \) time steps as a deep feedforward network with \( T \) layers (one for each time step).
-2. **Forward Pass:**  
-   Compute outputs and losses for each time step.
-3. **Backward Pass:**  
-   Compute gradients of the loss with respect to weights by backpropagating errors from the last time step to the first (through all unrolled layers).
-4. **Update Weights:**  
-   Use the accumulated gradients to update the network parameters.
-
----
-
-### **Why is it Not Used (in RL and Planning)?**
-
-- **Credit Assignment Difficulty:**  
-  In reinforcement learning, rewards are often sparse and delayed, making it hard for BPTT to assign credit correctly over long time horizons.
-- **Exploding/Vanishing Gradients:**  
-  Gradients can become extremely large or small as they are propagated through many time steps, leading to unstable or ineffective learning.
-- **Computational Cost:**  
-  Unrolling for many steps is memory and computation intensive, especially for long episodes or complex environments.
-- **Non-Markovian Effects:**  
-  Environments may be non-stationary or partially observable, making gradients less informative.
-- **Sample Efficiency:**  
-  RL often relies on sampled trajectories. BPTT requires storing entire trajectories and their gradients, which is impractical in most RL settings.
-
----
-
-### **Summary Table**
-
-| Issue                       | Why BPTT is Problematic in RL/Planning        |
-|-----------------------------|-----------------------------------------------|
-| Delayed/sparse rewards      | Poor credit assignment                        |
-| Long time dependencies      | Exploding/vanishing gradients                 |
-| Memory/computational cost   | Unrolling is expensive for long episodes      |
-| Data efficiency             | Inefficient with sampled, off-policy data     |
-
----
-
-**Summary:**  
-BPTT is a powerful sequence learning algorithm for RNNs but is rarely used in RL and planning due to challenges with long-term credit assignment, computational cost, and instability. Alternative approaches like policy gradient methods or value-based RL are generally preferred.
+- Exploding gradients when differentiating through nested terms like $r\big(m(\dots m(m(s_0, a_0), a_1) \dots), a_n\big)$
+- Instability grows with time horizon, even for average lengths
 
 ## Linear Quadratic Regulator (LQR)
 

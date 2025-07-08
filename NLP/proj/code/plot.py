@@ -13,6 +13,10 @@ class ExperimentResults:
     qwen3_think_acc: list[float]
 
     def __post_init__(self):
+        self.qwen2_wait_acc = [self.qwen2_baseline_acc] + self.qwen2_wait_acc
+        self.qwen3_wait_acc = [self.qwen3_baseline_acc] + self.qwen3_wait_acc
+        self.qwen3_think_acc = [self.qwen3_baseline_acc] + self.qwen3_think_acc
+
         assert (
             self.qwen3_wait_acc[0] ==
             self.qwen3_think_acc[0] ==
@@ -24,27 +28,97 @@ class ExperimentResults:
             len(self.qwen2_wait_acc) ==
             len(self.qwen3_think_acc) ==
             len(self.qwen3_think_acc)
+        ), (
+            len(self.thinking_budgets), 
+            len(self.qwen2_wait_acc),
+            len(self.qwen3_think_acc),
+            len(self.qwen3_think_acc)
         )
+
+    @classmethod
+    def for_gsm(cls) -> "ExperimentResults":
+        results = cls(
+            plot_name = "gsm8k",
+            qwen2_baseline_acc = 0.0606,  # Qwen2.5-0.5B-Instruct
+            qwen3_baseline_acc = 0.0379,  # Qwen3-0.6B
+
+            thinking_budgets = [0, 25, 50, 100, 200, 400, 800],
+
+            qwen2_wait_acc = [
+                0.0303,  # 25 tokens
+                0.0417,  # 50
+                0.0970,  # 100
+                0.2669,  # 200
+                0.2987,  # 400
+                0.3252   # 800
+            ],
+
+            qwen3_wait_acc = [
+                0.0804,  # 25
+                0.1736,  # 50
+                0.3442,  # 100
+                0.5087,  # 200
+                0.5550,  # 400
+                0.5625   # 800
+            ],
+
+            qwen3_think_acc = [
+                0.0447,  # 25
+                0.0371,  # 50
+                0.0432,  # 100
+                0.1221,  # 200
+                0.4905,  # 400
+                0.6657   # 800
+            ],
+        )
+
+        return results
 
     @classmethod
     def for_svamp(cls) -> "ExperimentResults":
         results = cls(
             plot_name = "svamp",
-            qwen2_baseline_acc = 5.3, # TODO fill
-            qwen3_baseline_acc = 15.1, # TODO fill
-            thinking_budgets = [0, 100, 200, 300, 400], # TODO fill
-            qwen2_wait_acc = [5.3, 10, 12, 15, 20], # TODO fill
-            qwen3_wait_acc = [15.1, 18, 23, 28, 33], # TODO fill
-            qwen3_think_acc = [15.1, 55, 56, 66, 74], # TODO fill
-        )
-        return results
 
+            qwen2_baseline_acc = 0.2633,  # Qwen2.5-0.5B-Instruct
+            qwen3_baseline_acc = 0.1000,  # Qwen3-0.6B
+
+            thinking_budgets = [0, 25, 50, 100, 200, 400, 800],
+
+            qwen2_wait_acc = [
+                0.2133,  # 25
+                0.2667,  # 50
+                0.4033,  # 100
+                0.4000,  # 200
+                0.4600,  # 400
+                0.4700   # 800
+            ],
+
+            qwen3_wait_acc = [
+                0.5367,  # 25
+                0.6467,  # 50
+                0.7400,  # 100
+                0.7533,  # 200
+                0.7600,  # 400
+                0.7600   # 800
+            ],
+
+            qwen3_think_acc = [
+                0.1800,  # 25
+                0.1567,  # 50
+                0.1833,  # 100
+                0.4700,  # 200
+                0.7400,  # 400
+                0.8033   # 800
+            ],
+        )
+
+        return results
 
 def plot_results(results: ExperimentResults):
     qwen2_color = "blue"
     qwen3_color = "green"
 
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(4, 3))
 
     # Baselines.
     plt.axhline(
@@ -89,3 +163,4 @@ def plot_results(results: ExperimentResults):
 
 if __name__ == "__main__":
     plot_results(ExperimentResults.for_svamp())
+    plot_results(ExperimentResults.for_gsm())
