@@ -1,0 +1,245 @@
+[
+  {
+    "client_msg_id": "2d337625-69a8-43c5-bc96-bbea111a2409",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "There is a limit for the number of context. But is there a limit for the number of devices? (e.g. adler device from LAB10 has this limit)",
+    "ts": "1746793257.877579",
+    "thread_ts": "1746793257.877579",
+    "edited": {
+      "user": "U08EXEBDXQD",
+      "ts": "1746794815.000000"
+    },
+    "reply_count": 1,
+    "reply_users": [
+      "U039XR2B72A"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1746809374.947959"
+      }
+    ],
+    "latest_reply": "1746809374.947959",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3HF++",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "There is a limit for the number of context. But is there a limit for the number of devices? (e.g. adler device from LAB10 has this limit)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "5b3124e6-29fc-4ca3-9ef9-3d1ae47e409a",
+    "type": "message",
+    "user": "U06MABKH0LU",
+    "text": "How does one register a context? Is it implicit by initializing appropriate `acceldev_context_on_device_config` and then when it's zeroed out it's considered unregistered?",
+    "ts": "1746808683.342219",
+    "thread_ts": "1746808683.342219",
+    "reply_count": 1,
+    "reply_users": [
+      "U039XR2B72A"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1746810241.683349"
+      }
+    ],
+    "latest_reply": "1746810241.683349",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SOe2W",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "How does one register a context? Is it implicit by initializing appropriate "
+              },
+              {
+                "type": "text",
+                "text": "acceldev_context_on_device_config",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and then when it's zeroed out it's considered unregistered?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3d8c4b54407f2db7469c1d1e92bacd0d.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Al-Hosam",
+      "display_name": "Adam Al-Hosam",
+      "team": "TV7BVTSJK",
+      "name": "aa429136",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "ad482299-a331-4018-a34c-842f3d119a8c",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "there's a limit, if there's no #define for it, you can assume max 2 as the tests don'test beyond that",
+    "ts": "1746809374.947959",
+    "thread_ts": "1746793257.877579",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U08EXEBDXQD"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MBfbm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "there's a limit, if there's no #define for it, you can assume max 2 as the tests don'test beyond that"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "36f10f16-3b9a-406e-90f4-35e01f731d5e",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "registration is implicit. Initially you create a contiguous configuration buffer for all the contexts configs - filled with zeros. Then when creating a buffer you can fill the buffers_slots_config_ptr[slot] with the buffer address. But you can instead use BIND_SLOT device command which is safer to use.\nUnregistering the context is done by zeroing its configuration memory again - basically to clear all the error flags and fence counter. \n\nEssentially the idea for implicit registration is that if you don't have any buffers bound on the context, you can't really get any output of it, so the device would do the real registration when you bind the first data buffer. But you don't have to care about that.",
+    "ts": "1746810241.683349",
+    "thread_ts": "1746808683.342219",
+    "edited": {
+      "user": "U039XR2B72A",
+      "ts": "1746810485.000000"
+    },
+    "parent_user_id": "U06MABKH0LU",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U06MABKH0LU"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "z9G0c",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "registration is implicit. Initially you create a contiguous configuration buffer for all the contexts configs - filled with zeros. Then when creating a buffer you can fill the buffers_slots_config_ptr[slot] with the buffer address. But you can instead use BIND_SLOT device command which is safer to use.\nUnregistering the context is done by zeroing its configuration memory again - basically to clear all the error flags and fence counter. \n\nEssentially the idea for implicit registration is that if you don't have any buffers bound on the context, you can't really get any output of it, so the device would do the real registration when you bind the first data buffer. But you don't have to care about that."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

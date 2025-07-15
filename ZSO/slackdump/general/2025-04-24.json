@@ -1,0 +1,73 @@
+[
+  {
+    "client_msg_id": "23809d85-65af-4a7a-97d8-03ca1085477a",
+    "type": "message",
+    "user": "UUZHKBYRG",
+    "text": "Dla zaintersowanych: \u003chttps://www.schneier.com/blog/archives/2025/04/new-linux-rootkit.html\u003e",
+    "ts": "1745559061.183759",
+    "attachments": [
+      {
+        "fallback": "Schneier on Security: New Linux Rootkit - Schneier on Security",
+        "id": 1,
+        "title": "New Linux Rootkit - Schneier on Security",
+        "title_link": "https://www.schneier.com/blog/archives/2025/04/new-linux-rootkit.html",
+        "text": "Interesting: The company has released a working rootkit called “Curing” that uses io_uring, a feature built into the Linux kernel, to stealthily perform malicious activities without being caught by many of the detection solutions currently on the market. At the heart of the issue is the heavy reliance on monitoring system calls, which has become the go-to method for many cybersecurity vendors. The problem? Attackers can completely sidestep these monitored calls by leaning on io_uring instead. This clever method could let bad actors quietly make network connections or tamper with files without triggering the usual alarms...",
+        "service_name": "Schneier on Security",
+        "service_icon": "https://149400697.v2.pressablecdn.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+        "from_url": "https://www.schneier.com/blog/archives/2025/04/new-linux-rootkit.html",
+        "original_url": "https://www.schneier.com/blog/archives/2025/04/new-linux-rootkit.html",
+        "fields": [
+          {
+            "title": "Written by",
+            "value": "Bruce Schneier",
+            "short": true
+          }
+        ],
+        "blocks": null,
+        "ts": 1745523315
+      }
+    ],
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZFj1V",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Dla zaintersowanych: "
+              },
+              {
+                "type": "link",
+                "url": "https://www.schneier.com/blog/archives/2025/04/new-linux-rootkit.html",
+                "text": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/bfe97030a446c80e5d4473ce41650b7e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+      "first_name": "Janina",
+      "real_name": "Janina Mincer-Daszkiewicz",
+      "display_name": "jmd",
+      "team": "TV7BVTSJK",
+      "name": "jmd",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

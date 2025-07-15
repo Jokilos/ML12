@@ -1,0 +1,118 @@
+[
+  {
+    "client_msg_id": "0f470cc0-e030-4805-bcf8-3b4436c581b9",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Is including a .gitignore problematic in any way?",
+    "ts": "1749292004.002379",
+    "thread_ts": "1749292004.002379",
+    "edited": {
+      "user": "U08EXEBDXQD",
+      "ts": "1749292015.000000"
+    },
+    "reply_count": 1,
+    "reply_users": [
+      "U039XR2B72A"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1749314434.909629"
+      }
+    ],
+    "latest_reply": "1749314434.909629",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jiMpi",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Is including a .gitignore problematic in any way?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "6e7407aa-1f66-48ac-ae1b-38e8db63cf89",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "it's ok",
+    "ts": "1749314434.909629",
+    "thread_ts": "1749292004.002379",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "heart",
+        "count": 1,
+        "users": [
+          "U08EXEBDXQD"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "R8iFL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "it's ok"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

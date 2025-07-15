@@ -1,0 +1,162 @@
+[
+  {
+    "client_msg_id": "b1a0111d-5422-43ba-864f-1bfb4334e4d3",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Random question: are variable sizes guaranteed to have a specific size in the kernel (e.g. int -\u0026gt; 4 bytes)? Usually its not guaranteed (I think) and I don't see usages of any specialized types of variables implemented and used across the kernel (like int32_t).",
+    "ts": "1744798039.570099",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "w6ly5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Random question: are variable sizes guaranteed to have a specific size in the kernel (e.g. int -\u003e 4 bytes)? Usually its not guaranteed (I think) and I don't see usages of any specialized types of variables implemented and used across the kernel (like int32_t)."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "fe8c7bb5-8176-4aee-a197-4ab25920e019",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "Int is 4 bytes, as AFAIR there is no support for 16-bit platforms. (Linux Kernel uses c99+). Long can be 4 or 8. As for the usage of explicit type sizes, see \u003chttps://docs.kernel.org/process/coding-style.html#typedefs\u003e points b,c, and d.",
+    "ts": "1744810287.904899",
+    "thread_ts": "1744810287.904899",
+    "edited": {
+      "user": "U06M6E5J2SC",
+      "ts": "1744810592.000000"
+    },
+    "reply_count": 1,
+    "reply_users": [
+      "U08EXEBDXQD"
+    ],
+    "replies": [
+      {
+        "user": "U08EXEBDXQD",
+        "ts": "1744819561.052679"
+      }
+    ],
+    "latest_reply": "1744819561.052679",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0ck0I",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Int is 4 bytes, as AFAIR there is no support for 16-bit platforms. (Linux Kernel uses c99+). Long can be 4 or 8. As for the usage of explicit type sizes, see "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.kernel.org/process/coding-style.html#typedefs",
+                "text": ""
+              },
+              {
+                "type": "text",
+                "text": " points b,c, and d."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "47ed6eb2-6d48-429f-9432-f45a9c2e9ce4",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Thank you :)",
+    "ts": "1744819561.052679",
+    "thread_ts": "1744810287.904899",
+    "parent_user_id": "U06M6E5J2SC",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eh5zA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Thank you :)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

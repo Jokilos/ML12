@@ -1,0 +1,48 @@
+[
+  {
+    "client_msg_id": "1cda1ae7-c390-41ec-85d1-348c42a50cce",
+    "type": "message",
+    "user": "U08EXEABDFX",
+    "text": "Hi, I'd like to ask for the expedited grading process, we need the grades before the 8th for the defense : )",
+    "ts": "1751492114.748289",
+    "thread_ts": "1751346921.364469",
+    "parent_user_id": "U039XR2B72A",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KUtqM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi, I'd like to ask for the expedited grading process, we need the grades before the 8th for the defense : )"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3124cf9c5e1e47ea5c6e51f5f7d133e6.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "Stanisław",
+      "real_name": "Stanisław Solarewicz",
+      "display_name": "Stanisław Solarewicz",
+      "team": "TV7BVTSJK",
+      "name": "ss443488",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

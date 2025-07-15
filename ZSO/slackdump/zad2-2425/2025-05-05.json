@@ -1,0 +1,217 @@
+[
+  {
+    "client_msg_id": "7adaf271-ab07-4f89-886d-ca8d1dbe80cc",
+    "type": "message",
+    "user": "U08EXEA8V2R",
+    "text": "Should I use READ_ONCE/WRITE_ONCE for variables protected by a lock?",
+    "ts": "1746462316.887439",
+    "thread_ts": "1746462316.887439",
+    "reply_count": 1,
+    "reply_users": [
+      "U06M6E5J2SC"
+    ],
+    "replies": [
+      {
+        "user": "U06M6E5J2SC",
+        "ts": "1746556388.930759"
+      }
+    ],
+    "latest_reply": "1746556388.930759",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mx4PO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Should I use READ_ONCE/WRITE_ONCE for variables protected by a lock?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/6b8b86bf1b2c4dfbcfd8cd3f8aaf14fa.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+      "first_name": "Franciszek",
+      "real_name": "Franciszek Stachura",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "fb.stachura",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "e865497b-217b-41fe-ba71-9af836590617",
+    "type": "message",
+    "user": "U08EXEA8V2R",
+    "text": "I often see a check for `offset % size == 0` in `is_valid_access` functions, but I'm unable to decipher what it actually is for. Any tips? Is this for checking if access offset is aligned?\nExamples:\n\u003chttps://elixir.bootlin.com/linux/v6.12.6/source/net/core/filter.c#L7129\u003e\n\u003chttps://elixir.bootlin.com/linux/v6.12.6/source/kernel/bpf/cgroup.c#L2218\u003e",
+    "ts": "1746467338.772509",
+    "thread_ts": "1746467338.772509",
+    "reply_count": 1,
+    "reply_users": [
+      "U06M6E5J2SC"
+    ],
+    "replies": [
+      {
+        "user": "U06M6E5J2SC",
+        "ts": "1746555845.789829"
+      }
+    ],
+    "latest_reply": "1746555845.789829",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1uYOB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I often see a check for "
+              },
+              {
+                "type": "text",
+                "text": "offset % size == 0",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in "
+              },
+              {
+                "type": "text",
+                "text": "is_valid_access",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " functions, but I'm unable to decipher what it actually is for. Any tips? Is this for checking if access offset is aligned?\nExamples:\n"
+              },
+              {
+                "type": "link",
+                "url": "https://elixir.bootlin.com/linux/v6.12.6/source/net/core/filter.c#L7129",
+                "text": ""
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://elixir.bootlin.com/linux/v6.12.6/source/kernel/bpf/cgroup.c#L2218",
+                "text": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/6b8b86bf1b2c4dfbcfd8cd3f8aaf14fa.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+      "first_name": "Franciszek",
+      "real_name": "Franciszek Stachura",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "fb.stachura",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "1784f7af-d4ba-43b2-80c0-68814f7eafaf",
+    "type": "message",
+    "user": "U08EXEA8V2R",
+    "text": "From what I understand, the compression statistics probably should be protected by a lock. However, I'm still not sure which lock makes the most sense. A mutex seems like the safest option, but I'm wondering if spin locks would not be better. I know that locking sleeping locks under spinlocks is forbidden, are there any other contraindications?",
+    "ts": "1746467885.083119",
+    "thread_ts": "1746467885.083119",
+    "edited": {
+      "user": "U08EXEA8V2R",
+      "ts": "1746483797.000000"
+    },
+    "reply_count": 2,
+    "reply_users": [
+      "U06M6E5J2SC"
+    ],
+    "replies": [
+      {
+        "user": "U06M6E5J2SC",
+        "ts": "1746555937.546399"
+      },
+      {
+        "user": "U06M6E5J2SC",
+        "ts": "1746556700.769669"
+      }
+    ],
+    "latest_reply": "1746556700.769669",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "o/FRa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "From what I understand, the compression statistics probably should be protected by a lock. However, I'm still not sure which lock makes the most sense. A mutex seems like the safest option, but I'm wondering if spin locks would not be better. I know that locking sleeping locks under spinlocks is forbidden, are there any other contraindications?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/6b8b86bf1b2c4dfbcfd8cd3f8aaf14fa.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+      "first_name": "Franciszek",
+      "real_name": "Franciszek Stachura",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "fb.stachura",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  }
+]

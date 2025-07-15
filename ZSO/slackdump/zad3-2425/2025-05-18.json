@@ -1,0 +1,150 @@
+[
+  {
+    "client_msg_id": "955740a3-35aa-414d-a690-68ef8073f24e",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Do we need to implement suspend() and resume() functions?",
+    "ts": "1747579292.598839",
+    "thread_ts": "1747579292.598839",
+    "reply_count": 1,
+    "reply_users": [
+      "U039XR2B72A"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1747591796.365699"
+      }
+    ],
+    "latest_reply": "1747591796.365699",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9lzAD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Do we need to implement suspend() and resume() functions?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "0bccbde7-3998-4b3d-84d3-169dee2d5ea4",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "Generally yes but they will not be tested by automatic tests.\nThe expected behavior is:\n• disable the device in suspend\n• assume that the commands queue gets preserved\n• enable in resume",
+    "ts": "1747591796.365699",
+    "thread_ts": "1747579292.598839",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "saluting_face",
+        "count": 1,
+        "users": [
+          "U08EXEBDXQD"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "A9p8s",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Generally yes but they will not be tested by automatic tests.\nThe expected behavior is:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "disable the device in suspend"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "assume that the commands queue gets preserved"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "enable in resume"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

@@ -1,0 +1,246 @@
+[
+  {
+    "client_msg_id": "f48f5dbe-8034-4400-806b-d18ebf066127",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Could you elaborate on \"status\" field of the struct acceldev_context_on_device_config? My assumption that it will be set to nonzero on error seems to work, but I didn't find any explicit information about that in either task and device description, or the acceldev.h",
+    "ts": "1747666396.063379",
+    "thread_ts": "1747666396.063379",
+    "reply_count": 2,
+    "reply_users": [
+      "U08EXEABDFX",
+      "U08EXEBDXQD"
+    ],
+    "replies": [
+      {
+        "user": "U08EXEABDFX",
+        "ts": "1747666520.681109"
+      },
+      {
+        "user": "U08EXEBDXQD",
+        "ts": "1747668132.102449"
+      }
+    ],
+    "latest_reply": "1747668132.102449",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KJnCW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Could you elaborate on \"status\" field of the struct acceldev_context_on_device_config? My assumption that it will be set to nonzero on error seems to work, but I didn't find any explicit information about that in either task and device description, or the acceldev.h"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "e4fbed99-71db-4919-b2b5-ec8ef1a6049b",
+    "type": "message",
+    "user": "U08EXEABDFX",
+    "text": "I think you can use this function from `acceldev.h`\n```static inline bool acceldev_context_on_device_config_is_error(uint8_t status) {\n  return status \u0026amp; ACCELDEV_CONTEXT_STATUS_ERROR;\n}```",
+    "ts": "1747666520.681109",
+    "thread_ts": "1747666396.063379",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U039XR2B72A"
+        ]
+      },
+      {
+        "name": "heart",
+        "count": 1,
+        "users": [
+          "U08EXEBDXQD"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MwHHO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I think you can use this function from "
+              },
+              {
+                "type": "text",
+                "text": "acceldev.h",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "static inline bool acceldev_context_on_device_config_is_error(uint8_t status) {\n  return status \u0026 ACCELDEV_CONTEXT_STATUS_ERROR;\n}"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3124cf9c5e1e47ea5c6e51f5f7d133e6.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "Stanisław",
+      "real_name": "Stanisław Solarewicz",
+      "display_name": "Stanisław Solarewicz",
+      "team": "TV7BVTSJK",
+      "name": "ss443488",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d177535b-37f8-4a82-874d-92b0f83211ae",
+    "type": "message",
+    "user": "U08EXEABDFX",
+    "text": "Could you please unvail the submission section on moodle for the assignemt?",
+    "ts": "1747666688.992769",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U06M6E5J2SC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QGywo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Could you please unvail the submission section on moodle for the assignemt?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3124cf9c5e1e47ea5c6e51f5f7d133e6.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "Stanisław",
+      "real_name": "Stanisław Solarewicz",
+      "display_name": "Stanisław Solarewicz",
+      "team": "TV7BVTSJK",
+      "name": "ss443488",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d2c82098-3e01-4155-9a8a-062bc4d1a1bb",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "oh, I didn't notice it. Thank you",
+    "ts": "1747668132.102449",
+    "thread_ts": "1747666396.063379",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "V967U",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "oh, I didn't notice it. Thank you"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

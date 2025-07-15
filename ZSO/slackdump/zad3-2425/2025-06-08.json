@@ -1,0 +1,27 @@
+[
+  {
+    "type": "message",
+    "user": "U06M50H6V7X",
+    "text": "\u003c@U06M50H6V7X\u003e has joined the channel",
+    "ts": "1749401051.743299",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e92f275ebd7c9c90b14a197889b0ba9c.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+      "first_name": "Artur",
+      "real_name": "Artur Kamieniecki",
+      "display_name": "Artur Kamieniecki",
+      "team": "TV7BVTSJK",
+      "name": "ak438500",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

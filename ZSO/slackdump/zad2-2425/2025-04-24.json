@@ -1,0 +1,235 @@
+[
+  {
+    "client_msg_id": "9dd165d6-3abb-477a-a53e-11e49d6bd7cc",
+    "type": "message",
+    "user": "U06MABKH0LU",
+    "text": "I think the `vector` test answers this question, but just to make sure I'm getting this right -\nwhen running `bpf_lzo_compress` in the `[p]writev` case, where we have multiple buffers in the context, the compression analysis should be performed on each buffer separately, that is if I have 2 buffers, then\n`bytes_after_compression(buffers) = bytes_after_compression(buffers[0]) + bytes_after_compression(buffers[1])`\nand *not*\n `bytes_after_compression(buffers) = bytes_after_compression(concat(buffers[0], buffers[1]))` ?",
+    "ts": "1745494134.324939",
+    "thread_ts": "1745494134.324939",
+    "edited": {
+      "user": "U06MABKH0LU",
+      "ts": "1745494169.000000"
+    },
+    "reply_count": 2,
+    "reply_users": [
+      "U06M6E5J2SC",
+      "U06MABKH0LU"
+    ],
+    "replies": [
+      {
+        "user": "U06M6E5J2SC",
+        "ts": "1745500139.488489"
+      },
+      {
+        "user": "U06MABKH0LU",
+        "ts": "1745500955.431959"
+      }
+    ],
+    "latest_reply": "1745500955.431959",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7n5Jv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I think the "
+              },
+              {
+                "type": "text",
+                "text": "vector",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " test answers this question, but just to make sure I'm getting this right -\nwhen running "
+              },
+              {
+                "type": "text",
+                "text": "bpf_lzo_compress",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in the "
+              },
+              {
+                "type": "text",
+                "text": "[p]writev",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " case, where we have multiple buffers in the context, the compression analysis should be performed on each buffer separately, that is if I have 2 buffers, then\n"
+              },
+              {
+                "type": "text",
+                "text": "bytes_after_compression(buffers) = bytes_after_compression(buffers[0]) + bytes_after_compression(buffers[1])",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nand "
+              },
+              {
+                "type": "text",
+                "text": "not",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n "
+              },
+              {
+                "type": "text",
+                "text": "bytes_after_compression(buffers) = bytes_after_compression(concat(buffers[0], buffers[1]))",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " ?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3d8c4b54407f2db7469c1d1e92bacd0d.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Al-Hosam",
+      "display_name": "Adam Al-Hosam",
+      "team": "TV7BVTSJK",
+      "name": "aa429136",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "a8122d90-2bb8-4814-993e-ddf0e10c994b",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "Right. This question was asked here already :)",
+    "ts": "1745500139.488489",
+    "thread_ts": "1745494134.324939",
+    "parent_user_id": "U06MABKH0LU",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+GPfp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Right. This question was asked here already :)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "42240105-d451-4b69-bf45-612dc37dbef8",
+    "type": "message",
+    "user": "U06MABKH0LU",
+    "text": "Right, thanks and sorry. I saw it, but thought it was about a slightly different thing.",
+    "ts": "1745500955.431959",
+    "thread_ts": "1745494134.324939",
+    "parent_user_id": "U06MABKH0LU",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U06M6E5J2SC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "w1Kzi",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Right, thanks and sorry. I saw it, but thought it was about a slightly different thing."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3d8c4b54407f2db7469c1d1e92bacd0d.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Al-Hosam",
+      "display_name": "Adam Al-Hosam",
+      "team": "TV7BVTSJK",
+      "name": "aa429136",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

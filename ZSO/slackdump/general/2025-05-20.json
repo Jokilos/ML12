@@ -1,0 +1,156 @@
+[
+  {
+    "client_msg_id": "e8d93567-af85-4a3d-96a4-b713d334f877",
+    "type": "message",
+    "user": "U08EXEA8V2R",
+    "text": "About lab10, it seems that `pci_set_dma_mask` and `pci_set_consistent_dma_mask` don't exist in v6.12.6\n\u003chttps://elixir.bootlin.com/linux/v5.17.15/A/ident/pci_set_consistent_dma_mask\u003e\nBased on this random driver, I'm guessing they were merged in 5.18 into `dma_set_mask_and_coherent`\n\u003chttps://elixir.bootlin.com/linux/v5.17.15/source/drivers/fpga/dfl-pci.c#L358\u003e\n\u003chttps://elixir.bootlin.com/linux/v5.18/source/drivers/fpga/dfl-pci.c#L358\u003e\n\nThe issue is in the lab\n\u003chttps://students.mimuw.edu.pl/ZSO/PUBLIC-SO/2024-2025/10_pci/index-en.html#lab-pci-en\u003e\nand in adlerdev.c\n```51d50\n\u0026lt;       .owner = THIS_MODULE,\n262,264c261\n\u0026lt;       if ((err = pci_set_dma_mask(pdev, DMA_BIT_MASK(32))))\n\u0026lt;               goto out_mask;\n\u0026lt;       if ((err = pci_set_consistent_dma_mask(pdev, DMA_BIT_MASK(32))))\n---\n\u0026gt;       if ((err = dma_set_mask_and_coherent(\u0026amp;pdev-\u0026gt;dev, DMA_BIT_MASK(32))))```\nAlso, adlerdev qemu does not compile without `./configure --disable-libnfs --disable-werror` and `CFLAGS=-Wno-int-conversion` on most recent systems",
+    "ts": "1747750591.241659",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CFxCG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "About lab10, it seems that "
+              },
+              {
+                "type": "text",
+                "text": "pci_set_dma_mask",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and "
+              },
+              {
+                "type": "text",
+                "text": "pci_set_consistent_dma_mask",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " don't exist in v6.12.6\n"
+              },
+              {
+                "type": "link",
+                "url": "https://elixir.bootlin.com/linux/v5.17.15/A/ident/pci_set_consistent_dma_mask",
+                "text": ""
+              },
+              {
+                "type": "text",
+                "text": "\nBased on this random driver, I'm guessing they were merged in 5.18 into "
+              },
+              {
+                "type": "text",
+                "text": "dma_set_mask_and_coherent",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://elixir.bootlin.com/linux/v5.17.15/source/drivers/fpga/dfl-pci.c#L358",
+                "text": ""
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://elixir.bootlin.com/linux/v5.18/source/drivers/fpga/dfl-pci.c#L358",
+                "text": ""
+              },
+              {
+                "type": "text",
+                "text": "\n\nThe issue is in the lab\n"
+              },
+              {
+                "type": "link",
+                "url": "https://students.mimuw.edu.pl/ZSO/PUBLIC-SO/2024-2025/10_pci/index-en.html#lab-pci-en",
+                "text": ""
+              },
+              {
+                "type": "text",
+                "text": "\nand in adlerdev.c\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "51d50\n\u003c       .owner = THIS_MODULE,\n262,264c261\n\u003c       if ((err = pci_set_dma_mask(pdev, DMA_BIT_MASK(32))))\n\u003c               goto out_mask;\n\u003c       if ((err = pci_set_consistent_dma_mask(pdev, DMA_BIT_MASK(32))))\n---\n\u003e       if ((err = dma_set_mask_and_coherent(\u0026pdev-\u003edev, DMA_BIT_MASK(32))))"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nAlso, adlerdev qemu does not compile without "
+              },
+              {
+                "type": "text",
+                "text": "./configure --disable-libnfs --disable-werror",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and "
+              },
+              {
+                "type": "text",
+                "text": "CFLAGS=-Wno-int-conversion",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " on most recent systems"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/6b8b86bf1b2c4dfbcfd8cd3f8aaf14fa.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+      "first_name": "Franciszek",
+      "real_name": "Franciszek Stachura",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "fb.stachura",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

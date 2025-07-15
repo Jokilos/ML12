@@ -1,0 +1,151 @@
+[
+  {
+    "client_msg_id": "a5162e3e-0f9c-4ee1-831e-009084a16725",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "you don't have to. you may assume that suspend should only disable the processing capabilities of the device and the memory and configuration is kept. I forgot to update this note.",
+    "ts": "1749542118.158539",
+    "thread_ts": "1749491451.038959",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JiGN2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "you don't have to. you may assume that suspend should only disable the processing capabilities of the device and the memory and configuration is kept. I forgot to update this note."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "93b467ba-0d5d-4dc0-94c3-16528e711126",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Ok, thank you",
+    "ts": "1749542733.414819",
+    "thread_ts": "1749491451.038959",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Nl0Iy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Ok, thank you"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "e6d89541-ae36-4837-8933-b4b510875325",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "I have another question about the acceldev_context_on_device_config. Can we assume that there won't be any conflict such as us reading the value and the device updating it? Or should we, I dunno, disable device when we read from those vals?",
+    "ts": "1749584767.134079",
+    "thread_ts": "1749584767.134079",
+    "reply_count": 1,
+    "reply_users": [
+      "U039XR2B72A"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1750005385.327199"
+      }
+    ],
+    "latest_reply": "1750005385.327199",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "d0Cjw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I have another question about the acceldev_context_on_device_config. Can we assume that there won't be any conflict such as us reading the value and the device updating it? Or should we, I dunno, disable device when we read from those vals?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  }
+]

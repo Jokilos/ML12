@@ -1,0 +1,278 @@
+[
+  {
+    "client_msg_id": "c094223e-9456-42ec-bcd4-cfeddeeaeeac",
+    "type": "message",
+    "user": "UUZHKBYRG",
+    "text": "I would like to remind you that today's lecture, June 03, 2025 will be held remotely. Here is the link to the remote platform:\n*\u003chttps://uw-edu-pl.zoom.us/j/96822708200?pwd=oQ9a5vZaRxeD9lqgRrvNe0iAWK6MDD.1\u003e*\nYou can meet, as every week, in room 3180 and participate in the remote lecture from there. We will start as usual at 14:15, but I will start the meeting a little earlier so that everyone can solve any technical problems. The attendance list will be made available on the chat during the lecture. The laboratories are held as usual.",
+    "ts": "1748942422.388619",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OkFbO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I would like to remind you that today's lecture, June 03, 2025 will be held remotely. Here is the link to the remote platform:\n"
+              },
+              {
+                "type": "link",
+                "url": "https://uw-edu-pl.zoom.us/j/96822708200?pwd=oQ9a5vZaRxeD9lqgRrvNe0iAWK6MDD.1",
+                "text": "",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nYou can meet, as every week, in room 3180 and participate in the remote lecture from there. We will start as usual at 14:15, but I will start the meeting a little earlier so that everyone can solve any technical problems. The attendance list will be made available on the chat during the lecture. The laboratories are held as usual."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/bfe97030a446c80e5d4473ce41650b7e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+      "first_name": "Janina",
+      "real_name": "Janina Mincer-Daszkiewicz",
+      "display_name": "jmd",
+      "team": "TV7BVTSJK",
+      "name": "jmd",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "258ea88e-b61a-4532-97f3-3987034b3114",
+    "type": "message",
+    "user": "U08EXE1LRMK",
+    "text": "Is the lecture meet active right now?",
+    "ts": "1748953229.203729",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BLZ2T",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Is the lecture meet active right now?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/9d5984b38f0a421ebe3a1f6c2cb1772a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+      "first_name": "Tap",
+      "real_name": "Tap Do",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "dd451339",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "22defd9b-54f6-44c7-96a2-d253a6a8fd57",
+    "type": "message",
+    "user": "U06MLHFEG3B",
+    "text": "It's not active for me",
+    "ts": "1748953250.328149",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/ZaM/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "It's not active for me"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-03-04/8546326440693_e44e921905aa34406b7e_72.jpg",
+      "first_name": "Jakub",
+      "real_name": "Jakub Nowacki",
+      "display_name": "Jakub Nowacki",
+      "team": "TV7BVTSJK",
+      "name": "jp.nowacki",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "003d5916-3ba7-45b7-8426-da9f4830209e",
+    "type": "message",
+    "user": "U08EXE9EDA9",
+    "text": "Same here",
+    "ts": "1748953272.006459",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2vNOO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Same here"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3831f7b8be909fa0b85b0cf8c28fc72a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+      "first_name": "Ignacy",
+      "real_name": "Ignacy Kozakiewicz",
+      "display_name": "Ignacy Kozakiewicz",
+      "team": "TV7BVTSJK",
+      "name": "ik448298",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "C6CC48FC-90E7-49C8-B133-7CE8C76F60C9",
+    "type": "message",
+    "user": "U08FDPH5LMC",
+    "text": "Could someone please notify on this channel when the lecture begins?",
+    "ts": "1748954124.387919",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ro2DA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Could someone please notify on this channel when the lecture begins?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/50d974573af91d901d6ca667187875fd.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Heorhii",
+      "real_name": "Heorhii Lopatin",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "h.lopatin",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "aa4cd1a0-1b48-49a6-95ae-13a0eb90ca81",
+    "type": "message",
+    "user": "UUZHKBYRG",
+    "text": "O gosh, I am so sorry. I forgot that there is one hour difference in time zone. The lecture will start in a minute.",
+    "ts": "1748955187.916329",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BGV5E",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "O gosh, I am so sorry. I forgot that there is one hour difference in time zone. The lecture will start in a minute."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/bfe97030a446c80e5d4473ce41650b7e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+      "first_name": "Janina",
+      "real_name": "Janina Mincer-Daszkiewicz",
+      "display_name": "jmd",
+      "team": "TV7BVTSJK",
+      "name": "jmd",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

@@ -1,0 +1,193 @@
+[
+  {
+    "client_msg_id": "1ccd07f9-d96b-4883-946c-e22c4f4529a6",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "One file can be accessed by multiple descriptors from different (or even the same) processes. Should the verification be done per-file, or per-descriptor?",
+    "ts": "1745665024.841539",
+    "thread_ts": "1745665024.841539",
+    "reply_count": 2,
+    "reply_users": [
+      "U06M6E5J2SC",
+      "U08EXEBDXQD"
+    ],
+    "replies": [
+      {
+        "user": "U08EXEBDXQD",
+        "ts": "1745665179.518479"
+      },
+      {
+        "user": "U06M6E5J2SC",
+        "ts": "1745676206.892099"
+      }
+    ],
+    "latest_reply": "1745676206.892099",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ul+3A",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "One file can be accessed by multiple descriptors from different (or even the same) processes. Should the verification be done per-file, or per-descriptor?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "176345df-e1a2-4c9a-8451-8e1ec60f5a99",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "To be more precise: if I open descriptor A and for it, the decide() hook will return x \u0026gt; 0, then later, if I perform a write to this file using descriptor B, should the compression happen?",
+    "ts": "1745665179.518479",
+    "thread_ts": "1745665024.841539",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZAjGF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "To be more precise: if I open descriptor A and for it, the decide() hook will return x \u003e 0, then later, if I perform a write to this file using descriptor B, should the compression happen?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "8423ad3b-8281-4097-a79a-7d3b3b319c9e",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "Neither. The check should happen in `open` syscalls as specified. In other words, once per `struct file` and not influenced by `dup`s.",
+    "ts": "1745676206.892099",
+    "thread_ts": "1745665024.841539",
+    "edited": {
+      "user": "U06M6E5J2SC",
+      "ts": "1745676360.000000"
+    },
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AAv5X",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Neither. The check should happen in "
+              },
+              {
+                "type": "text",
+                "text": "open",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " syscalls as specified. In other words, once per "
+              },
+              {
+                "type": "text",
+                "text": "struct file",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and not influenced by "
+              },
+              {
+                "type": "text",
+                "text": "dup",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "s."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

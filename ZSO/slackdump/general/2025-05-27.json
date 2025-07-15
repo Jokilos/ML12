@@ -1,0 +1,58 @@
+[
+  {
+    "client_msg_id": "12cf404e-5f97-4b69-ab5a-2619d1183161",
+    "type": "message",
+    "user": "UUZHKBYRG",
+    "text": "I would like to remind you that the next lecture on Tuesday, June 03, 2025 will be held remotely. Here is the link to the remote platform:\n*\u003chttps://uw-edu-pl.zoom.us/j/96822708200?pwd=oQ9a5vZaRxeD9lqgRrvNe0iAWK6MDD.1\u003e*\nYou can meet, as every week, in room 3180 and participate in the remote lecture from there. We will start as usual at 14:15, but I will start the meeting a little earlier so that everyone can solve any technical problems. The attendance list will be made available on the chat during the lecture. The laboratories are held as usual.",
+    "ts": "1748370592.044239",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Brpdc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I would like to remind you that the next lecture on Tuesday, June 03, 2025 will be held remotely. Here is the link to the remote platform:\n"
+              },
+              {
+                "type": "link",
+                "url": "https://uw-edu-pl.zoom.us/j/96822708200?pwd=oQ9a5vZaRxeD9lqgRrvNe0iAWK6MDD.1",
+                "text": "",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nYou can meet, as every week, in room 3180 and participate in the remote lecture from there. We will start as usual at 14:15, but I will start the meeting a little earlier so that everyone can solve any technical problems. The attendance list will be made available on the chat during the lecture. The laboratories are held as usual."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/bfe97030a446c80e5d4473ce41650b7e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+      "first_name": "Janina",
+      "real_name": "Janina Mincer-Daszkiewicz",
+      "display_name": "jmd",
+      "team": "TV7BVTSJK",
+      "name": "jmd",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

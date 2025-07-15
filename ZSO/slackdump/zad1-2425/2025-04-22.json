@@ -1,0 +1,64 @@
+[
+  {
+    "client_msg_id": "c83f9cd9-7e8f-4d2d-b514-b999243e1f26",
+    "type": "message",
+    "user": "U04LPH4NX3J",
+    "text": "Should be in 1-2 weeks",
+    "ts": "1745313366.059849",
+    "thread_ts": "1745313366.059849",
+    "reply_count": 2,
+    "reply_users": [
+      "U04LPH4NX3J",
+      "U06MABKH0LU"
+    ],
+    "replies": [
+      {
+        "user": "U06MABKH0LU",
+        "ts": "1746477353.698859"
+      },
+      {
+        "user": "U04LPH4NX3J",
+        "ts": "1746540310.710329"
+      }
+    ],
+    "latest_reply": "1746540310.710329",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "a3566",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Should be in 1-2 weeks"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/7e8d7d99b886b3c0ac89fefe26c57297.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+      "first_name": "Wojciech",
+      "real_name": "Wojciech Ciszewski",
+      "display_name": "Wojciech Ciszewski",
+      "team": "TV7BVTSJK",
+      "name": "w.ciszewski2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "client_msg_id": "ee785a28-cafe-4d8b-9b3c-945344bb748e",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "\u003c#C08RRQ2GHA4|\u003e",
+    "ts": "1746535113.298899",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IB3hA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "channel",
+                "channel_id": "C08RRQ2GHA4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

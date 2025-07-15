@@ -1,0 +1,619 @@
+[
+  {
+    "client_msg_id": "1b268401-38c0-47e4-932d-4e793413861e",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "1. So, to clarify: bpf_copy_from_buffer copies at most \"size\" bytes of the WHOLE file to ptr+offset?\n2. Should bpf_lzo_compress then also compress the whole file?\n3. If so, is there any usage of the size and offset fields of the compress_ctx? Because right now it seems like no?",
+    "ts": "1744893445.970669",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "A2/sO",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "So, to clarify: bpf_copy_from_buffer copies at most \"size\" bytes of the WHOLE file to ptr+offset?"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Should bpf_lzo_compress then also compress the whole file?"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "If so, is there any usage of the size and offset fields of the compress_ctx? Because right now it seems like no?"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "a9193603-e471-4f1c-bf0d-38446e2bd11b",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "1,2: No, why?\nDuring a `pwrite(*buf, size, offset)` syscall, `size` bytes from `buf` is written to the file as if you did `lseek(offset)`  for just that write. That's the `ctx.size` and `ctx.offset` in the `compress_ctx`.\nbpf_copy_from_buffer use the same names, but they mean something else.\n`int bpf_copy_from_buffer(void *ctx, unsigned long copy_offset, void *dest, unsigned long copy_size)` should work like `memcpy(dest, buf+copy_offset, copy_size)`but checking for validity of the access: returning an error when ``copy_offset\u003esize``  and copying less otherwise.\n\n3. These fields are there for completeness of information about the syscall.",
+    "ts": "1744900623.314309",
+    "thread_ts": "1744900623.314309",
+    "edited": {
+      "user": "U06M6E5J2SC",
+      "ts": "1744900688.000000"
+    },
+    "reply_count": 2,
+    "reply_users": [
+      "U06M6E5J2SC",
+      "U06MABKH0LU"
+    ],
+    "replies": [
+      {
+        "user": "U06MABKH0LU",
+        "ts": "1745428353.109529"
+      },
+      {
+        "user": "U06M6E5J2SC",
+        "ts": "1745431239.640899"
+      }
+    ],
+    "latest_reply": "1745431239.640899",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "pray",
+        "count": 1,
+        "users": [
+          "U08EXEBDXQD"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4qMiz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "1,2: No, why?\nDuring a "
+              },
+              {
+                "type": "text",
+                "text": "pwrite(*buf, size, offset)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " syscall, "
+              },
+              {
+                "type": "text",
+                "text": "size",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " bytes from "
+              },
+              {
+                "type": "text",
+                "text": "buf",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is written to the file as if you did "
+              },
+              {
+                "type": "text",
+                "text": "lseek(offset)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "  for just that write. That's the "
+              },
+              {
+                "type": "text",
+                "text": "ctx.size",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and "
+              },
+              {
+                "type": "text",
+                "text": "ctx.offset",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in the "
+              },
+              {
+                "type": "text",
+                "text": "compress_ctx",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\nbpf_copy_from_buffer use the same names, but they mean something else.\n"
+              },
+              {
+                "type": "text",
+                "text": "int bpf_copy_from_buffer(void *ctx, unsigned long copy_offset, void *dest, unsigned long copy_size)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " should work like "
+              },
+              {
+                "type": "text",
+                "text": "memcpy(dest, buf+copy_offset, copy_size)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "but checking for validity of the access: returning an error when `"
+              },
+              {
+                "type": "text",
+                "text": "copy_offset\u003esize`",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "  and copying less otherwise.\n\n3. These fields are there for completeness of information about the syscall."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "0c39f6b9-18f8-40b4-b08a-fa88b54ed082",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "4. It's part of the task to figure out how to pass `*buf` to the `bpf_copy_from_buffer` helper.",
+    "ts": "1744900651.945659",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ekBvj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "4. It's part of the task to figure out how to pass "
+              },
+              {
+                "type": "text",
+                "text": "*buf",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " to the "
+              },
+              {
+                "type": "text",
+                "text": "bpf_copy_from_buffer",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " helper."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "26d6c5cc-58e5-407c-88f9-6cce323ea420",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "For 3. assuming no restrictions on the bpf program, it could \"steal\" the copy of the file like:\n```char* file[A_LOT];\n...\nprogram(ctx) {\nbpf_copy_from_buffer(ctx, 0, file+ctx-\u0026gt;offset, ctx-\u0026gt;size)\n}```\nif it could tell written files apart... :wink:",
+    "ts": "1744900905.365729",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Udfmf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "For 3. assuming no restrictions on the bpf program, it could \"steal\" the copy of the file like:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "char* file[A_LOT];\n...\nprogram(ctx) {\nbpf_copy_from_buffer(ctx, 0, file+ctx-\u003eoffset, ctx-\u003esize)\n}"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "if it could tell written files apart... "
+              },
+              {
+                "type": "emoji",
+                "name": "wink",
+                "unicode": "1f609"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d8b3a322-302e-40d8-831d-90e304c42a4f",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "Regarding `ctx.uid` and `ctx.gid` think about it as a proof-of-concept. In a real implementation one would pass more useful information.",
+    "ts": "1744901617.494809",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VVxhJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Regarding "
+              },
+              {
+                "type": "text",
+                "text": "ctx.uid",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and "
+              },
+              {
+                "type": "text",
+                "text": "ctx.gid",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " think about it as a proof-of-concept. In a real implementation one would pass more useful information."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "dbc80fef-2182-47f4-a5c0-ead6d9928d54",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "Also, note that `compress_ctx`  is a union: the uid/gid part should be valid for the *decide* program and offset/size only for *verify*.",
+    "ts": "1744912878.957619",
+    "thread_ts": "1744912878.957619",
+    "reply_count": 3,
+    "reply_users": [
+      "U06M6E5J2SC",
+      "U08EXEBDXQD"
+    ],
+    "replies": [
+      {
+        "user": "U08EXEBDXQD",
+        "ts": "1745266179.125949"
+      },
+      {
+        "user": "U06M6E5J2SC",
+        "ts": "1745273398.117679"
+      },
+      {
+        "user": "U08EXEBDXQD",
+        "ts": "1745305684.371409"
+      }
+    ],
+    "latest_reply": "1745305684.371409",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "saluting_face",
+        "count": 1,
+        "users": [
+          "U08EXEBDXQD"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OXI2q",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Also, note that "
+              },
+              {
+                "type": "text",
+                "text": "compress_ctx",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "  is a union: the uid/gid part should be valid for the "
+              },
+              {
+                "type": "text",
+                "text": "decide",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " program and offset/size only for "
+              },
+              {
+                "type": "text",
+                "text": "verify",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "5c69a4cb-6ea9-4e25-9a57-511051d73c1d",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Ok, thank you :)",
+    "ts": "1744920825.075059",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "slightly_smiling_face",
+        "count": 1,
+        "users": [
+          "U06M6E5J2SC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1i+Am",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Ok, thank you :)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

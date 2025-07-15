@@ -1,0 +1,206 @@
+[
+  {
+    "client_msg_id": "4c4b3158-305f-45d7-8497-cd975fa63a26",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "Yes, that's for checking proper alignment. For instance if you have two words [A, B], you may want to disallow reading 4 bytes from \u0026amp;A+2 (so half-A, half-B). In some cases, it's mostly like a lint.",
+    "ts": "1746555845.789829",
+    "thread_ts": "1746467338.772509",
+    "parent_user_id": "U08EXEA8V2R",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TAeqT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Yes, that's for checking proper alignment. For instance if you have two words [A, B], you may want to disallow reading 4 bytes from \u0026A+2 (so half-A, half-B). In some cases, it's mostly like a lint."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "617aff05-d49f-407b-b221-36b571b27d70",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "Depending how you write it, a spinlock could be enough.",
+    "ts": "1746555937.546399",
+    "thread_ts": "1746467885.083119",
+    "parent_user_id": "U08EXEA8V2R",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6dShp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Depending how you write it, a spinlock could be enough."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7fe5a4e1-decf-4cf2-8870-32715bf774cf",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "Usually there is no need for that (unless it's RCU). Most locks already provide implicit memory barriers. Read \u003chttps://docs.kernel.org/core-api/wrappers/memory-barriers.html\u003e section *LOCK ACQUISITION FUNCTIONS* for reference.",
+    "ts": "1746556388.930759",
+    "thread_ts": "1746462316.887439",
+    "parent_user_id": "U08EXEA8V2R",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RSA4j",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Usually there is no need for that (unless it's RCU). Most locks already provide implicit memory barriers. Read "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.kernel.org/core-api/wrappers/memory-barriers.html",
+                "text": ""
+              },
+              {
+                "type": "text",
+                "text": " section "
+              },
+              {
+                "type": "text",
+                "text": "LOCK ACQUISITION FUNCTIONS",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " for reference."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "5a8ae4e9-e539-45f5-9ccd-0444bfd5ef26",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "For instance, spinlocks are great to atomically update a few related variables to values known before acquiring the spinlock.",
+    "ts": "1746556700.769669",
+    "thread_ts": "1746467885.083119",
+    "parent_user_id": "U08EXEA8V2R",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DaYXH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "For instance, spinlocks are great to atomically update a few related variables to values known before acquiring the spinlock."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "client_msg_id": "4878091f-e693-48db-b899-99db85024410",
+    "type": "message",
+    "user": "UUZHKBYRG",
+    "text": "Jeśli ktoś już ma ocenione wszystkie zadania i chciałby otrzymać ocenę do protokołu, to proszę o sygnał oraz informację jak rozdysponować bonusy.",
+    "ts": "1751799046.563419",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "i5lk8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Jeśli ktoś już ma ocenione wszystkie zadania i chciałby otrzymać ocenę do protokołu, to proszę o sygnał oraz informację jak rozdysponować bonusy."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/bfe97030a446c80e5d4473ce41650b7e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+      "first_name": "Janina",
+      "real_name": "Janina Mincer-Daszkiewicz",
+      "display_name": "jmd",
+      "team": "TV7BVTSJK",
+      "name": "jmd",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

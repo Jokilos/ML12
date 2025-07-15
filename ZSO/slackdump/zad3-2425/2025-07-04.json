@@ -1,0 +1,50 @@
+[
+  {
+    "client_msg_id": "3c601dd6-9780-43ff-9d90-82fb87d48dc1",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "\u003c!channel\u003e I sent preliminary grading results to all who needed to have the task graded earlier.\nIf you didn't get the results, contact me.\nI will be summarazing the results and then putting them in USOS soon.",
+    "ts": "1751625562.488489",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GN4pb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "broadcast",
+                "range": "channel"
+              },
+              {
+                "type": "text",
+                "text": " I sent preliminary grading results to all who needed to have the task graded earlier.\nIf you didn't get the results, contact me.\nI will be summarazing the results and then putting them in USOS soon."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "client_msg_id": "dce5deb4-02a6-4774-8dde-bde9ebcb7b84",
+    "type": "message",
+    "user": "U08EXEABDFX",
+    "text": "Does the resulting patch have to be \"clean\", as long as the resulting state of the repo is clean? For instance is it okay if it contains `commit A` and `revert commit A` ? Would it be sufficient to squash all commits into one?",
+    "ts": "1745253483.968019",
+    "edited": {
+      "user": "U08EXEABDFX",
+      "ts": "1745253774.000000"
+    },
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ep+08",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Does the resulting patch have to be \"clean\", as long as the resulting state of the repo is clean? For instance is it okay if it contains "
+              },
+              {
+                "type": "text",
+                "text": "commit A",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and "
+              },
+              {
+                "type": "text",
+                "text": "revert commit A",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " ? Would it be sufficient to squash all commits into one?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3124cf9c5e1e47ea5c6e51f5f7d133e6.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "Stanisław",
+      "real_name": "Stanisław Solarewicz",
+      "display_name": "Stanisław Solarewicz",
+      "team": "TV7BVTSJK",
+      "name": "ss443488",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "2bb624c2-94ec-4f3a-9151-69e025542f50",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "Prefer readability, so please either squash them into one or follow Linux practices of splitting the patches (e.g. \"1/3 add hooks\", \"2/3 add syscalls\", \"3/3 add helpers\"). Please don't include reverts and other non-linear changes.",
+    "ts": "1745261218.094609",
+    "edited": {
+      "user": "U06M6E5J2SC",
+      "ts": "1745261320.000000"
+    },
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZIui3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Prefer readability, so please either squash them into one or follow Linux practices of splitting the patches (e.g. \"1/3 add hooks\", \"2/3 add syscalls\", \"3/3 add helpers\"). Please don't include reverts and other non-linear changes."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "35a61b6f-0477-4ded-a02c-bd088151530c",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "By valid you mean that, for example, access to uid field in the \"verify\" program should not be permitted?",
+    "ts": "1745266179.125949",
+    "thread_ts": "1744912878.957619",
+    "parent_user_id": "U06M6E5J2SC",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GoAkv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "By valid you mean that, for example, access to uid field in the \"verify\" program should not be permitted?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "71926088-2161-47a5-a756-ebcf21a1a375",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "That's a union, so verifier cannot tell these two apart. I meant something like in tests.",
+    "ts": "1745273398.117679",
+    "thread_ts": "1744912878.957619",
+    "parent_user_id": "U06M6E5J2SC",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fzT9S",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "That's a union, so verifier cannot tell these two apart. I meant something like in tests."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

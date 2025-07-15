@@ -1,0 +1,340 @@
+[
+  {
+    "client_msg_id": "f567275d-6444-4d35-84d0-3e9c40ffae75",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Does the example device from LAB10 need some special options/stuff? I compiled the QEMU machine from the description, I compiled the driver, and while the driver runs the init function, the probe()  function is not being called, which suggests that the PCI subsystem cant find the device. As a result, no new file is being created under /dev.",
+    "ts": "1746636399.851729",
+    "thread_ts": "1746636399.851729",
+    "reply_count": 2,
+    "reply_users": [
+      "U087C4R7344",
+      "U08EXEBDXQD"
+    ],
+    "replies": [
+      {
+        "user": "U087C4R7344",
+        "ts": "1746640214.016839"
+      },
+      {
+        "user": "U08EXEBDXQD",
+        "ts": "1746644154.574379"
+      }
+    ],
+    "latest_reply": "1746644154.574379",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HD4TG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Does the example device from LAB10 need some special options/stuff? I compiled the QEMU machine from the description, I compiled the driver, and while the driver runs the init function, the probe()  function is not being called, which suggests that the PCI subsystem cant find the device. As a result, no new file is being created under /dev."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "07320fc5-7cf6-470b-83cf-3f3a7aad9194",
+    "type": "message",
+    "user": "U087C4R7344",
+    "text": "Have you inserted the device into your machine? Either by a command line option or using QEMU console into a running machine? See large assignment 3's description for details.",
+    "ts": "1746640214.016839",
+    "thread_ts": "1746636399.851729",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "heart",
+        "count": 1,
+        "users": [
+          "U08EXEBDXQD"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6lqBQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Have you inserted the device into your machine? Either by a command line option or using QEMU console into a running machine? See large assignment 3's description for details."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/ddbd2a2e3d52061254cb648271068e54.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+      "first_name": "Łukasz",
+      "real_name": "Łukasz",
+      "display_name": "Łukasz",
+      "team": "TV7BVTSJK",
+      "name": "luke",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "fb81850c-5550-4872-b6ec-0c3183018b66",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "That helped. Thank you.",
+    "ts": "1746644154.574379",
+    "thread_ts": "1746636399.851729",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WVFQE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "That helped. Thank you."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "a7c62d1e-58cf-4969-a7ef-716e10acc4b9",
+    "type": "message",
+    "user": "U08EXEABDFX",
+    "text": "I can't seem to compile a module from more that one srouce file. More precisly, it does compile just fine, installation also doesn't report any issue, however after installation literally nothing happens. Not even a simple `printk` from `module_init`.\n\nMy source tree is basically `acceldev.c` and `driver.c` + headers, my Kbuild is:\n```obj-m := acceldev.o\nacceldev-objs := driver.o```",
+    "ts": "1746646436.669179",
+    "thread_ts": "1746646436.669179",
+    "reply_count": 1,
+    "reply_users": [
+      "U087C4R7344"
+    ],
+    "replies": [
+      {
+        "user": "U087C4R7344",
+        "ts": "1746648022.278129"
+      }
+    ],
+    "latest_reply": "1746648022.278129",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AQBDB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I can't seem to compile a module from more that one srouce file. More precisly, it does compile just fine, installation also doesn't report any issue, however after installation literally nothing happens. Not even a simple "
+              },
+              {
+                "type": "text",
+                "text": "printk",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " from "
+              },
+              {
+                "type": "text",
+                "text": "module_init",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\n\nMy source tree is basically "
+              },
+              {
+                "type": "text",
+                "text": "acceldev.c",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and "
+              },
+              {
+                "type": "text",
+                "text": "driver.c",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " + headers, my Kbuild is:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "obj-m := acceldev.o\nacceldev-objs := driver.o"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3124cf9c5e1e47ea5c6e51f5f7d133e6.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "Stanisław",
+      "real_name": "Stanisław Solarewicz",
+      "display_name": "Stanisław Solarewicz",
+      "team": "TV7BVTSJK",
+      "name": "ss443488",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "ab164642-b73d-4fe3-a533-a783c347666c",
+    "type": "message",
+    "user": "U087C4R7344",
+    "text": "I think an answer posted \u003chttps://stackoverflow.com/questions/70059437/cant-get-multi-files-kernel-module-to-work|here\u003e may help",
+    "ts": "1746648022.278129",
+    "thread_ts": "1746646436.669179",
+    "parent_user_id": "U08EXEABDFX",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U08EXEABDFX"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gd7uM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I think an answer posted "
+              },
+              {
+                "type": "link",
+                "url": "https://stackoverflow.com/questions/70059437/cant-get-multi-files-kernel-module-to-work",
+                "text": "here"
+              },
+              {
+                "type": "text",
+                "text": " may help"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/ddbd2a2e3d52061254cb648271068e54.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+      "first_name": "Łukasz",
+      "real_name": "Łukasz",
+      "display_name": "Łukasz",
+      "team": "TV7BVTSJK",
+      "name": "luke",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

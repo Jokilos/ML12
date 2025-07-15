@@ -1,0 +1,46 @@
+[
+  {
+    "client_msg_id": "2616DFBD-A20E-438F-99CB-D25C43C8D709",
+    "type": "message",
+    "user": "U08EXEBPPA9",
+    "text": "Tak, już oddałem ",
+    "ts": "1750757659.192219",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xpOZW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Tak, już oddałem "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/d349679f787a75fee4ef3b7d708934e2.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+      "first_name": "Wojciech",
+      "real_name": "Wojciech Rzepliński",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "wr438709",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

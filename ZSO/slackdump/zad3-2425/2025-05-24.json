@@ -1,0 +1,59 @@
+[
+  {
+    "client_msg_id": "f6bd56e2-f66b-4aa4-8590-d60082f5eb6c",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "ACCELDEV_PAGE_SIZE is 4KiB. In linux, this is usually also the page size. Can I assume that pages allocated by the kernel are 4KiB (ACCELDEV_PAGE_SIZE == PAGE_SIZE)?",
+    "ts": "1748101155.766699",
+    "thread_ts": "1748101155.766699",
+    "reply_count": 1,
+    "reply_users": [
+      "U039XR2B72A"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1748200942.741679"
+      }
+    ],
+    "latest_reply": "1748200942.741679",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "B/Kwb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ACCELDEV_PAGE_SIZE is 4KiB. In linux, this is usually also the page size. Can I assume that pages allocated by the kernel are 4KiB (ACCELDEV_PAGE_SIZE == PAGE_SIZE)?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  }
+]

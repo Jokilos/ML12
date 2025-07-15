@@ -1,0 +1,94 @@
+[
+  {
+    "client_msg_id": "bca06c5d-3972-4006-88f0-4df27c67793a",
+    "type": "message",
+    "user": "U08EXEA8V2R",
+    "text": "So close on context/buffer does not have to block until context/buffer is actually released?",
+    "ts": "1748788063.992659",
+    "thread_ts": "1746978504.880299",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "B7+qK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "So close on context/buffer does not have to block until context/buffer is actually released?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/6b8b86bf1b2c4dfbcfd8cd3f8aaf14fa.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+      "first_name": "Franciszek",
+      "real_name": "Franciszek Stachura",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "fb.stachura",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "24e08c43-dfce-4e34-902f-f98bfb44f048",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "It thought this question concerned more the relationship of context's and buffers' files in the driver. Closing a buffer (actually releasing) should unmap it from the device and that in general should block until device does it.",
+    "ts": "1748808562.910409",
+    "thread_ts": "1746978504.880299",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "O9zR2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "It thought this question concerned more the relationship of context's and buffers' files in the driver. Closing a buffer (actually releasing) should unmap it from the device and that in general should block until device does it."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "client_msg_id": "9fa81baa-be5f-4af1-8e34-2e20bbcfc36f",
+    "type": "message",
+    "user": "U08EXEABDFX",
+    "text": "Can we write to the `acceldev_context_on_device_config.status` for the purpose of marking the context as erronous? Should we mark context as erronous no matter the error? For instance, if invalid `fd` is passed to `ioctl_run` should that also cause the context to be marked?",
+    "ts": "1747405755.044929",
+    "thread_ts": "1747315471.215799",
+    "parent_user_id": "U08EXEABDFX",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CEy2z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Can we write to the "
+              },
+              {
+                "type": "text",
+                "text": "acceldev_context_on_device_config.status",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " for the purpose of marking the context as erronous? Should we mark context as erronous no matter the error? For instance, if invalid "
+              },
+              {
+                "type": "text",
+                "text": "fd",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is passed to "
+              },
+              {
+                "type": "text",
+                "text": "ioctl_run",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " should that also cause the context to be marked?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3124cf9c5e1e47ea5c6e51f5f7d133e6.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "Stanisław",
+      "real_name": "Stanisław Solarewicz",
+      "display_name": "Stanisław Solarewicz",
+      "team": "TV7BVTSJK",
+      "name": "ss443488",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "57766d06-5167-4e7c-8a9c-1653a2468ac2",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "Regarding file descriptor I will double check, but generally all errors. \nWriting to on_device_config, you can but make sure it doesn't cause you problems: let's say some thread is sleeping in ioctl_wait waiting for fence or error. Then when you handle device interrupt, you need to decide which context had a change. \nBut generally it's recommended not to write there because the device could use other bits of status for other information.",
+    "ts": "1747406308.821699",
+    "thread_ts": "1747315471.215799",
+    "parent_user_id": "U08EXEABDFX",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jA+u7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Regarding file descriptor I will double check, but generally all errors. \nWriting to on_device_config, you can but make sure it doesn't cause you problems: let's say some thread is sleeping in ioctl_wait waiting for fence or error. Then when you handle device interrupt, you need to decide which context had a change. \nBut generally it's recommended not to write there because the device could use other bits of status for other information."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "3bba72ba-fd84-40ce-adde-4acdd3e46ec8",
+    "type": "message",
+    "user": "U08EXEABDFX",
+    "text": "Should invalid arguments for `ioctl_create_buffer` also mark the context?",
+    "ts": "1747409588.341169",
+    "thread_ts": "1747315471.215799",
+    "parent_user_id": "U08EXEABDFX",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Wzr6X",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Should invalid arguments for "
+              },
+              {
+                "type": "text",
+                "text": "ioctl_create_buffer",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " also mark the context?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3124cf9c5e1e47ea5c6e51f5f7d133e6.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "Stanisław",
+      "real_name": "Stanisław Solarewicz",
+      "display_name": "Stanisław Solarewicz",
+      "team": "TV7BVTSJK",
+      "name": "ss443488",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

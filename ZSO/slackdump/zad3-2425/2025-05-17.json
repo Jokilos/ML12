@@ -1,0 +1,93 @@
+[
+  {
+    "type": "message",
+    "user": "USLACKBOT",
+    "text": "This message was deleted.",
+    "ts": "1747502922.865169",
+    "thread_ts": "1747502922.865169",
+    "subtype": "tombstone",
+    "hidden": true,
+    "reply_count": 1,
+    "reply_users": [
+      "UUZHKBYRG"
+    ],
+    "replies": [
+      {
+        "user": "UUZHKBYRG",
+        "ts": "1747503120.074849"
+      }
+    ],
+    "parent_user_id": "USLACKBOT",
+    "latest_reply": "1747503120.074849",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://a.slack-edge.com/80588/img/slackbot_72.png",
+      "first_name": "slackbot",
+      "real_name": "Slackbot",
+      "display_name": "Slackbot",
+      "team": "TV7BVTSJK",
+      "name": "slackbot",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "499295a3-c89b-4074-95d4-bdb50d47ed57",
+    "type": "message",
+    "user": "UUZHKBYRG",
+    "text": "Spoiler :wink:",
+    "ts": "1747503120.074849",
+    "thread_ts": "1747502922.865169",
+    "parent_user_id": "USLACKBOT",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/0eEJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Spoiler "
+              },
+              {
+                "type": "emoji",
+                "name": "wink",
+                "unicode": "1f609"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/bfe97030a446c80e5d4473ce41650b7e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+      "first_name": "Janina",
+      "real_name": "Janina Mincer-Daszkiewicz",
+      "display_name": "jmd",
+      "team": "TV7BVTSJK",
+      "name": "jmd",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

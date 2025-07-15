@@ -1,0 +1,27 @@
+[
+  {
+    "type": "message",
+    "user": "U08EXE9EDA9",
+    "text": "\u003c@U08EXE9EDA9\u003e has joined the channel",
+    "ts": "1748356186.593699",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3831f7b8be909fa0b85b0cf8c28fc72a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+      "first_name": "Ignacy",
+      "real_name": "Ignacy Kozakiewicz",
+      "display_name": "Ignacy Kozakiewicz",
+      "team": "TV7BVTSJK",
+      "name": "ik448298",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

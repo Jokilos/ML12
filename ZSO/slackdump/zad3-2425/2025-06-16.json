@@ -1,0 +1,70 @@
+[
+  {
+    "client_msg_id": "2d89fa2b-7df3-453b-b6bc-419f72d85c3c",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "I triple-checked this, but yeah, this seems to be the issue. For example, if I run `too_many_contexts` with a small delay after `too_many_buffers`, everything works.",
+    "ts": "1750066980.573199",
+    "thread_ts": "1749989771.593799",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ufCRE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I triple-checked this, but yeah, this seems to be the issue. For example, if I run "
+              },
+              {
+                "type": "text",
+                "text": "too_many_contexts",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " with a small delay after "
+              },
+              {
+                "type": "text",
+                "text": "too_many_buffers",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", everything works."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

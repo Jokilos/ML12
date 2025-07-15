@@ -1,0 +1,1360 @@
+[
+  {
+    "id": "CV5GEQ57X",
+    "created": 1583853664,
+    "is_open": false,
+    "last_read": "1751799046.563419",
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "general",
+    "num_members": 43,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "general",
+    "creator": "UV5FW01NC",
+    "is_archived": false,
+    "members": null,
+    "topic": {
+      "value": "Company-wide announcements and work-based matters",
+      "creator": "UV5FW01NC",
+      "last_set": 1583853664
+    },
+    "purpose": {
+      "value": "This channel is for workspace-wide communication and announcements. All members are in this channel.",
+      "creator": "UV5FW01NC",
+      "last_set": 1583853664
+    },
+    "is_channel": true,
+    "is_general": true,
+    "is_member": true,
+    "locale": "en-US",
+    "properties": {
+      "canvas": {
+        "file_id": "",
+        "is_empty": false,
+        "quip_thread_id": ""
+      },
+      "posting_restricted_to": {
+        "type": null,
+        "user": null
+      },
+      "tabs": [
+        {
+          "id": "files",
+          "label": "",
+          "type": "files"
+        },
+        {
+          "id": "bookmarks",
+          "label": "",
+          "type": "bookmarks"
+        }
+      ],
+      "threads_restricted_to": {
+        "type": null,
+        "user": null
+      }
+    }
+  },
+  {
+    "id": "C0109PD04FP",
+    "created": 1584557335,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "nagrania-2020",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "previous_names": [
+      "nagrania"
+    ],
+    "name": "nagrania-2020",
+    "creator": "UUSV3EWE6",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "\u003chttps://www.youtube.com/channel/UCoK2B70h-ebFwrZF37zi9tw\u003e",
+      "creator": "UUSV3EWE6",
+      "last_set": 1584557481
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": null
+  },
+  {
+    "id": "C06M6KM0LPP",
+    "created": 1709217155,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zad1",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zad1",
+    "creator": "U06M6E5J2SC",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "\u003chttps://students.mimuw.edu.pl/ZSO/PUBLIC-SO/2023-2024/z1_elf/\u003e",
+      "creator": "U06M6E5J2SC",
+      "last_set": 1709217247
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": {
+      "canvas": {
+        "file_id": "F06R112SN13",
+        "is_empty": false,
+        "quip_thread_id": "ARZ9AAqg4jy"
+      },
+      "posting_restricted_to": {
+        "type": null,
+        "user": null
+      },
+      "tabs": [
+        {
+          "id": "Ct08QE9LU4KW",
+          "label": "",
+          "type": "canvas"
+        },
+        {
+          "id": "files",
+          "label": "",
+          "type": "files"
+        },
+        {
+          "id": "bookmarks",
+          "label": "",
+          "type": "bookmarks"
+        },
+        {
+          "id": "channel_canvas",
+          "label": "Canvas",
+          "type": "channel_canvas"
+        }
+      ],
+      "threads_restricted_to": {
+        "type": null,
+        "user": null
+      }
+    }
+  },
+  {
+    "id": "C010Z6NQC00",
+    "created": 1585408162,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zad1-2020-elf",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "previous_names": [
+      "zad1-elf"
+    ],
+    "name": "zad1-2020-elf",
+    "creator": "UV5GF58R3",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "\u003chttp://students.mimuw.edu.pl/ZSO/PUBLIC-SO/2019-2020/z1_elf/\u003e",
+      "creator": "UV5GF58R3",
+      "last_set": 1585654793
+    },
+    "purpose": {
+      "value": "Pierwsze zadanie zaliczeniowe",
+      "creator": "UV5GF58R3",
+      "last_set": 1585408163
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": {
+      "canvas": {
+        "file_id": "",
+        "is_empty": false,
+        "quip_thread_id": ""
+      },
+      "posting_restricted_to": {
+        "type": null,
+        "user": null
+      },
+      "tabs": [
+        {
+          "id": "files",
+          "label": "",
+          "type": "files"
+        }
+      ],
+      "threads_restricted_to": {
+        "type": null,
+        "user": null
+      }
+    }
+  },
+  {
+    "id": "C01PBFHF5N3",
+    "created": 1614633954,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zad1-2021-elf",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zad1-2021-elf",
+    "creator": "UV5GF58R3",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "\u003chttps://students.mimuw.edu.pl/ZSO/PUBLIC-SO/2020-2021/z1_elf/index.html\u003e",
+      "creator": "UV5GF58R3",
+      "last_set": 1614694304
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": null
+  },
+  {
+    "id": "C08ELMR7B2T",
+    "created": 1740517457,
+    "is_open": false,
+    "last_read": "1746641913.483179",
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zad1-2425",
+    "num_members": 30,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zad1-2425",
+    "creator": "U06M6E5J2SC",
+    "is_archived": false,
+    "members": null,
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": true,
+    "locale": "en-US",
+    "properties": {
+      "canvas": {
+        "file_id": "F08G3T055QB",
+        "is_empty": true,
+        "quip_thread_id": "PLQ9AAPXOyw"
+      },
+      "posting_restricted_to": {
+        "type": null,
+        "user": null
+      },
+      "tabs": [
+        {
+          "id": "bookmarks",
+          "label": "",
+          "type": "bookmarks"
+        },
+        {
+          "id": "files",
+          "label": "",
+          "type": "files"
+        },
+        {
+          "id": "channel_canvas",
+          "label": "Canvas",
+          "type": "channel_canvas"
+        }
+      ],
+      "threads_restricted_to": {
+        "type": null,
+        "user": null
+      }
+    }
+  },
+  {
+    "id": "C01PS93447L",
+    "created": 1614634080,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zad2-2021-ebpf",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zad2-2021-ebpf",
+    "creator": "UV5GF58R3",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": null
+  },
+  {
+    "id": "C08KCL8VBPC",
+    "created": 1742927708,
+    "is_open": false,
+    "last_read": "1750371417.199809",
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zad2-2425",
+    "num_members": 25,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zad2-2425",
+    "creator": "U06M6E5J2SC",
+    "is_archived": false,
+    "members": null,
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "\u003chttps://students.mimuw.edu.pl/ZSO/PUBLIC-SO/2024-2025/z2_ebpf/index.html\u003e",
+      "creator": "U06M6E5J2SC",
+      "last_set": 1742927733
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": true,
+    "locale": "en-US",
+    "properties": {
+      "canvas": {
+        "file_id": "",
+        "is_empty": false,
+        "quip_thread_id": ""
+      },
+      "posting_restricted_to": {
+        "type": null,
+        "user": null
+      },
+      "tabs": [
+        {
+          "id": "files",
+          "label": "",
+          "type": "files"
+        }
+      ],
+      "threads_restricted_to": {
+        "type": null,
+        "user": null
+      }
+    }
+  },
+  {
+    "id": "C010YMRLK8U",
+    "created": 1585408239,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zad2-write-buffer",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zad2-write-buffer",
+    "creator": "UV5GF58R3",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "\u003chttp://students.mimuw.edu.pl/ZSO/PUBLIC-SO/2019-2020/z2_kernel/\u003e",
+      "creator": "UV5GF58R3",
+      "last_set": 1585654763
+    },
+    "purpose": {
+      "value": "Drugie zadanie zaliczeniowe",
+      "creator": "UV5GF58R3",
+      "last_set": 1585408240
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": {
+      "canvas": {
+        "file_id": "",
+        "is_empty": false,
+        "quip_thread_id": ""
+      },
+      "posting_restricted_to": {
+        "type": null,
+        "user": null
+      },
+      "tabs": [
+        {
+          "id": "files",
+          "label": "",
+          "type": "files"
+        }
+      ],
+      "threads_restricted_to": {
+        "type": null,
+        "user": null
+      }
+    }
+  },
+  {
+    "id": "C01PBFU4GJK",
+    "created": 1614634109,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zad3-2021-final-harddoom",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zad3-2021-final-harddoom",
+    "creator": "UV5GF58R3",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "\u003chttps://students.mimuw.edu.pl/ZSO/PUBLIC-SO/2020-2021/z3_driver/index.html\u003e",
+      "creator": "UV5GF58R3",
+      "last_set": 1620158286
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": null
+  },
+  {
+    "id": "C08RRQ2GHA4",
+    "created": 1746535061,
+    "is_open": false,
+    "last_read": "1751625562.488489",
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zad3-2425",
+    "num_members": 21,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zad3-2425",
+    "creator": "U06M6E5J2SC",
+    "is_archived": false,
+    "members": null,
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "\u003chttps://students.mimuw.edu.pl/ZSO/PUBLIC-SO/2024-2025/z3_driver/index.html\u003e",
+      "creator": "U06M6E5J2SC",
+      "last_set": 1746535100
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": true,
+    "locale": "en-US",
+    "properties": {
+      "canvas": {
+        "file_id": "",
+        "is_empty": false,
+        "quip_thread_id": ""
+      },
+      "posting_restricted_to": {
+        "type": null,
+        "user": null
+      },
+      "tabs": [
+        {
+          "id": "files",
+          "label": "",
+          "type": "files"
+        }
+      ],
+      "threads_restricted_to": {
+        "type": null,
+        "user": null
+      }
+    }
+  },
+  {
+    "id": "C010MN9613M",
+    "created": 1585408265,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zad3-ultimate-harddoom",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zad3-ultimate-harddoom",
+    "creator": "UV5GF58R3",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "\u003chttp://students.mimuw.edu.pl/ZSO/PUBLIC-SO/2019-2020/z3_driver/\u003e",
+      "creator": "UV5GF58R3",
+      "last_set": 1588623213
+    },
+    "purpose": {
+      "value": "Trzecie zadanie zaliczeniowe",
+      "creator": "UV5GF58R3",
+      "last_set": 1585408266
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": {
+      "canvas": {
+        "file_id": "",
+        "is_empty": false,
+        "quip_thread_id": ""
+      },
+      "posting_restricted_to": {
+        "type": null,
+        "user": null
+      },
+      "tabs": [
+        {
+          "id": "files",
+          "label": "",
+          "type": "files"
+        }
+      ],
+      "threads_restricted_to": {
+        "type": null,
+        "user": null
+      }
+    }
+  },
+  {
+    "id": "C01Q4TNEXDF",
+    "created": 1614634134,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zad4-2021-alien-vm",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "previous_names": [
+      "zad4-2021-ebpf-revenge",
+      "zad4-ebpf-revenge"
+    ],
+    "name": "zad4-2021-alien-vm",
+    "creator": "UV5GF58R3",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "\u003chttps://students.mimuw.edu.pl/ZSO/PUBLIC-SO/2020-2021/z4_vm/index.html\u003e",
+      "creator": "UV5GF58R3",
+      "last_set": 1623160896
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": null
+  },
+  {
+    "id": "C010Z6Q8T0Q",
+    "created": 1585408293,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zad4-write-buffer-revenge",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zad4-write-buffer-revenge",
+    "creator": "UV5GF58R3",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "\u003chttp://students.mimuw.edu.pl/ZSO/PUBLIC-SO/2019-2020/z4_backup/\u003e",
+      "creator": "UV5GF58R3",
+      "last_set": 1591101843
+    },
+    "purpose": {
+      "value": "Czwarte zadanie zaliczeniowe",
+      "creator": "UV5GF58R3",
+      "last_set": 1585408294
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": null
+  },
+  {
+    "id": "C04R5P0RYF9",
+    "created": 1677576162,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zadanie1-2023",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zadanie1-2023",
+    "creator": "U01RD1M8F8D",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": {
+      "canvas": {
+        "file_id": "",
+        "is_empty": false,
+        "quip_thread_id": ""
+      },
+      "posting_restricted_to": {
+        "type": null,
+        "user": null
+      },
+      "tabs": [
+        {
+          "id": "files",
+          "label": "",
+          "type": "files"
+        }
+      ],
+      "threads_restricted_to": {
+        "type": null,
+        "user": null
+      }
+    }
+  },
+  {
+    "id": "C06LLCBCVAQ",
+    "created": 1708891092,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zadanie1-2024",
+    "num_members": 1,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zadanie1-2024",
+    "creator": "U01RD1M8F8D",
+    "is_archived": false,
+    "members": null,
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": null
+  },
+  {
+    "id": "C03A0RM3WSH",
+    "created": 1649144548,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zadanie2-2022",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zadanie2-2022",
+    "creator": "U01RD1M8F8D",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": null
+  },
+  {
+    "id": "C051E8LECUT",
+    "created": 1680463352,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zadanie2-2023",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zadanie2-2023",
+    "creator": "U01PBHUF50X",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": null
+  },
+  {
+    "id": "C039P4C5EVD",
+    "created": 1649144559,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zadanie3-2022",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zadanie3-2022",
+    "creator": "U01RD1M8F8D",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": null
+  },
+  {
+    "id": "C056Z71FS20",
+    "created": 1683639045,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zadanie3-2023",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zadanie3-2023",
+    "creator": "U01RD1M8F8D",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": null
+  },
+  {
+    "id": "CUSN4HQF4",
+    "created": 1583853664,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zso-2020",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "previous_names": [
+      "zso"
+    ],
+    "name": "zso-2020",
+    "creator": "UV5FW01NC",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "wykład: \u003chttps://meet.google.com/uhk-xpuc-bda\u003e ; laby: \u003chttps://meet.google.com/dfk-qoyw-avz\u003e",
+      "creator": "UV5GF58R3",
+      "last_set": 1585045738
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": {
+      "canvas": {
+        "file_id": "",
+        "is_empty": false,
+        "quip_thread_id": ""
+      },
+      "posting_restricted_to": {
+        "type": null,
+        "user": null
+      },
+      "tabs": [
+        {
+          "id": "files",
+          "label": "",
+          "type": "files"
+        },
+        {
+          "id": "bookmarks",
+          "label": "",
+          "type": "bookmarks"
+        }
+      ],
+      "threads_restricted_to": {
+        "type": null,
+        "user": null
+      }
+    }
+  },
+  {
+    "id": "C01PYDP8WVA",
+    "created": 1614633925,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zso-2021",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zso-2021",
+    "creator": "UV5GF58R3",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "wykład: \u003chttps://us02web.zoom.us/j/84836741520\u003e ; laby: \u003chttps://us02web.zoom.us/j/9612171386\u003e",
+      "creator": "UV5GF58R3",
+      "last_set": 1614691735
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": {
+      "canvas": {
+        "file_id": "",
+        "is_empty": false,
+        "quip_thread_id": ""
+      },
+      "posting_restricted_to": {
+        "type": null,
+        "user": null
+      },
+      "tabs": [
+        {
+          "id": "bookmarks",
+          "label": "",
+          "type": "bookmarks"
+        }
+      ],
+      "threads_restricted_to": {
+        "type": null,
+        "user": null
+      }
+    }
+  },
+  {
+    "id": "C03AGAH4ED7",
+    "created": 1649144451,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zso-2022",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zso-2022",
+    "creator": "U01RD1M8F8D",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": null
+  },
+  {
+    "id": "C04R5P4PNUF",
+    "created": 1677576208,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zso-2023",
+    "num_members": 0,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zso-2023",
+    "creator": "U01RD1M8F8D",
+    "is_archived": true,
+    "members": null,
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": null
+  },
+  {
+    "id": "C06LF16G8NR",
+    "created": 1708890996,
+    "is_open": false,
+    "is_group": false,
+    "is_shared": false,
+    "is_im": false,
+    "is_ext_shared": false,
+    "is_org_shared": false,
+    "is_global_shared": false,
+    "is_pending_ext_shared": false,
+    "is_private": false,
+    "is_read_only": false,
+    "is_mpim": false,
+    "unlinked": 0,
+    "name_normalized": "zso-2024",
+    "num_members": 1,
+    "priority": 0,
+    "user": "",
+    "shared_team_ids": [
+      "TV7BVTSJK"
+    ],
+    "context_team_id": "TV7BVTSJK",
+    "name": "zso-2024",
+    "creator": "U01RD1M8F8D",
+    "is_archived": false,
+    "members": null,
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "is_channel": true,
+    "is_general": false,
+    "is_member": false,
+    "locale": "en-US",
+    "properties": null
+  }
+]

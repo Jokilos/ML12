@@ -1,0 +1,103 @@
+[
+  {
+    "type": "message",
+    "user": "USLACKBOT",
+    "text": "Announcement! *You can now ask me Slack-related questions — and I’ll respond.* If I don’t understand (I’m only a bot, after all), I’ll search Slack’s \u003chttps://slack.com/help|Help Center\u003e.\n\n*But wait — there’s more!* Wondering where to jot personal notes, if not here? *Now you can send direct messages to yourself.* Lovely for listing to-dos, drafting messages, or pasting important links. Just select the plus sign (*+*) next to the direct messages list, and search for your own name. :tada:",
+    "ts": "1741121338.066499",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1FDiK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Announcement! "
+              },
+              {
+                "type": "text",
+                "text": "You can now ask me Slack-related questions — and I’ll respond.",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " If I don’t understand (I’m only a bot, after all), I’ll search Slack’s "
+              },
+              {
+                "type": "link",
+                "url": "https://slack.com/help",
+                "text": "Help Center"
+              },
+              {
+                "type": "text",
+                "text": ".\n\n"
+              },
+              {
+                "type": "text",
+                "text": "But wait — there’s more!",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " Wondering where to jot personal notes, if not here? "
+              },
+              {
+                "type": "text",
+                "text": "Now you can send direct messages to yourself.",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " Lovely for listing to-dos, drafting messages, or pasting important links. Just select the plus sign ("
+              },
+              {
+                "type": "text",
+                "text": "+",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ") next to the direct messages list, and search for your own name. "
+              },
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://a.slack-edge.com/80588/img/slackbot_72.png",
+      "first_name": "slackbot",
+      "real_name": "Slackbot",
+      "display_name": "Slackbot",
+      "team": "TV7BVTSJK",
+      "name": "slackbot",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

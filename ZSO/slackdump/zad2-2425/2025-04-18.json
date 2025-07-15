@@ -1,0 +1,27 @@
+[
+  {
+    "type": "message",
+    "user": "U08EXE97A21",
+    "text": "\u003c@U08EXE97A21\u003e has joined the channel",
+    "ts": "1744979268.473219",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/be48ad43a0afac5fabf177288afe16ad.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+      "first_name": "Jan",
+      "real_name": "Jan Łakomy",
+      "display_name": "Jan Łakomy",
+      "team": "TV7BVTSJK",
+      "name": "jl448334",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

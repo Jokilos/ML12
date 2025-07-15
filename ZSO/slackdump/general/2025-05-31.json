@@ -1,0 +1,239 @@
+[
+  {
+    "client_msg_id": "f15ad013-7849-4d81-bf8b-9bc2af973413",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "I was reading through the Interrupt section of the Lab10 and I was wondering, what happens if in the case mentioned here, we return IRQ_HANDLED no matter what?\n\nI'm asking, because I was playing with tasklets, and if I treat the interrupt handling routine only as a task scheduler, then I'm wondering whether I should set some flags for checking if the specific device waits for something, or just scheduling a tasklet and then returning IRQ_HANDLED is always enough?",
+    "ts": "1748681344.606449",
+    "edited": {
+      "user": "U08EXEBDXQD",
+      "ts": "1748681890.000000"
+    },
+    "files": [
+      {
+        "id": "F08UR84KZJR",
+        "created": 1748681091,
+        "timestamp": 1748681091,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08EXEBDXQD",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 49181,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/TV7BVTSJK-F08UR84KZJR/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/TV7BVTSJK-F08UR84KZJR/download/image.png",
+        "original_h": 157,
+        "original_w": 820,
+        "thumb_64": "https://files.slack.com/files-tmb/TV7BVTSJK-F08UR84KZJR-5233b7c47e/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/TV7BVTSJK-F08UR84KZJR-5233b7c47e/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/TV7BVTSJK-F08UR84KZJR-5233b7c47e/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/TV7BVTSJK-F08UR84KZJR-5233b7c47e/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 69,
+        "thumb_480": "https://files.slack.com/files-tmb/TV7BVTSJK-F08UR84KZJR-5233b7c47e/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 92,
+        "thumb_720": "https://files.slack.com/files-tmb/TV7BVTSJK-F08UR84KZJR-5233b7c47e/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 138,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://zso.slack.com/files/U06MLHFEG3B/F08UR84KZJR/image.png",
+        "permalink_public": "https://slack-files.com/TV7BVTSJK-F08UR84KZJR-fc9f51edbc",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        }
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BELLt",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I was reading through the Interrupt section of the Lab10 and I was wondering, what happens if in the case mentioned here, we return IRQ_HANDLED no matter what?\n\nI'm asking, because I was playing with tasklets, and if I treat the interrupt handling routine only as a task scheduler, then I'm wondering whether I should set some flags for checking if the specific device waits for something, or just scheduling a tasklet and then returning IRQ_HANDLED is always enough?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "dec0a79e-003a-4435-b89b-72237e38cff4",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "I'm not sure if I understand what you mean. AFAIR you cannot assume the interrupt line is dedicated to your PCI device/slot.",
+    "ts": "1748708161.074069",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/Z9Z4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I'm not sure if I understand what you mean. AFAIR you cannot assume the interrupt line is dedicated to your PCI device/slot."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "9c80fe8f-bfa5-419b-9fb2-a1bb920bc818",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "Returning handled/not_handled values is typical for the Chain of Command design pattern. In such a case, the dispatch would be implemented like:\n```handled_t dispatch(self, event) {\n  if self.event_for_us(event) {\n     return handled;\n  }\n  for ch in child_listeners {\n     if ch.dispatch(event) == handled {\n        return handled;\n     }\n  }\n  return not_handled\n}```\nFor instance, with such a pattern you would typically implement HTML/JS dispatching a click event (x, y) to an interested DOM element. Are you asking for a case in which a DOM element would always return `handled` disregarding if the event is even at its bounding-box?",
+    "ts": "1748709017.109649",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1t/6M",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Returning handled/not_handled values is typical for the Chain of Command design pattern. In such a case, the dispatch would be implemented like:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "handled_t dispatch(self, event) {\n  if self.event_for_us(event) {\n     return handled;\n  }\n  for ch in child_listeners {\n     if ch.dispatch(event) == handled {\n        return handled;\n     }\n  }\n  return not_handled\n}"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "For instance, with such a pattern you would typically implement HTML/JS dispatching a click event (x, y) to an interested DOM element. Are you asking for a case in which a DOM element would always return "
+              },
+              {
+                "type": "text",
+                "text": "handled",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " disregarding if the event is even at its bounding-box?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

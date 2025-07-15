@@ -1,0 +1,95 @@
+[
+  {
+    "client_msg_id": "f54ca683-31f2-42b6-8c47-b9224720f229",
+    "type": "message",
+    "user": "U08EXEA8V2R",
+    "text": "I'm still not sure if I understand - should calling `close` on file descriptor of a buffer/context that is referenced from some other object (so cannot be released just yet) block? Or is it okay to finish early if a reference to the buffer/context is still held somewhere during `close`?",
+    "ts": "1748934006.517449",
+    "thread_ts": "1746978504.880299",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DSHQ5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I'm still not sure if I understand - should calling "
+              },
+              {
+                "type": "text",
+                "text": "close",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " on file descriptor of a buffer/context that is referenced from some other object (so cannot be released just yet) block? Or is it okay to finish early if a reference to the buffer/context is still held somewhere during "
+              },
+              {
+                "type": "text",
+                "text": "close",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/6b8b86bf1b2c4dfbcfd8cd3f8aaf14fa.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+      "first_name": "Franciszek",
+      "real_name": "Franciszek Stachura",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "fb.stachura",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "type": "message",
+    "user": "U08EXEBB26R",
+    "text": "\u003c@U08EXEBB26R\u003e has joined the channel",
+    "ts": "1748953165.777919",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/117ee7febde490bd63fe3a5fff4d0d6a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png",
+      "first_name": "Mateusz",
+      "real_name": "Mateusz Wasilewski",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "mw438786",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

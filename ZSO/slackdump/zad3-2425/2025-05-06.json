@@ -1,0 +1,427 @@
+[
+  {
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "\u003c@U06M6E5J2SC\u003e has joined the channel",
+    "ts": "1746535061.801319",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "set the channel description: \u003chttps://students.mimuw.edu.pl/ZSO/PUBLIC-SO/2024-2025/z3_driver/index.html\u003e",
+    "ts": "1746535100.368659",
+    "subtype": "channel_purpose",
+    "purpose": "\u003chttps://students.mimuw.edu.pl/ZSO/PUBLIC-SO/2024-2025/z3_driver/index.html\u003e",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "40d77214-dc14-4ffc-b425-c20e2d8bb4e7",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "\u003c@U039XR2B72A\u003e is the author and will answer your questions",
+    "ts": "1746535151.922039",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xB9SY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U039XR2B72A"
+              },
+              {
+                "type": "text",
+                "text": " is the author and will answer your questions"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "\u003c@U039XR2B72A\u003e has joined the channel",
+    "ts": "1746535164.534009",
+    "subtype": "channel_join",
+    "inviter": "U06M6E5J2SC",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "type": "message",
+    "user": "U08EXEABDFX",
+    "text": "\u003c@U08EXEABDFX\u003e has joined the channel",
+    "ts": "1746535261.524739",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3124cf9c5e1e47ea5c6e51f5f7d133e6.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "Stanisław",
+      "real_name": "Stanisław Solarewicz",
+      "display_name": "Stanisław Solarewicz",
+      "team": "TV7BVTSJK",
+      "name": "ss443488",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "type": "message",
+    "user": "U08EXE06R5K",
+    "text": "\u003c@U08EXE06R5K\u003e has joined the channel",
+    "ts": "1746535577.029189",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/a6f34494771fa9a019c9d3045e600517.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+      "first_name": "Michal",
+      "real_name": "Michal Plachta",
+      "display_name": "Michal Plachta",
+      "team": "TV7BVTSJK",
+      "name": "mp438675",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "type": "message",
+    "user": "U06MABKH0LU",
+    "text": "\u003c@U06MABKH0LU\u003e has joined the channel",
+    "ts": "1746536280.241609",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3d8c4b54407f2db7469c1d1e92bacd0d.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Al-Hosam",
+      "display_name": "Adam Al-Hosam",
+      "team": "TV7BVTSJK",
+      "name": "aa429136",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "\u003c@U08EXEBDXQD\u003e has joined the channel",
+    "ts": "1746536439.087599",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "type": "message",
+    "user": "U04LPH4NX3J",
+    "text": "\u003c@U04LPH4NX3J\u003e has joined the channel",
+    "ts": "1746536552.043669",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/7e8d7d99b886b3c0ac89fefe26c57297.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+      "first_name": "Wojciech",
+      "real_name": "Wojciech Ciszewski",
+      "display_name": "Wojciech Ciszewski",
+      "team": "TV7BVTSJK",
+      "name": "w.ciszewski2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "type": "message",
+    "user": "U08EXE91QPP",
+    "text": "\u003c@U08EXE91QPP\u003e has joined the channel",
+    "ts": "1746537190.642679",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/338a94d0083d86ad4ea18be6c6886fa7.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+      "first_name": "Krzysztof",
+      "real_name": "Krzysztof Szostek",
+      "display_name": "Krzysztof Szostek",
+      "team": "TV7BVTSJK",
+      "name": "ks440011",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "type": "message",
+    "user": "U08EXEA8V2R",
+    "text": "\u003c@U08EXEA8V2R\u003e has joined the channel",
+    "ts": "1746540876.958839",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/6b8b86bf1b2c4dfbcfd8cd3f8aaf14fa.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+      "first_name": "Franciszek",
+      "real_name": "Franciszek Stachura",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "fb.stachura",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "type": "message",
+    "user": "U06MLHFEG3B",
+    "text": "\u003c@U06MLHFEG3B\u003e has joined the channel",
+    "ts": "1746541761.285979",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-03-04/8546326440693_e44e921905aa34406b7e_72.jpg",
+      "first_name": "Jakub",
+      "real_name": "Jakub Nowacki",
+      "display_name": "Jakub Nowacki",
+      "team": "TV7BVTSJK",
+      "name": "jp.nowacki",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "type": "message",
+    "user": "U08EXEC13E1",
+    "text": "\u003c@U08EXEC13E1\u003e has joined the channel",
+    "ts": "1746541797.135529",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/cbcc98835c7daf7e53957372a99fb9aa.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+      "first_name": "Jakub",
+      "real_name": "Jakub Bartecki",
+      "display_name": "Jakub Bartecki",
+      "team": "TV7BVTSJK",
+      "name": "jb448455",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "type": "message",
+    "user": "U08EXEBPPA9",
+    "text": "\u003c@U08EXEBPPA9\u003e has joined the channel",
+    "ts": "1746543497.813429",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/d349679f787a75fee4ef3b7d708934e2.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+      "first_name": "Wojciech",
+      "real_name": "Wojciech Rzepliński",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "wr438709",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "type": "message",
+    "user": "U087C4R7344",
+    "text": "\u003c@U087C4R7344\u003e has joined the channel",
+    "ts": "1746548932.423839",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/ddbd2a2e3d52061254cb648271068e54.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+      "first_name": "Łukasz",
+      "real_name": "Łukasz",
+      "display_name": "Łukasz",
+      "team": "TV7BVTSJK",
+      "name": "luke",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "type": "message",
+    "user": "U08EXEAGWDT",
+    "text": "\u003c@U08EXEAGWDT\u003e has joined the channel",
+    "ts": "1746549201.197279",
+    "subtype": "channel_join",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/80b3d7d7f0edeaa88544f0979b0d2ef1.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+      "first_name": "Michał",
+      "real_name": "Michał Hudobski",
+      "display_name": "Michał Hudobski",
+      "team": "TV7BVTSJK",
+      "name": "mh448254",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "client_msg_id": "cda8806d-7047-4feb-8305-a653f96eaecb",
+    "type": "message",
+    "user": "U06MLHFEG3B",
+    "text": "Jak tam, będziesz oddawał 3. zadanko w terminie?",
+    "ts": "1750697093.490289",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FUvwf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Jak tam, będziesz oddawał 3. zadanko w terminie?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-03-04/8546326440693_e44e921905aa34406b7e_72.jpg",
+      "first_name": "Jakub",
+      "real_name": "Jakub Nowacki",
+      "display_name": "Jakub Nowacki",
+      "team": "TV7BVTSJK",
+      "name": "jp.nowacki",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

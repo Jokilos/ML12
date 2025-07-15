@@ -1,0 +1,680 @@
+[
+  {
+    "client_msg_id": "c953fe1d-d8fe-40d0-8755-31de393c9942",
+    "type": "message",
+    "user": "U08EXEABDFX",
+    "text": "I also believe `page_fault1` contains a bug. It ignores the return value of the `ioctl_run` so if it returns `EINVAL` and doesn't schedule the run the test will hang forever, because there never will be `INTR_MEM_ERROR`.",
+    "ts": "1747315471.215799",
+    "thread_ts": "1747315471.215799",
+    "edited": {
+      "user": "U08EXEABDFX",
+      "ts": "1747315636.000000"
+    },
+    "reply_count": 4,
+    "reply_users": [
+      "U039XR2B72A",
+      "U08EXEABDFX"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1747376799.001789"
+      },
+      {
+        "user": "U08EXEABDFX",
+        "ts": "1747405755.044929"
+      },
+      {
+        "user": "U039XR2B72A",
+        "ts": "1747406308.821699"
+      },
+      {
+        "user": "U08EXEABDFX",
+        "ts": "1747409588.341169"
+      }
+    ],
+    "latest_reply": "1747409588.341169",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vn5Da",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I also believe "
+              },
+              {
+                "type": "text",
+                "text": "page_fault1",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " contains a bug. It ignores the return value of the "
+              },
+              {
+                "type": "text",
+                "text": "ioctl_run",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " so if it returns "
+              },
+              {
+                "type": "text",
+                "text": "EINVAL",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and doesn't schedule the run the test will hang forever, because there never will be "
+              },
+              {
+                "type": "text",
+                "text": "INTR_MEM_ERROR",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3124cf9c5e1e47ea5c6e51f5f7d133e6.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "Stanisław",
+      "real_name": "Stanisław Solarewicz",
+      "display_name": "Stanisław Solarewicz",
+      "team": "TV7BVTSJK",
+      "name": "ss443488",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "508b2470-26ee-4f68-a1fe-db56b0cd935d",
+    "type": "message",
+    "user": "U08EXEABDFX",
+    "text": "Also `overflow` is trying to map buffer of size `SIZE` to an area of size `SIZE+0x1000`, why is an error not expected here?",
+    "ts": "1747316063.966209",
+    "thread_ts": "1747316063.966209",
+    "reply_count": 1,
+    "reply_users": [
+      "U039XR2B72A"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1747376902.109089"
+      }
+    ],
+    "latest_reply": "1747376902.109089",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2Y/2M",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Also "
+              },
+              {
+                "type": "text",
+                "text": "overflow",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is trying to map buffer of size "
+              },
+              {
+                "type": "text",
+                "text": "SIZE",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " to an area of size "
+              },
+              {
+                "type": "text",
+                "text": "SIZE+0x1000",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", why is an error not expected here?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3124cf9c5e1e47ea5c6e51f5f7d133e6.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "Stanisław",
+      "real_name": "Stanisław Solarewicz",
+      "display_name": "Stanisław Solarewicz",
+      "team": "TV7BVTSJK",
+      "name": "ss443488",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "d6692b68-594f-4900-8eaa-f071efc24ce3",
+    "type": "message",
+    "user": "U08EXEABDFX",
+    "text": "In `multiple_buffers_fill` shouldn't each thread call `do_wait(fd, data-\u003eindex + 1)` instead of `do_wait(fd, 1)`? Actually not sure if this would be correct either, since for example thread 1 and 11 could finish first, causing then thread `2` to wake up instead. Am I misunderstanding how `fence_value` should be trated in `ioctl_wait`?",
+    "ts": "1747317090.148099",
+    "thread_ts": "1747317090.148099",
+    "edited": {
+      "user": "U08EXEABDFX",
+      "ts": "1747317262.000000"
+    },
+    "reply_count": 2,
+    "reply_users": [
+      "U039XR2B72A",
+      "UUZHKBYRG"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1747376975.262099"
+      },
+      {
+        "user": "UUZHKBYRG",
+        "ts": "1747378091.012139"
+      }
+    ],
+    "latest_reply": "1747378091.012139",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LJ7T/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "In "
+              },
+              {
+                "type": "text",
+                "text": "multiple_buffers_fill",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " shouldn't each thread call "
+              },
+              {
+                "type": "text",
+                "text": "do_wait(fd, data-\u003eindex + 1)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " instead of "
+              },
+              {
+                "type": "text",
+                "text": "do_wait(fd, 1)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "? Actually not sure if this would be correct either, since for example thread 1 and 11 could finish first, causing then thread "
+              },
+              {
+                "type": "text",
+                "text": "2",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " to wake up instead. Am I misunderstanding how "
+              },
+              {
+                "type": "text",
+                "text": "fence_value",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " should be trated in "
+              },
+              {
+                "type": "text",
+                "text": "ioctl_wait",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3124cf9c5e1e47ea5c6e51f5f7d133e6.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "Stanisław",
+      "real_name": "Stanisław Solarewicz",
+      "display_name": "Stanisław Solarewicz",
+      "team": "TV7BVTSJK",
+      "name": "ss443488",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "50d77516-032f-4937-9d82-841606725eab",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "that's true but this hanging would be considered a bug in your driver\nbecause if you don't schedule a run due to invalid ioctl args, then you should mark the context as errored and then waiting should fail immediately",
+    "ts": "1747376799.001789",
+    "thread_ts": "1747315471.215799",
+    "edited": {
+      "user": "U039XR2B72A",
+      "ts": "1747376814.000000"
+    },
+    "parent_user_id": "U08EXEABDFX",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U08EXEABDFX"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ihCNX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "that's true but this hanging would be considered a bug in your driver\nbecause if you don't schedule a run due to invalid ioctl args, then you should mark the context as errored and then waiting should fail immediately"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "8bef1109-72a7-4977-8ea6-d73017d083b3",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "this is due to the way we proposed you should implement mmap - handling missing pages in fault handler\nif someone decides to implement mmap another way - e.g. mapping the pages in mmap directly, I may change this test\nTL;DR - just don't validate much in mmap and handle all errors in fault handler",
+    "ts": "1747376902.109089",
+    "thread_ts": "1747316063.966209",
+    "edited": {
+      "user": "U039XR2B72A",
+      "ts": "1747376935.000000"
+    },
+    "parent_user_id": "U08EXEABDFX",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U08EXEABDFX"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SmLq4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "this is due to the way we proposed you should implement mmap - handling missing pages in fault handler\nif someone decides to implement mmap another way - e.g. mapping the pages in mmap directly, I may change this test\nTL;DR - just don't validate much in mmap and handle all errors in fault handler"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "daf98831-c5be-45b4-b9e2-62259e32d803",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "thanks for catching this, I copied this test from multiple_contexts and didn't really check if everything makes sense",
+    "ts": "1747376975.262099",
+    "thread_ts": "1747317090.148099",
+    "parent_user_id": "U08EXEABDFX",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WAiFb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "thanks for catching this, I copied this test from multiple_contexts and didn't really check if everything makes sense"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7bcd36b6-2e35-4b40-9e13-53345ac6a058",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "A new version of tests with some fixes. I will upload it to the labs site later.",
+    "ts": "1747377001.106509",
+    "files": [
+      {
+        "id": "F08SM0N1A2Z",
+        "created": 1747376983,
+        "timestamp": 1747376983,
+        "name": "z3-tests-2025.tar.gz",
+        "title": "z3-tests-2025.tar.gz",
+        "mimetype": "application/x-gzip",
+        "image_exif_rotation": 0,
+        "filetype": "gzip",
+        "pretty_type": "Gzip",
+        "user": "U039XR2B72A",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 4717,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/TV7BVTSJK-F08SM0N1A2Z/z3-tests-2025.tar.gz",
+        "url_private_download": "https://files.slack.com/files-pri/TV7BVTSJK-F08SM0N1A2Z/download/z3-tests-2025.tar.gz",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://zso.slack.com/files/U06MLHFEG3B/F08SM0N1A2Z/z3-tests-2025.tar.gz",
+        "permalink_public": "https://slack-files.com/TV7BVTSJK-F08SM0N1A2Z-aa2da01c4b",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        }
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QKAiN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "A new version of tests with some fixes. I will upload it to the labs site later."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "12b8f51a-353c-4d2a-967c-a7fbdc898999",
+    "type": "message",
+    "user": "UUZHKBYRG",
+    "text": "Remember about a bonus for \u003c@U08EXEABDFX\u003e when assessing the final solution :wink:",
+    "ts": "1747378091.012139",
+    "thread_ts": "1747317090.148099",
+    "parent_user_id": "U08EXEABDFX",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Y0VKR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Remember about a bonus for "
+              },
+              {
+                "type": "user",
+                "user_id": "U08EXEABDFX"
+              },
+              {
+                "type": "text",
+                "text": " when assessing the final solution "
+              },
+              {
+                "type": "emoji",
+                "name": "wink",
+                "unicode": "1f609"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/bfe97030a446c80e5d4473ce41650b7e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+      "first_name": "Janina",
+      "real_name": "Janina Mincer-Daszkiewicz",
+      "display_name": "jmd",
+      "team": "TV7BVTSJK",
+      "name": "jmd",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

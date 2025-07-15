@@ -1,0 +1,274 @@
+[
+  {
+    "client_msg_id": "f2f7b101-948c-43fa-9405-6a7ec186ed6c",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Should the close() call on the context be responsible for closing unclosed data/code buffers?",
+    "ts": "1746978504.880299",
+    "thread_ts": "1746978504.880299",
+    "reply_count": 6,
+    "reply_users": [
+      "U039XR2B72A",
+      "U08EXEA8V2R"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1747025818.624359"
+      },
+      {
+        "user": "U08EXEA8V2R",
+        "ts": "1748788063.992659"
+      },
+      {
+        "user": "U039XR2B72A",
+        "ts": "1748808562.910409"
+      },
+      {
+        "user": "U08EXEA8V2R",
+        "ts": "1748934006.517449"
+      },
+      {
+        "user": "U039XR2B72A",
+        "ts": "1749152799.646329"
+      },
+      {
+        "user": "U08EXEA8V2R",
+        "ts": "1749154423.493319"
+      }
+    ],
+    "latest_reply": "1749154423.493319",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4+0If",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Should the close() call on the context be responsible for closing unclosed data/code buffers?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "ef41b69f-b946-4ae8-a0c1-ffbab520605e",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Btw, in the code_buffer_slot test, cfd buffer is being created but not closed. Is that intentional? From my experiments, its still being closed after the end of program, and my custom release is being called, but because all contexts are cleaned-up, the test fails (to put it mildly)",
+    "ts": "1746992474.124049",
+    "thread_ts": "1746992474.124049",
+    "reply_count": 2,
+    "reply_users": [
+      "U039XR2B72A",
+      "U08EXEBDXQD"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1747025539.156499"
+      },
+      {
+        "user": "U08EXEBDXQD",
+        "ts": "1747040486.559519"
+      }
+    ],
+    "latest_reply": "1747040486.559519",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oUlRd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Btw, in the code_buffer_slot test, cfd buffer is being created but not closed. Is that intentional? From my experiments, its still being closed after the end of program, and my custom release is being called, but because all contexts are cleaned-up, the test fails (to put it mildly)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "d2ad366c-18ed-4705-8105-ae76c68ecfd0",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "Closing buffers before closing contexts is good practice in programs (tests in this case). However, the driver should work, or at least not leak resources, no matter if the user mode code using it, is correct, as in this case forgetting to close. Since the buffers were created for a context, releasing (but not just closing - see the other answer) a context should also clean-up the buffers. You can use either waiting, or better use Linux file reference counting, so that the context's release is called only after the buffers' release has finished.",
+    "ts": "1747025539.156499",
+    "thread_ts": "1746992474.124049",
+    "edited": {
+      "user": "U039XR2B72A",
+      "ts": "1747025943.000000"
+    },
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5T1Ox",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Closing buffers before closing contexts is good practice in programs (tests in this case). However, the driver should work, or at least not leak resources, no matter if the user mode code using it, is correct, as in this case forgetting to close. Since the buffers were created for a context, releasing (but not just closing - see the other answer) a context should also clean-up the buffers. You can use either waiting, or better use Linux file reference counting, so that the context's release is called only after the buffers' release has finished."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "98e2e8c7-2372-41e1-b0f3-19325c06e68d",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "Not really, my solution works this way:\n• buffers keep file reference to the context\n• context's release is called only after all its references have been closed (most often: close() on the context and close() on all its buffers) . ",
+    "ts": "1747025818.624359",
+    "thread_ts": "1746978504.880299",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "pray",
+        "count": 1,
+        "users": [
+          "U08EXEBDXQD"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7+WKk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Not really, my solution works this way:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "buffers keep file reference to the context"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "context's release is called only after all its references have been closed (most often: close() on the context and close() on all its buffers) . "
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

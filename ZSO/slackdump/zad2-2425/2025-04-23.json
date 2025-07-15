@@ -1,0 +1,181 @@
+[
+  {
+    "client_msg_id": "e6e3bf03-6e40-4ca2-a06a-ceeb4f3d0f80",
+    "type": "message",
+    "user": "U06MABKH0LU",
+    "text": "\"returning an error when ``copy_offset\u0026gt;size``  and copying less otherwise.\"\nWhat should be the return value of `bpf_copy_from_buffer` if `copy_offset \u0026lt;= size` ? Should it be the number of bytes copied, the number of bytes *not* copied or just 0?",
+    "ts": "1745428353.109529",
+    "thread_ts": "1744900623.314309",
+    "subtype": "thread_broadcast",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3tvPx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\"returning an error when `"
+              },
+              {
+                "type": "text",
+                "text": "copy_offset\u003esize`",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "  and copying less otherwise.\"\nWhat should be the return value of "
+              },
+              {
+                "type": "text",
+                "text": "bpf_copy_from_buffer",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " if "
+              },
+              {
+                "type": "text",
+                "text": "copy_offset \u003c= size",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " ? Should it be the number of bytes copied, the number of bytes "
+              },
+              {
+                "type": "text",
+                "text": "not",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " copied or just 0?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3d8c4b54407f2db7469c1d1e92bacd0d.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Al-Hosam",
+      "display_name": "Adam Al-Hosam",
+      "team": "TV7BVTSJK",
+      "name": "aa429136",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "91d01aa1-d302-4d46-8620-0eed2b12b12e",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "One more thing: these should not be exposed to the userspace in any way (e.g. by vmlinux.h headers)",
+    "ts": "1745430842.137879",
+    "thread_ts": "1745343484.830469",
+    "parent_user_id": "U08EXEA8V2R",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KzCQR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "One more thing: these should not be exposed to the userspace in any way (e.g. by vmlinux.h headers)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "c3d097d5-a999-4479-9357-05aa382ee335",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "0 is fine",
+    "ts": "1745431239.640899",
+    "thread_ts": "1744900623.314309",
+    "parent_user_id": "U06M6E5J2SC",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vsQhC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "0 is fine"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

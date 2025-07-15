@@ -1,0 +1,468 @@
+[
+  {
+    "client_msg_id": "dd146df7-4fa4-4a1c-9333-14feebabf0ad",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Makes sense, Thank you :slightly_smiling_face:",
+    "ts": "1747040486.559519",
+    "thread_ts": "1746992474.124049",
+    "edited": {
+      "user": "U08EXEBDXQD",
+      "ts": "1747040498.000000"
+    },
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FzYaf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Makes sense, Thank you "
+              },
+              {
+                "type": "emoji",
+                "name": "slightly_smiling_face",
+                "unicode": "1f642"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "be245b5c-a04d-4df2-adeb-ba8f9735e97f",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Out of curiosity: INTR register is 32 bits wide, but we only have 6 interrupts. Are the other bits unused, or used by the device for its own stuff?",
+    "ts": "1747041161.152129",
+    "thread_ts": "1747041161.152129",
+    "reply_count": 1,
+    "reply_users": [
+      "U039XR2B72A"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1747044797.721349"
+      }
+    ],
+    "latest_reply": "1747044797.721349",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wuifD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Out of curiosity: INTR register is 32 bits wide, but we only have 6 interrupts. Are the other bits unused, or used by the device for its own stuff?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "ffbad143-dd10-4793-bac1-46eaceffa6ec",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "They are unused but could be used - assume the device could receive a firmware update for example. They could also be undocumented, which is not the case here, but then you shouldn't use them either way.",
+    "ts": "1747044797.721349",
+    "thread_ts": "1747041161.152129",
+    "edited": {
+      "user": "U039XR2B72A",
+      "ts": "1747044808.000000"
+    },
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "saluting_face",
+        "count": 1,
+        "users": [
+          "U08EXEBDXQD"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YWjAv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "They are unused but could be used - assume the device could receive a firmware update for example. They could also be undocumented, which is not the case here, but then you shouldn't use them either way."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "a8b80992-9577-4e7e-b1c4-b550e969caed",
+    "type": "message",
+    "user": "U08EXEABDFX",
+    "text": "Does kernel guarentee that `ioctl` will not be called if `release` is already in progress? In other words, If I store `context` in a `file-\u003eprivate_data` and free it on release, do I have to check in `ioctl` that it in fact still exists without explicit synchronization?",
+    "ts": "1747058206.452669",
+    "thread_ts": "1747058206.452669",
+    "edited": {
+      "user": "U08EXEABDFX",
+      "ts": "1747058228.000000"
+    },
+    "reply_count": 1,
+    "reply_users": [
+      "U039XR2B72A"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1747059628.227239"
+      }
+    ],
+    "latest_reply": "1747059628.227239",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MB095",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Does kernel guarentee that "
+              },
+              {
+                "type": "text",
+                "text": "ioctl",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " will not be called if "
+              },
+              {
+                "type": "text",
+                "text": "release",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is already in progress? In other words, If I store "
+              },
+              {
+                "type": "text",
+                "text": "context",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in a "
+              },
+              {
+                "type": "text",
+                "text": "file-\u003eprivate_data",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and free it on release, do I have to check in "
+              },
+              {
+                "type": "text",
+                "text": "ioctl",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " that it in fact still exists without explicit synchronization?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3124cf9c5e1e47ea5c6e51f5f7d133e6.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "Stanisław",
+      "real_name": "Stanisław Solarewicz",
+      "display_name": "Stanisław Solarewicz",
+      "team": "TV7BVTSJK",
+      "name": "ss443488",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "017f51c1-a611-47ee-aa2e-ebe7cde5076d",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "Let me have the privilege of not answering this one :grin: since it's not strictly concerning the task but a more general question.",
+    "ts": "1747059628.227239",
+    "thread_ts": "1747058206.452669",
+    "edited": {
+      "user": "U039XR2B72A",
+      "ts": "1747059639.000000"
+    },
+    "parent_user_id": "U08EXEABDFX",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08EXEABDFX"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KViW4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Let me have the privilege of not answering this one "
+              },
+              {
+                "type": "emoji",
+                "name": "grin",
+                "unicode": "1f601"
+              },
+              {
+                "type": "text",
+                "text": " since it's not strictly concerning the task but a more general question."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "2f783b46-aba8-4aaf-b179-d2e870e1aa22",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Maybe a stupid question, but I guess that if we increase the ref count to the page with get_page(), then somewhere we should also call put_page()?",
+    "ts": "1747060113.199799",
+    "thread_ts": "1747060113.199799",
+    "edited": {
+      "user": "U08EXEBDXQD",
+      "ts": "1747060132.000000"
+    },
+    "reply_count": 1,
+    "reply_users": [
+      "U039XR2B72A"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1747061344.303789"
+      }
+    ],
+    "latest_reply": "1747061344.303789",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IwTHg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Maybe a stupid question, but I guess that if we increase the ref count to the page with get_page(), then somewhere we should also call put_page()?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "ccc59c91-43ee-4055-9a51-eeb0d1977a1c",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "This question is more general, so I'll just leave a possible hint. Generally it's your responsibility while coding your solution to check such things. Good that you see that such problems could be possible. You have many materials available: Linux device drivers book (also linked in course materials), while outdated, has a whole chapter on memory mapping. Then you have kernel documentation. If it's your way of doing things there's Perplexity/ChatGPT with search, but here be careful because it can say untrue things - happened to me. Finally you can also check some existing driver's code in the kernel - some are simple enough.",
+    "ts": "1747061344.303789",
+    "thread_ts": "1747060113.199799",
+    "edited": {
+      "user": "U039XR2B72A",
+      "ts": "1747061540.000000"
+    },
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GTul+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "This question is more general, so I'll just leave a possible hint. Generally it's your responsibility while coding your solution to check such things. Good that you see that such problems could be possible. You have many materials available: Linux device drivers book (also linked in course materials), while outdated, has a whole chapter on memory mapping. Then you have kernel documentation. If it's your way of doing things there's Perplexity/ChatGPT with search, but here be careful because it can say untrue things - happened to me. Finally you can also check some existing driver's code in the kernel - some are simple enough."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

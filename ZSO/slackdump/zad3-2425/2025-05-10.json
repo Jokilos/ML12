@@ -1,0 +1,426 @@
+[
+  {
+    "client_msg_id": "785017a0-9c89-42a7-85e9-d78c7b4cea94",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "I'm not sure if I understand the start-up procedure of the device. I would assume that the device start-up would happen inside the probe() function. However, one of the steps of the start-up is to attach context configs. But, if I understand correctly, context configs are tied to specifics contexts, and those are being allocated on call to open(). So does that mean that device start-up happens on per-open() basis?",
+    "ts": "1746869358.408879",
+    "thread_ts": "1746869358.408879",
+    "edited": {
+      "user": "U08EXEBDXQD",
+      "ts": "1746869387.000000"
+    },
+    "reply_count": 2,
+    "reply_users": [
+      "U039XR2B72A",
+      "U08EXEBDXQD"
+    ],
+    "replies": [
+      {
+        "user": "U08EXEBDXQD",
+        "ts": "1746870739.616469"
+      },
+      {
+        "user": "U039XR2B72A",
+        "ts": "1746896919.813429"
+      }
+    ],
+    "latest_reply": "1746896919.813429",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eWVDk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I'm not sure if I understand the start-up procedure of the device. I would assume that the device start-up would happen inside the probe() function. However, one of the steps of the start-up is to attach context configs. But, if I understand correctly, context configs are tied to specifics contexts, and those are being allocated on call to open(). So does that mean that device start-up happens on per-open() basis?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "3421e321-a92d-43a1-8305-42fa700ed103",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Or, actually, should we just allocate `ACCELDEV_MAX_CONTEXTS` * acceldev_context_on_device_config on startup and call it a day?",
+    "ts": "1746870739.616469",
+    "thread_ts": "1746869358.408879",
+    "edited": {
+      "user": "U08EXEBDXQD",
+      "ts": "1746870755.000000"
+    },
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9xKJY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Or, actually, should we just allocate "
+              },
+              {
+                "type": "text",
+                "text": "ACCELDEV_MAX_CONTEXTS",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " * acceldev_context_on_device_config on startup and call it a day?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6eb1bddc-1233-4e56-9860-d5837eb240b6",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "1. To be sure: it is said, that if there is not enough space in the CMD_MANUAL_FEED, we should queue RUN commands. Do I understand correctly that this refers to the contents of the CMD_MANUAL_FREE?\n2. CMD_MANUAL_FREE and CMD_MANUAL_FEED overlap. Is that intentional?\n3. What about the CREATE_BUFFER command? If we create data buffer, we should probably also execute device command, similar to the RUN case. Should be also queue this command if there is no space left?",
+    "ts": "1746893037.694939",
+    "thread_ts": "1746893037.694939",
+    "reply_count": 1,
+    "reply_users": [
+      "U039XR2B72A"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1746897149.307379"
+      }
+    ],
+    "latest_reply": "1746897149.307379",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fTxl5",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "To be sure: it is said, that if there is not enough space in the CMD_MANUAL_FEED, we should queue RUN commands. Do I understand correctly that this refers to the contents of the CMD_MANUAL_FREE?"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "CMD_MANUAL_FREE and CMD_MANUAL_FEED overlap. Is that intentional?"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "What about the CREATE_BUFFER command? If we create data buffer, we should probably also execute device command, similar to the RUN case. Should be also queue this command if there is no space left?"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "2ec8b88b-b484-4da5-8dce-55b537f12572",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "You should enable the device in probe. There you should already allocate a contiguous buffer for all contexts configurations and pass it to the CONTEXTS_CONFIGS register.",
+    "ts": "1746896919.813429",
+    "thread_ts": "1746869358.408879",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "saluting_face",
+        "count": 1,
+        "users": [
+          "U08EXEBDXQD"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zzd6U",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "You should enable the device in probe. There you should already allocate a contiguous buffer for all contexts configurations and pass it to the CONTEXTS_CONFIGS register."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "20b6d79b-51a6-446a-9cf9-f33a69fbd118",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "Yes, you got everything right. Both registers share the same address but one is read-only and the other is write-only.",
+    "ts": "1746897149.307379",
+    "thread_ts": "1746893037.694939",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "heart",
+        "count": 1,
+        "users": [
+          "U08EXEBDXQD"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "L9x48",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Yes, you got everything right. Both registers share the same address but one is read-only and the other is write-only."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "bc36ec56-d76d-47f5-850b-fe166f765c81",
+    "type": "message",
+    "user": "U08EXEABDFX",
+    "text": "Do we have to guarentee thread safety in the scope of a single session? For instace, should the user start calling ioctl on the same file from different threads, do we have to make sure that everything will still work?",
+    "ts": "1746900428.579789",
+    "thread_ts": "1746900428.579789",
+    "reply_count": 1,
+    "reply_users": [
+      "U039XR2B72A"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1746901732.660449"
+      }
+    ],
+    "latest_reply": "1746901732.660449",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YWgOD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Do we have to guarentee thread safety in the scope of a single session? For instace, should the user start calling ioctl on the same file from different threads, do we have to make sure that everything will still work?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3124cf9c5e1e47ea5c6e51f5f7d133e6.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "Stanisław",
+      "real_name": "Stanisław Solarewicz",
+      "display_name": "Stanisław Solarewicz",
+      "team": "TV7BVTSJK",
+      "name": "ss443488",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "b2b478c9-e64f-452e-9ae8-f3fd3a992b83",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "Yes, you have to. There's even a test with threading and multiple buffers all in one context but it's not specifically adversarial.",
+    "ts": "1746901732.660449",
+    "thread_ts": "1746900428.579789",
+    "parent_user_id": "U08EXEABDFX",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8kGBh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Yes, you have to. There's even a test with threading and multiple buffers all in one context but it's not specifically adversarial."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

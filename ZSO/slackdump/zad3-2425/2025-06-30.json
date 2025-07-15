@@ -1,0 +1,63 @@
+[
+  {
+    "client_msg_id": "49af82f9-fed9-457b-a6ee-43d045e76d2e",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "\u003c!channel\u003e please remind me who needs to have the task graded earlier",
+    "ts": "1751346921.364469",
+    "thread_ts": "1751346921.364469",
+    "reply_count": 1,
+    "reply_users": [
+      "U08EXEABDFX"
+    ],
+    "replies": [
+      {
+        "user": "U08EXEABDFX",
+        "ts": "1751492114.748289"
+      }
+    ],
+    "latest_reply": "1751492114.748289",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vQ6Tu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "broadcast",
+                "range": "channel"
+              },
+              {
+                "type": "text",
+                "text": " please remind me who needs to have the task graded earlier"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  }
+]

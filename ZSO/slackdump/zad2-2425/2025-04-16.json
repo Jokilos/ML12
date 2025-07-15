@@ -1,0 +1,779 @@
+[
+  {
+    "client_msg_id": "ed3aae8e-fc62-44ba-8c75-229601d19e23",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Here only verification is mentioned, but can the \"decide\" hook also call these helpers?",
+    "ts": "1744800566.968679",
+    "thread_ts": "1744800566.968679",
+    "edited": {
+      "user": "U08EXEBDXQD",
+      "ts": "1744805928.000000"
+    },
+    "reply_count": 2,
+    "reply_users": [
+      "U06M6E5J2SC",
+      "U08EXEBDXQD"
+    ],
+    "replies": [
+      {
+        "user": "U06M6E5J2SC",
+        "ts": "1744806759.538289"
+      },
+      {
+        "user": "U08EXEBDXQD",
+        "ts": "1744819512.125329"
+      }
+    ],
+    "latest_reply": "1744819512.125329",
+    "files": [
+      {
+        "id": "F08N66R5006",
+        "created": 1744800531,
+        "timestamp": 1744800531,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08EXEBDXQD",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 63059,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/TV7BVTSJK-F08N66R5006/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/TV7BVTSJK-F08N66R5006/download/image.png",
+        "original_h": 204,
+        "original_w": 847,
+        "thumb_64": "https://files.slack.com/files-tmb/TV7BVTSJK-F08N66R5006-68eb80a241/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/TV7BVTSJK-F08N66R5006-68eb80a241/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/TV7BVTSJK-F08N66R5006-68eb80a241/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/TV7BVTSJK-F08N66R5006-68eb80a241/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 87,
+        "thumb_480": "https://files.slack.com/files-tmb/TV7BVTSJK-F08N66R5006-68eb80a241/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 116,
+        "thumb_720": "https://files.slack.com/files-tmb/TV7BVTSJK-F08N66R5006-68eb80a241/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 173,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://zso.slack.com/files/U06MLHFEG3B/F08N66R5006/image.png",
+        "permalink_public": "https://slack-files.com/TV7BVTSJK-F08N66R5006-d553cfeede",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        }
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TbkX6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Here only verification is mentioned, but can the \"decide\" hook also call these helpers?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "085c1e45-8847-4c9f-97cd-6df7f4340e32",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "What \"the buffer\" could possibly point to?",
+    "ts": "1744806759.538289",
+    "thread_ts": "1744800566.968679",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TpBOu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "What \"the buffer\" could possibly point to?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "f8db1d3b-807e-4723-9e66-37393bbcf9b3",
+    "type": "message",
+    "user": "U08EXEABDFX",
+    "text": "What should the `offset` in the `compress_ctx` be? The offset from the beggining of the file of the current write operation? Similarly for `size`, should it be the `size` parameter from the syscall?",
+    "ts": "1744807344.332479",
+    "thread_ts": "1744807344.332479",
+    "edited": {
+      "user": "U08EXEABDFX",
+      "ts": "1744807419.000000"
+    },
+    "reply_count": 3,
+    "reply_users": [
+      "U06M6E5J2SC",
+      "U08EXEABDFX"
+    ],
+    "replies": [
+      {
+        "user": "U06M6E5J2SC",
+        "ts": "1744810514.934739"
+      },
+      {
+        "user": "U08EXEABDFX",
+        "ts": "1744810811.879559"
+      },
+      {
+        "user": "U06M6E5J2SC",
+        "ts": "1744811400.279959"
+      }
+    ],
+    "latest_reply": "1744811400.279959",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4P0sT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "What should the "
+              },
+              {
+                "type": "text",
+                "text": "offset",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in the "
+              },
+              {
+                "type": "text",
+                "text": "compress_ctx",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " be? The offset from the beggining of the file of the current write operation? Similarly for "
+              },
+              {
+                "type": "text",
+                "text": "size",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", should it be the "
+              },
+              {
+                "type": "text",
+                "text": "size",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " parameter from the syscall?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3124cf9c5e1e47ea5c6e51f5f7d133e6.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "Stanisław",
+      "real_name": "Stanisław Solarewicz",
+      "display_name": "Stanisław Solarewicz",
+      "team": "TV7BVTSJK",
+      "name": "ss443488",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "c29ceebe-f371-4349-9edf-7afb3182f74c",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "It should be the position of the current write operation, and current size. So, if you're doing \"backend\" (file operations) writing to a file first, the file would contain the written data at `offset .. (offset+size)` . This mostly matters for `pwritev`.",
+    "ts": "1744810514.934739",
+    "thread_ts": "1744807344.332479",
+    "parent_user_id": "U08EXEABDFX",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "x/tQ3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "It should be the position of the current write operation, and current size. So, if you're doing \"backend\" (file operations) writing to a file first, the file would contain the written data at "
+              },
+              {
+                "type": "text",
+                "text": "offset .. (offset+size)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " . This mostly matters for "
+              },
+              {
+                "type": "text",
+                "text": "pwritev",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d7096af6-017e-4b9a-b988-4016849d2cbb",
+    "type": "message",
+    "user": "U08EXEABDFX",
+    "text": "How is this relevant in the bpf program which cannot access any of that data anyway?",
+    "ts": "1744810811.879559",
+    "thread_ts": "1744807344.332479",
+    "parent_user_id": "U08EXEABDFX",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "72LTC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "How is this relevant in the bpf program which cannot access any of that data anyway?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3124cf9c5e1e47ea5c6e51f5f7d133e6.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "Stanisław",
+      "real_name": "Stanisław Solarewicz",
+      "display_name": "Stanisław Solarewicz",
+      "team": "TV7BVTSJK",
+      "name": "ss443488",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d43bcb43-f707-41db-93d0-e507726b836a",
+    "type": "message",
+    "user": "U08EXEABDFX",
+    "text": "`int bpf_copy_from_buffer(void *ctx, unsigned long offset, void *ptr, unsigned long size)` here `offset` means the data should be copied from the `buffer + offset` to `ptr`? Should the function fail if `size` is not big enough or should it truncate the data? What is the _\"buffer in the context\"_? Assignment specification mentions no such thing.",
+    "ts": "1744811212.475639",
+    "thread_ts": "1744811212.475639",
+    "reply_count": 2,
+    "reply_users": [
+      "U06M6E5J2SC"
+    ],
+    "replies": [
+      {
+        "user": "U06M6E5J2SC",
+        "ts": "1744811790.781979"
+      },
+      {
+        "user": "U06M6E5J2SC",
+        "ts": "1744812026.326969"
+      }
+    ],
+    "latest_reply": "1744812026.326969",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MX2T8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "int bpf_copy_from_buffer(void *ctx, unsigned long offset, void *ptr, unsigned long size)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " here "
+              },
+              {
+                "type": "text",
+                "text": "offset",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " means the data should be copied from the "
+              },
+              {
+                "type": "text",
+                "text": "buffer + offset",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " to "
+              },
+              {
+                "type": "text",
+                "text": "ptr",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "? Should the function fail if "
+              },
+              {
+                "type": "text",
+                "text": "size",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is not big enough or should it truncate the data? What is the "
+              },
+              {
+                "type": "text",
+                "text": "\"buffer in the context\"",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "? Assignment specification mentions no such thing."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/3124cf9c5e1e47ea5c6e51f5f7d133e6.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "Stanisław",
+      "real_name": "Stanisław Solarewicz",
+      "display_name": "Stanisław Solarewicz",
+      "team": "TV7BVTSJK",
+      "name": "ss443488",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "0ef674b0-c400-405d-80af-f0724a91665e",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "Good question... I guess the author did it to cut the scope of the task at a weird point that doesn't introduce extra non-creative work. Let's assume that we should be able to use the bpf_verifier to create an exact copy of the file using `copy_from_buffer`.",
+    "ts": "1744811400.279959",
+    "thread_ts": "1744807344.332479",
+    "edited": {
+      "user": "U06M6E5J2SC",
+      "ts": "1744811419.000000"
+    },
+    "parent_user_id": "U08EXEABDFX",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cnoqD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Good question... I guess the author did it to cut the scope of the task at a weird point that doesn't introduce extra non-creative work. Let's assume that we should be able to use the bpf_verifier to create an exact copy of the file using "
+              },
+              {
+                "type": "text",
+                "text": "copy_from_buffer",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "40fc5233-db97-457f-97d0-525317f7de04",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "\"buffer in the context\" refers to the singular write operation that all the syscalls in scope reduce to: i.e., \"write `size` bytes from __user `buf`  at `off` location\"",
+    "ts": "1744811790.781979",
+    "thread_ts": "1744811212.475639",
+    "parent_user_id": "U08EXEABDFX",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5EpE8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\"buffer in the context\" refers to the singular write operation that all the syscalls in scope reduce to: i.e., \"write "
+              },
+              {
+                "type": "text",
+                "text": "size",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " bytes from __user "
+              },
+              {
+                "type": "text",
+                "text": "buf",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "  at "
+              },
+              {
+                "type": "text",
+                "text": "off",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " location\""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "c2295503-a000-4957-9533-67d515a7790f",
+    "type": "message",
+    "user": "U06M6E5J2SC",
+    "text": "Yes, the offset here is relative to the buffer. The helper should write at most `size` bytes, truncating if necessary.",
+    "ts": "1744812026.326969",
+    "thread_ts": "1744811212.475639",
+    "parent_user_id": "U08EXEABDFX",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nZbPl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Yes, the offset here is relative to the buffer. The helper should write at most "
+              },
+              {
+                "type": "text",
+                "text": "size",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " bytes, truncating if necessary."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/fdc352b0e5118a7cdd44b5111e7f87ed.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+      "first_name": "Maciek",
+      "real_name": "Maciek Matraszek",
+      "display_name": "Maciek Matraszek",
+      "team": "TV7BVTSJK",
+      "name": "m.matraszek",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6d462270-7be2-458e-8ed0-a045ca882617",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Fair point.",
+    "ts": "1744819512.125329",
+    "thread_ts": "1744800566.968679",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FPxZI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Fair point."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

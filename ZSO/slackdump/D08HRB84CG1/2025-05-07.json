@@ -1,0 +1,962 @@
+[
+  {
+    "client_msg_id": "1444eb27-eb6a-49dc-8ff5-392065da6fec",
+    "type": "message",
+    "user": "U06MLHFEG3B",
+    "text": "Jak tam zadanko poszło?",
+    "ts": "1746644129.941609",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jqf/N",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Jak tam zadanko poszło?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-03-04/8546326440693_e44e921905aa34406b7e_72.jpg",
+      "first_name": "Jakub",
+      "real_name": "Jakub Nowacki",
+      "display_name": "Jakub Nowacki",
+      "team": "TV7BVTSJK",
+      "name": "jp.nowacki",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "c62310b9-e13e-4259-a98e-eb2ba3cc2ee2",
+    "type": "message",
+    "user": "U08EXEBPPA9",
+    "text": "Dobrze, wszyscy mają ponad 9 punktów :smile:",
+    "ts": "1746644310.168229",
+    "edited": {
+      "user": "U08EXEBPPA9",
+      "ts": "1746644315.000000"
+    },
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "INA5Y",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Dobrze, wszyscy mają ponad 9 punktów "
+              },
+              {
+                "type": "emoji",
+                "name": "smile",
+                "unicode": "1f604"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/d349679f787a75fee4ef3b7d708934e2.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+      "first_name": "Wojciech",
+      "real_name": "Wojciech Rzepliński",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "wr438709",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "22ab6797-0a46-45e2-bc17-c1250ab57c8a",
+    "type": "message",
+    "user": "U08EXEBPPA9",
+    "text": "Mam 9.9",
+    "ts": "1746644320.749899",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MISEZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Mam 9.9"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/d349679f787a75fee4ef3b7d708934e2.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+      "first_name": "Wojciech",
+      "real_name": "Wojciech Rzepliński",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "wr438709",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "23940ddc-8ed0-4591-889b-a934861ccb8a",
+    "type": "message",
+    "user": "U08EXEBPPA9",
+    "text": "A Ty?",
+    "ts": "1746644329.777329",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1lDDo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "A Ty?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/d349679f787a75fee4ef3b7d708934e2.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+      "first_name": "Wojciech",
+      "real_name": "Wojciech Rzepliński",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "wr438709",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d060a315-a49f-4c32-b403-5ffbf6703480",
+    "type": "message",
+    "user": "U06MLHFEG3B",
+    "text": "Okazuje się że najmniej miałem xD",
+    "ts": "1746644351.421759",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FLctv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Okazuje się że najmniej miałem xD"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-03-04/8546326440693_e44e921905aa34406b7e_72.jpg",
+      "first_name": "Jakub",
+      "real_name": "Jakub Nowacki",
+      "display_name": "Jakub Nowacki",
+      "team": "TV7BVTSJK",
+      "name": "jp.nowacki",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "37cae9f1-a6c6-4e44-9132-5faf19453994",
+    "type": "message",
+    "user": "U06MLHFEG3B",
+    "text": "9.4",
+    "ts": "1746644352.682439",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "heart",
+        "count": 1,
+        "users": [
+          "U08EXEBPPA9"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OHWq7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "9.4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-03-04/8546326440693_e44e921905aa34406b7e_72.jpg",
+      "first_name": "Jakub",
+      "real_name": "Jakub Nowacki",
+      "display_name": "Jakub Nowacki",
+      "team": "TV7BVTSJK",
+      "name": "jp.nowacki",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "53ec8bea-48cf-4bf5-b8cd-3a54d8634f3d",
+    "type": "message",
+    "user": "U06MLHFEG3B",
+    "text": "Ale i tak zadowolony jestem",
+    "ts": "1746644359.600909",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "heart",
+        "count": 1,
+        "users": [
+          "U08EXEBPPA9"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "aagCZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Ale i tak zadowolony jestem"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-03-04/8546326440693_e44e921905aa34406b7e_72.jpg",
+      "first_name": "Jakub",
+      "real_name": "Jakub Nowacki",
+      "display_name": "Jakub Nowacki",
+      "team": "TV7BVTSJK",
+      "name": "jp.nowacki",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "25DE0BB3-DE1D-4883-AE5B-D7FE3742E68F",
+    "type": "message",
+    "user": "U08EXEBPPA9",
+    "text": "Bardzo fajnie z ich strony że łagodnie ocenili ",
+    "ts": "1746644614.357339",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nSev5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Bardzo fajnie z ich strony że łagodnie ocenili "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/d349679f787a75fee4ef3b7d708934e2.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+      "first_name": "Wojciech",
+      "real_name": "Wojciech Rzepliński",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "wr438709",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7752087c-a3db-4510-8a48-c55579323c54",
+    "type": "message",
+    "user": "U06MLHFEG3B",
+    "text": "Noo fajnie",
+    "ts": "1746644637.881909",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OCVGZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Noo fajnie"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-03-04/8546326440693_e44e921905aa34406b7e_72.jpg",
+      "first_name": "Jakub",
+      "real_name": "Jakub Nowacki",
+      "display_name": "Jakub Nowacki",
+      "team": "TV7BVTSJK",
+      "name": "jp.nowacki",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "f4cab369-18e4-4088-ad12-1133c9370c5d",
+    "type": "message",
+    "user": "U06MLHFEG3B",
+    "text": "A jak tam Ci 2. idzie?",
+    "ts": "1746644650.286169",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dqAHB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "A jak tam Ci 2. idzie?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-03-04/8546326440693_e44e921905aa34406b7e_72.jpg",
+      "first_name": "Jakub",
+      "real_name": "Jakub Nowacki",
+      "display_name": "Jakub Nowacki",
+      "team": "TV7BVTSJK",
+      "name": "jp.nowacki",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "86c243fb-1ac2-4cae-8181-13f14b863eea",
+    "type": "message",
+    "user": "U08EXEBPPA9",
+    "text": "Tak 1/3 już mam, chyba najtrudniejszą",
+    "ts": "1746644667.530249",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1/ylD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Tak 1/3 już mam, chyba najtrudniejszą"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/d349679f787a75fee4ef3b7d708934e2.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+      "first_name": "Wojciech",
+      "real_name": "Wojciech Rzepliński",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "wr438709",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ccff6eaf-4749-4464-925c-22f1f58c8db8",
+    "type": "message",
+    "user": "U08EXEBPPA9",
+    "text": "Teraz będę dodawać helpery",
+    "ts": "1746644672.629049",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nzZxH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Teraz będę dodawać helpery"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/d349679f787a75fee4ef3b7d708934e2.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+      "first_name": "Wojciech",
+      "real_name": "Wojciech Rzepliński",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "wr438709",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "a9947db9-2364-4db0-9074-89579e656274",
+    "type": "message",
+    "user": "U08EXEBPPA9",
+    "text": "Ale rzeczywiście sporo mi zajęło ogarnianie tego zadania",
+    "ts": "1746644696.641159",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "etCEc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Ale rzeczywiście sporo mi zajęło ogarnianie tego zadania"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/d349679f787a75fee4ef3b7d708934e2.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+      "first_name": "Wojciech",
+      "real_name": "Wojciech Rzepliński",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "wr438709",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "dc927759-4540-44c3-8095-b084da7736f5",
+    "type": "message",
+    "user": "U06MLHFEG3B",
+    "text": "Sztoos",
+    "ts": "1746644742.428609",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4z9HX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Sztoos"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-03-04/8546326440693_e44e921905aa34406b7e_72.jpg",
+      "first_name": "Jakub",
+      "real_name": "Jakub Nowacki",
+      "display_name": "Jakub Nowacki",
+      "team": "TV7BVTSJK",
+      "name": "jp.nowacki",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "49b64629-bad4-4468-a580-b66917b40d13",
+    "type": "message",
+    "user": "U06MLHFEG3B",
+    "text": "Ja chyba się skupię na tym 3.",
+    "ts": "1746644751.735809",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QSx2C",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Ja chyba się skupię na tym 3."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-03-04/8546326440693_e44e921905aa34406b7e_72.jpg",
+      "first_name": "Jakub",
+      "real_name": "Jakub Nowacki",
+      "display_name": "Jakub Nowacki",
+      "team": "TV7BVTSJK",
+      "name": "jp.nowacki",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "9d79edb6-af84-4d47-a0fd-ee9b783acd90",
+    "type": "message",
+    "user": "U06MLHFEG3B",
+    "text": "a drugie oddam w 2. terminie",
+    "ts": "1746644760.868429",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08EXEBPPA9"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sB2EB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "a drugie oddam w 2. terminie"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-03-04/8546326440693_e44e921905aa34406b7e_72.jpg",
+      "first_name": "Jakub",
+      "real_name": "Jakub Nowacki",
+      "display_name": "Jakub Nowacki",
+      "team": "TV7BVTSJK",
+      "name": "jp.nowacki",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7cfcdab1-35c6-42b0-8b89-eb46db6914b2",
+    "type": "message",
+    "user": "U06MLHFEG3B",
+    "text": "Bo z MLowymi rzeczami jestem do tyłu strasznie",
+    "ts": "1746644773.020799",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ozjg1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Bo z MLowymi rzeczami jestem do tyłu strasznie"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-03-04/8546326440693_e44e921905aa34406b7e_72.jpg",
+      "first_name": "Jakub",
+      "real_name": "Jakub Nowacki",
+      "display_name": "Jakub Nowacki",
+      "team": "TV7BVTSJK",
+      "name": "jp.nowacki",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "64d6df47-680a-481a-bf5f-984439af2fcd",
+    "type": "message",
+    "user": "U08EXEBPPA9",
+    "text": "Też...",
+    "ts": "1746644779.983969",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "R5j2V",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Też..."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/d349679f787a75fee4ef3b7d708934e2.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+      "first_name": "Wojciech",
+      "real_name": "Wojciech Rzepliński",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "wr438709",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "e8515f65-a47b-4c2b-85bb-0967db24f3ca",
+    "type": "message",
+    "user": "U06MLHFEG3B",
+    "text": "Jakoś mi się strasznie nie chce w tym semie",
+    "ts": "1746645169.426089",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "h/chx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Jakoś mi się strasznie nie chce w tym semie"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-03-04/8546326440693_e44e921905aa34406b7e_72.jpg",
+      "first_name": "Jakub",
+      "real_name": "Jakub Nowacki",
+      "display_name": "Jakub Nowacki",
+      "team": "TV7BVTSJK",
+      "name": "jp.nowacki",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "100a8acc-8f35-45bc-84d1-38041ffe33e2",
+    "type": "message",
+    "user": "U06MLHFEG3B",
+    "text": "Ale trzeba jakoś dociągnąć",
+    "ts": "1746645178.024799",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PJW5h",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Ale trzeba jakoś dociągnąć"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-03-04/8546326440693_e44e921905aa34406b7e_72.jpg",
+      "first_name": "Jakub",
+      "real_name": "Jakub Nowacki",
+      "display_name": "Jakub Nowacki",
+      "team": "TV7BVTSJK",
+      "name": "jp.nowacki",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7738e69e-6607-4ad9-b6ef-c3b41dc14f3d",
+    "type": "message",
+    "user": "U08EXEBPPA9",
+    "text": "Tak, też jest jakoś bardzo dużo pracy",
+    "ts": "1746645884.160299",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "d6E01",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Tak, też jest jakoś bardzo dużo pracy"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/d349679f787a75fee4ef3b7d708934e2.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+      "first_name": "Wojciech",
+      "real_name": "Wojciech Rzepliński",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "wr438709",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

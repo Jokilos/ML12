@@ -1,0 +1,384 @@
+[
+  {
+    "client_msg_id": "3b969391-13dc-4adf-9096-ed3c9bd6e7e4",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "In `ioctl(ACCELDEV_IOCTL_CREATE_BUFFER)`, should we enforce that the passed size is page aligned?",
+    "ts": "1749983761.361579",
+    "thread_ts": "1749983761.361579",
+    "reply_count": 1,
+    "reply_users": [
+      "U039XR2B72A"
+    ],
+    "replies": [
+      {
+        "user": "U039XR2B72A",
+        "ts": "1750005536.175679"
+      }
+    ],
+    "latest_reply": "1750005536.175679",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "v3+ba",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "In "
+              },
+              {
+                "type": "text",
+                "text": "ioctl(ACCELDEV_IOCTL_CREATE_BUFFER)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", should we enforce that the passed size is page aligned?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "40024021-8ae1-4e38-9a0e-128d5ee786bc",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "Also, I have an issue with the `too_many_buffers` and `too_many_contexts` tests. The first one opens two contexts, and for each one of them opens some buffers. Now, for one of them, it does NOT close the buffer descriptor. So, when the test finishes, it does not fail, but then there is still an ongoing closing of the buffer and then the last context. The issue is, that the second test opens `MAX_CONTEXTS` number of contexts. Now, I noticed with my solution that many times, before the last context in the first test gets closed, the second test fails because it cant allocate the maximum number of contexts. On the other hand, when I add closing of the buffer descriptor inside the first test, everything works. So I'm wondering whether this is something I should somehow support? At the end of the day, file descriptors should be closed by the program that uses them, and while I don't leak resources when its not closed, because of that sometimes closing can happen too late.",
+    "ts": "1749989771.593799",
+    "thread_ts": "1749989771.593799",
+    "edited": {
+      "user": "U08EXEBDXQD",
+      "ts": "1749989871.000000"
+    },
+    "reply_count": 3,
+    "reply_users": [
+      "U039XR2B72A",
+      "U08EXEBDXQD"
+    ],
+    "replies": [
+      {
+        "user": "U08EXEBDXQD",
+        "ts": "1749990509.450529"
+      },
+      {
+        "user": "U039XR2B72A",
+        "ts": "1750006017.369699"
+      },
+      {
+        "user": "U08EXEBDXQD",
+        "ts": "1750066980.573199"
+      }
+    ],
+    "latest_reply": "1750066980.573199",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Be2Yw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Also, I have an issue with the "
+              },
+              {
+                "type": "text",
+                "text": "too_many_buffers",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and "
+              },
+              {
+                "type": "text",
+                "text": "too_many_contexts",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " tests. The first one opens two contexts, and for each one of them opens some buffers. Now, for one of them, it does NOT close the buffer descriptor. So, when the test finishes, it does not fail, but then there is still an ongoing closing of the buffer and then the last context. The issue is, that the second test opens "
+              },
+              {
+                "type": "text",
+                "text": "MAX_CONTEXTS",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " number of contexts. Now, I noticed with my solution that many times, before the last context in the first test gets closed, the second test fails because it cant allocate the maximum number of contexts. On the other hand, when I add closing of the buffer descriptor inside the first test, everything works. So I'm wondering whether this is something I should somehow support? At the end of the day, file descriptors should be closed by the program that uses them, and while I don't leak resources when its not closed, because of that sometimes closing can happen too late."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "2e777c10-a97d-4ff1-b6d8-2ff87ea119c5",
+    "type": "message",
+    "user": "U08EXEBDXQD",
+    "text": "I also noticed this issue only after disabling KASAN, kmemleak etc. As a result, my code runs much faster, and it seems that well, this issue is mostly related to the speed of the code.",
+    "ts": "1749990509.450529",
+    "thread_ts": "1749989771.593799",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZlDUV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I also noticed this issue only after disabling KASAN, kmemleak etc. As a result, my code runs much faster, and it seems that well, this issue is mostly related to the speed of the code."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/874dfcf3637c2e836c3efc74d9a644e5.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+      "first_name": "Gustaw",
+      "real_name": "Gustaw Blachowski",
+      "display_name": "Gustaw Blachowski",
+      "team": "TV7BVTSJK",
+      "name": "gb448194",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "a9c9c0d5-e51c-47a3-b929-003a1d8c841d",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "you can only assume things guaranteed by DMA, specifically you can assume that 32bit, aligned reads/writes are atomic.",
+    "ts": "1750005385.327199",
+    "thread_ts": "1749584767.134079",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "saluting_face",
+        "count": 1,
+        "users": [
+          "U08EXEBDXQD"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EjHhP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "you can only assume things guaranteed by DMA, specifically you can assume that 32bit, aligned reads/writes are atomic."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "732aae0e-0c05-4c02-9aa3-607014dd2506",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "in general no, that is, the allocation should work but you can allocate more memory than explicitly requested",
+    "ts": "1750005536.175679",
+    "thread_ts": "1749983761.361579",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "saluting_face",
+        "count": 1,
+        "users": [
+          "U08EXEBDXQD"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zN7it",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "in general no, that is, the allocation should work but you can allocate more memory than explicitly requested"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "8daf0fb5-8326-418a-934e-eaef1ae75840",
+    "type": "message",
+    "user": "U039XR2B72A",
+    "text": "ok, if it's as you say, that adding explicit close to the test, fixes the issue, then you don't have to do anything and I'll just change the test. But that is only if you wait for all cleanup logic in the relase function - once release ends, the device state should be clean.",
+    "ts": "1750006017.369699",
+    "thread_ts": "1749989771.593799",
+    "parent_user_id": "U08EXEBDXQD",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "heart",
+        "count": 1,
+        "users": [
+          "U08EXEBDXQD"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZRRx7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ok, if it's as you say, that adding explicit close to the test, fixes the issue, then you don't have to do anything and I'll just change the test. But that is only if you wait for all cleanup logic in the relase function - once release ends, the device state should be clean."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/226a0dcf39b23c9d9bac88da7bd7cd1e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "Adam",
+      "real_name": "Adam Cichy",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "ac417913",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

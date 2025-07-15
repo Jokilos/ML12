@@ -1,0 +1,109 @@
+[
+  {
+    "client_msg_id": "24d9e761-f655-49d5-9c44-79a265db6b9f",
+    "type": "message",
+    "user": "U08EXEA8V2R",
+    "text": "I think that the section about spinlocks may be out of date. `RW_LOCK_UNLOCKED` does not appear in the kernel sources anymore. `DEFINE_RWLOCK` and `rwlock_init` is recommended now.\n\u003chttps://docs.kernel.org/locking/spinlocks.html#reference-information\u003e\n\u003chttps://students.mimuw.edu.pl/ZSO/PUBLIC-SO/2024-2025/07_kernel_internals2/index-en.html#reader-writer-spinlocks\u003e",
+    "ts": "1745707680.019669",
+    "team": "TV7BVTSJK",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "count": 1,
+        "users": [
+          "U06M6E5J2SC"
+        ]
+      },
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U06M6E5J2SC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OWzTN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I think that the section about spinlocks may be out of date. "
+              },
+              {
+                "type": "text",
+                "text": "RW_LOCK_UNLOCKED",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " does not appear in the kernel sources anymore. "
+              },
+              {
+                "type": "text",
+                "text": "DEFINE_RWLOCK",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and "
+              },
+              {
+                "type": "text",
+                "text": "rwlock_init",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is recommended now.\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.kernel.org/locking/spinlocks.html#reference-information",
+                "text": ""
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://students.mimuw.edu.pl/ZSO/PUBLIC-SO/2024-2025/07_kernel_internals2/index-en.html#reader-writer-spinlocks",
+                "text": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "TV7BVTSJK",
+    "source_team": "TV7BVTSJK",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/6b8b86bf1b2c4dfbcfd8cd3f8aaf14fa.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+      "first_name": "Franciszek",
+      "real_name": "Franciszek Stachura",
+      "display_name": "",
+      "team": "TV7BVTSJK",
+      "name": "fb.stachura",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
