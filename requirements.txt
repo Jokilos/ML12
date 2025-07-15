@@ -1,6 +1,5 @@
 numpy
 pandas
-gdown
 ipykernel
 ipython
 opencv-python
@@ -40,7 +39,6 @@ einops
 boto3
 dspy
 pydot
-pwn
 torchrl
 python-dotenv
 openai
